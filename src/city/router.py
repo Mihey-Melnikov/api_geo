@@ -5,8 +5,8 @@ from sqlalchemy import update, select, insert
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from src.database import get_async_session
-from src.geo.models import city
-from src.geo.schemas import CityCreate, CityUpdate, CityRead
+from src.city.models import city
+from src.city.schemas import CityCreate, CityUpdate, CityRead
 
 router = APIRouter(
     prefix="/city",

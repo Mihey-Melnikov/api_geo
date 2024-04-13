@@ -1,8 +1,8 @@
 """Create DB
 
-Revision ID: 8b2ab6e34655
+Revision ID: 398d504da8b8
 Revises: 
-Create Date: 2024-04-13 19:16:41.536285
+Create Date: 2024-04-13 20:35:31.035402
 
 """
 from typing import Sequence, Union
@@ -12,7 +12,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision: str = '8b2ab6e34655'
+revision: str = '398d504da8b8'
 down_revision: Union[str, None] = None
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
@@ -46,12 +46,6 @@ def upgrade() -> None:
     sa.PrimaryKeyConstraint('id')
     )
     op.create_index(op.f('ix_country_id'), 'country', ['id'], unique=False)
-    op.create_table('translation_language',
-    sa.Column('language_iso639', sa.String(), nullable=False),
-    sa.Column('description', sa.String(), nullable=False),
-    sa.PrimaryKeyConstraint('language_iso639')
-    )
-    op.create_index(op.f('ix_translation_language_language_iso639'), 'translation_language', ['language_iso639'], unique=False)
     op.create_table('region',
     sa.Column('id', sa.Integer(), nullable=False),
     sa.Column('country_id', sa.Integer(), nullable=False),
@@ -85,6 +79,12 @@ def upgrade() -> None:
     )
     op.create_index(op.f('ix_city_iata'), 'city', ['iata'], unique=False)
     op.create_index(op.f('ix_city_id'), 'city', ['id'], unique=False)
+    op.create_table('translation_language',
+    sa.Column('language_iso639', sa.String(), nullable=False),
+    sa.Column('description', sa.String(), nullable=False),
+    sa.PrimaryKeyConstraint('language_iso639')
+    )
+    op.create_index(op.f('ix_translation_language_language_iso639'), 'translation_language', ['language_iso639'], unique=False)
     op.create_table('airport',
     sa.Column('id', sa.Integer(), nullable=False),
     sa.Column('city_id', sa.Integer(), nullable=False),
@@ -158,13 +158,13 @@ def downgrade() -> None:
     op.drop_index(op.f('ix_airport_iata_ru'), table_name='airport')
     op.drop_index(op.f('ix_airport_iata_en'), table_name='airport')
     op.drop_table('airport')
+    op.drop_index(op.f('ix_translation_language_language_iso639'), table_name='translation_language')
+    op.drop_table('translation_language')
     op.drop_index(op.f('ix_city_id'), table_name='city')
     op.drop_index(op.f('ix_city_iata'), table_name='city')
     op.drop_table('city')
     op.drop_index(op.f('ix_region_id'), table_name='region')
     op.drop_table('region')
-    op.drop_index(op.f('ix_translation_language_language_iso639'), table_name='translation_language')
-    op.drop_table('translation_language')
     op.drop_index(op.f('ix_country_id'), table_name='country')
     op.drop_table('country')
     op.drop_index(op.f('ix_user_email'), table_name='user')

@@ -3,7 +3,9 @@ from fastapi import FastAPI
 from src.auth.base_config import auth_backend, fastapi_users
 from src.auth.schemas import UserRead, UserCreate
 
-from src.geo.router import router as router_operation
+from src.city.router import router as router_city
+from src.region.router import router as router_region
+from src.country.router import router as router_country
 
 app = FastAPI(
     title="API Geo"
@@ -21,4 +23,6 @@ app.include_router(
     tags=["Auth"],
 )
 
-app.include_router(router_operation)
+app.include_router(router_city)
+app.include_router(router_region)
+app.include_router(router_country)
