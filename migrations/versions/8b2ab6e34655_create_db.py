@@ -1,8 +1,8 @@
-"""Database creation
+"""Create DB
 
-Revision ID: 0504dfa75198
+Revision ID: 8b2ab6e34655
 Revises: 
-Create Date: 2024-04-03 22:09:17.337339
+Create Date: 2024-04-13 19:16:41.536285
 
 """
 from typing import Sequence, Union
@@ -12,7 +12,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision: str = '0504dfa75198'
+revision: str = '8b2ab6e34655'
 down_revision: Union[str, None] = None
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
@@ -34,27 +34,18 @@ def upgrade() -> None:
     op.create_table('country',
     sa.Column('id', sa.Integer(), nullable=False),
     sa.Column('name', sa.String(), nullable=False),
-    sa.Column('iso3116_alpha2', sa.String(), nullable=False),
-    sa.Column('iso3166_alpha3', sa.String(), nullable=False),
+    sa.Column('iso3116_alpha2', sa.String(length=2), nullable=False),
+    sa.Column('iso3166_alpha3', sa.String(length=3), nullable=False),
     sa.Column('phone_code', sa.String(), nullable=False),
     sa.Column('phone_mask', sa.String(), nullable=False),
     sa.Column('osm_id', sa.Integer(), nullable=False),
-    sa.Column('osm_type', sa.String(), nullable=False),
+    sa.Column('osm_type', sa.String(length=1), nullable=False),
     sa.Column('last_updated_at', sa.TIMESTAMP(), nullable=False),
     sa.Column('deleted_at', sa.TIMESTAMP(), nullable=True),
     sa.Column('need_automatic_update', sa.Boolean(), nullable=True),
     sa.PrimaryKeyConstraint('id')
     )
     op.create_index(op.f('ix_country_id'), 'country', ['id'], unique=False)
-    op.create_table('operation',
-    sa.Column('id', sa.Integer(), nullable=False),
-    sa.Column('quantity', sa.String(), nullable=True),
-    sa.Column('figi', sa.String(), nullable=True),
-    sa.Column('instrument_type', sa.String(), nullable=True),
-    sa.Column('date', sa.TIMESTAMP(), nullable=True),
-    sa.Column('type', sa.String(), nullable=True),
-    sa.PrimaryKeyConstraint('id')
-    )
     op.create_table('translation_language',
     sa.Column('language_iso639', sa.String(), nullable=False),
     sa.Column('description', sa.String(), nullable=False),
@@ -66,7 +57,7 @@ def upgrade() -> None:
     sa.Column('country_id', sa.Integer(), nullable=False),
     sa.Column('name', sa.String(), nullable=False),
     sa.Column('osm_id', sa.Integer(), nullable=False),
-    sa.Column('osm_type', sa.String(), nullable=False),
+    sa.Column('osm_type', sa.String(length=1), nullable=False),
     sa.Column('last_updated_at', sa.TIMESTAMP(), nullable=False),
     sa.Column('deleted_at', sa.TIMESTAMP(), nullable=True),
     sa.Column('need_automatic_update', sa.Boolean(), nullable=True),
@@ -79,12 +70,12 @@ def upgrade() -> None:
     sa.Column('region_id', sa.Integer(), nullable=True),
     sa.Column('country_id', sa.Integer(), nullable=False),
     sa.Column('name', sa.String(), nullable=False),
-    sa.Column('iata', sa.String(), nullable=True),
+    sa.Column('iata', sa.String(length=3), nullable=True),
     sa.Column('timezone', sa.String(), nullable=False),
     sa.Column('latitude', sa.Float(), nullable=False),
     sa.Column('longitude', sa.Float(), nullable=False),
     sa.Column('osm_id', sa.Integer(), nullable=False),
-    sa.Column('osm_type', sa.String(), nullable=False),
+    sa.Column('osm_type', sa.String(length=1), nullable=False),
     sa.Column('last_updated_at', sa.TIMESTAMP(), nullable=False),
     sa.Column('deleted_at', sa.TIMESTAMP(), nullable=True),
     sa.Column('need_automatic_update', sa.Boolean(), nullable=True),
@@ -98,13 +89,13 @@ def upgrade() -> None:
     sa.Column('id', sa.Integer(), nullable=False),
     sa.Column('city_id', sa.Integer(), nullable=False),
     sa.Column('name', sa.String(), nullable=False),
-    sa.Column('iata_en', sa.String(), nullable=False),
-    sa.Column('iata_ru', sa.String(), nullable=True),
+    sa.Column('iata_en', sa.String(length=3), nullable=False),
+    sa.Column('iata_ru', sa.String(length=3), nullable=True),
     sa.Column('timezone', sa.String(), nullable=False),
     sa.Column('latitude', sa.Float(), nullable=False),
     sa.Column('longitude', sa.Float(), nullable=False),
     sa.Column('osm_id', sa.Integer(), nullable=False),
-    sa.Column('osm_type', sa.String(), nullable=False),
+    sa.Column('osm_type', sa.String(length=1), nullable=False),
     sa.Column('last_updated_at', sa.TIMESTAMP(), nullable=False),
     sa.Column('deleted_at', sa.TIMESTAMP(), nullable=True),
     sa.Column('need_automatic_update', sa.Boolean(), nullable=True),
@@ -122,7 +113,7 @@ def upgrade() -> None:
     sa.Column('latitude', sa.Float(), nullable=False),
     sa.Column('longitude', sa.Float(), nullable=False),
     sa.Column('osm_id', sa.Integer(), nullable=False),
-    sa.Column('osm_type', sa.String(), nullable=False),
+    sa.Column('osm_type', sa.String(length=1), nullable=False),
     sa.Column('last_updated_at', sa.TIMESTAMP(), nullable=False),
     sa.Column('deleted_at', sa.TIMESTAMP(), nullable=True),
     sa.Column('need_automatic_update', sa.Boolean(), nullable=True),
@@ -142,7 +133,7 @@ def upgrade() -> None:
     sa.Column('latitude', sa.Float(), nullable=False),
     sa.Column('longitude', sa.Float(), nullable=False),
     sa.Column('osm_id', sa.Integer(), nullable=False),
-    sa.Column('osm_type', sa.String(), nullable=False),
+    sa.Column('osm_type', sa.String(length=1), nullable=False),
     sa.Column('last_updated_at', sa.TIMESTAMP(), nullable=False),
     sa.Column('deleted_at', sa.TIMESTAMP(), nullable=True),
     sa.Column('need_automatic_update', sa.Boolean(), nullable=True),
@@ -174,7 +165,6 @@ def downgrade() -> None:
     op.drop_table('region')
     op.drop_index(op.f('ix_translation_language_language_iso639'), table_name='translation_language')
     op.drop_table('translation_language')
-    op.drop_table('operation')
     op.drop_index(op.f('ix_country_id'), table_name='country')
     op.drop_table('country')
     op.drop_index(op.f('ix_user_email'), table_name='user')

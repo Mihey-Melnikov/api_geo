@@ -17,3 +17,14 @@ alembic downgrade <id миграции>
 
 устанавливаем текущее состояние исходным
 alembic upgrade head
+
+drop table 
+	public.airport, 
+	public.railway_station, 
+	public.metro, 
+	public.city, 
+	public.region, 
+	public.country, 
+	public.user, 
+	public.alembic_version,
+	public.translation_language

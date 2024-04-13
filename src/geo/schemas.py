@@ -3,7 +3,7 @@ from typing import Optional
 
 from pydantic import BaseModel
 
-class CityBase(BaseModel):
+class CityRead(BaseModel):
     id: int
     region_id: int
     country_id: int
