@@ -15,6 +15,9 @@ from src.auth.models import metadata as metadata_auth
 from src.city.models import metadata as metadata_city
 from src.region.models import metadata as metadata_region
 from src.country.models import metadata as metadata_country
+from src.airport.models import metadata as metadata_airport
+from src.railway.models import metadata as metadata_railway
+from src.metro.models import metadata as metadata_metro
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
@@ -36,7 +39,7 @@ if config.config_file_name is not None:
 # for 'autogenerate' support
 # from myapp import mymodel
 # target_metadata = mymodel.Base.metadata
-target_metadata = [metadata_auth, metadata_country, metadata_region, metadata_city]
+target_metadata = [metadata_auth, metadata_country, metadata_region, metadata_city, metadata_airport, metadata_railway, metadata_metro]
 
 # other values from the config, defined by the needs of env.py,
 # can be acquired:

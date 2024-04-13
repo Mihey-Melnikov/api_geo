@@ -6,7 +6,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from src.database import get_async_session
 from src.city.models import city
-from src.city.schemas import CityCreate, CityUpdate, CityRead
+from src.city.schemas import CityCreate, CityRead, CityUpdate
 
 router = APIRouter(
     prefix="/city",

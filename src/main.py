@@ -6,6 +6,9 @@ from src.auth.schemas import UserRead, UserCreate
 from src.city.router import router as router_city
 from src.region.router import router as router_region
 from src.country.router import router as router_country
+from src.airport.router import router as router_airport
+from src.railway.router import router as router_railway
+from src.metro.router import router as router_metro
 
 app = FastAPI(
     title="API Geo"
@@ -23,6 +26,9 @@ app.include_router(
     tags=["Auth"],
 )
 
-app.include_router(router_city)
-app.include_router(router_region)
 app.include_router(router_country)
+app.include_router(router_region)
+app.include_router(router_city)
+app.include_router(router_airport)
+app.include_router(router_railway)
+app.include_router(router_metro)
