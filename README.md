@@ -36,17 +36,23 @@ uvicorn src.main:app --reload
 
 ## FAQ
 
-Создание новой миграции
-
+Создание новой миграции:  
 ```python
 alembic revision --autogenerate -m "message"
 ```
 
-Работа с виртаульным окружением. Запуск:
+Работа с виртаульным окружением. Запуск:  
 ```python
 venv\Scripts\activate.ps1
 ```
 Выход:
 ```python
 deactivate
+```
+
+Починить авторизацию во всех запросах: добавить строки в каждом `router.py` для каждой ручки:  
+```python
+from src.auth.base_config import current_user
+from src.auth.models import User
+user: User = Depends(current_user)
 ```
