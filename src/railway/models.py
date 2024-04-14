@@ -8,7 +8,7 @@ metadata = MetaData()
 
 railway = Table("railway_station", metadata,
     Column("id", Integer, primary_key=True, index=True),
-    Column("express3_code", Integer, nullable=False, index=True),
+    Column("express3_code", String, nullable=False, index=True),
     Column("is_main", Boolean, nullable=False, default=False),
     Column("city_id", Integer, ForeignKey(city.c.id), nullable=True),
     Column("region_id", Integer, ForeignKey(region.c.id), nullable=True),

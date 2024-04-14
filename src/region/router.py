@@ -1,12 +1,13 @@
 from datetime import datetime
 from typing import List
 from fastapi import APIRouter, Depends
-from sqlalchemy import update, select, insert
+from sqlalchemy import func, update, select, insert
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from src.database import get_async_session
 from src.region.models import region
 from src.region.schemas import RegionRead, RegionCreate, RegionUpdate
+from src.translate.models import translation
 
 router = APIRouter(
     prefix="/region",
@@ -24,12 +25,20 @@ async def get_region_by_id(id: int, session: AsyncSession = Depends(get_async_se
     return result.one_or_none()
 
 @router.get("/", response_model=List[RegionRead])
-async def get_all_regions(session: AsyncSession = Depends(get_async_session)):
+async def search_regions(term: str | None = None, session: AsyncSession = Depends(get_async_session)):
     """
-    Get full information on all regions.
+    Search regions by name. Or get information about all regions.
     """
+    ids = []
+    if term is not None:
+        query = select(translation.c.entity_id) \
+                .where(translation.c.entity == 'region', 
+                       func.lower(translation.c.translate).like(func.lower(f"%{term}%")))
+        result = await session.execute(query)
+        ids = [item["entity_id"] for item in result.mappings().all()]
+
     query = select(region) \
-            .where(region.c.deleted_at.is_(None)) \
+            .where(region.c.deleted_at.is_(None), region.c.id.in_(ids) if term else True) \
             .order_by(region.c.id)
     result = await session.execute(query)
     return result.mappings().all()

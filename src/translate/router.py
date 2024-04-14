@@ -46,13 +46,13 @@ async def delete_translate(entity: str, entity_id: int, session: AsyncSession = 
     await session.commit()
     return result.mappings().all()
 
-@router.patch("/", response_model=List[TranslateRead])
-async def update_translate(entity: str, entity_id: int, updated_rows: List[TranslateUpdate], session: AsyncSession = Depends(get_async_session)):
+@router.patch("/", response_model=TranslateRead)
+async def update_translate(entity: str, entity_id: int, language: str, updated_rows: TranslateUpdate, session: AsyncSession = Depends(get_async_session)):
     """
     Change the translate.
     """
     query = update(translate) \
-            .where(translate.c.entity == entity, translate.c.entity_id == entity_id) \
+            .where(translate.c.entity == entity, translate.c.entity_id == entity_id, translate.c.language == language) \
             .values(updated_rows.model_dump(exclude_unset=True)) \
             .returning(translate)
     result = await session.execute(query)

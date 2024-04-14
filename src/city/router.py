@@ -1,12 +1,13 @@
 from datetime import datetime
 from typing import List
 from fastapi import APIRouter, Depends
-from sqlalchemy import update, select, insert
+from sqlalchemy import func, or_, update, select, insert
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from src.database import get_async_session
 from src.city.models import city
 from src.city.schemas import CityCreate, CityRead, CityUpdate
+from src.translate.models import translation
 
 router = APIRouter(
     prefix="/city",
@@ -24,12 +25,23 @@ async def get_city_by_id(id: int, session: AsyncSession = Depends(get_async_sess
     return result.one_or_none()
 
 @router.get("/", response_model=List[CityRead])
-async def get_all_cities(session: AsyncSession = Depends(get_async_session)):
+async def search_cities(term: str | None = None, session: AsyncSession = Depends(get_async_session)):
     """
-    Get full information on all cities.
+    Search cities by name and IATA. Or get information about all cities.
     """
+    ids = []
+    if term is not None:
+        query = select(translation.c.entity_id) \
+                .where(translation.c.entity == 'city', 
+                       func.lower(translation.c.translate).like(func.lower(f"%{term}%")))
+        result = await session.execute(query)
+        ids = [item["entity_id"] for item in result.mappings().all()]
+
     query = select(city) \
-            .where(city.c.deleted_at.is_(None)) \
+            .where(city.c.deleted_at.is_(None), or_(
+                city.c.iata.like(f"%{term}%") if term else True,
+                city.c.id.in_(ids) if term else True
+            )) \
             .order_by(city.c.id)
     result = await session.execute(query)
     return result.mappings().all()

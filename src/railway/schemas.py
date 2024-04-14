@@ -7,7 +7,7 @@ class RailwayRead(BaseModel):
     region_id: int | None = None
     country_id: int
     name: str
-    express3_code: int
+    express3_code: str
     is_main: bool
     timezone: str
     latitude: float

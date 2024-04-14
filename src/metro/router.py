@@ -1,12 +1,13 @@
 from datetime import datetime
 from typing import List
 from fastapi import APIRouter, Depends
-from sqlalchemy import update, select, insert
+from sqlalchemy import func, update, select, insert
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from src.database import get_async_session
 from src.metro.models import metro
 from src.metro.schemas import MetroCreate, MetroRead, MetroUpdate
+from src.translate.models import translation
 
 router = APIRouter(
     prefix="/metro",
@@ -24,12 +25,20 @@ async def get_metro_by_id(id: int, session: AsyncSession = Depends(get_async_ses
     return result.one_or_none()
 
 @router.get("/", response_model=List[MetroRead])
-async def get_all_metros(session: AsyncSession = Depends(get_async_session)):
+async def search_metro(term: str | None = None, session: AsyncSession = Depends(get_async_session)):
     """
-    Get full information on all metros.
+    Search metro by station name. Or get information about all metros.
     """
+    ids = []
+    if term is not None:
+        query = select(translation.c.entity_id) \
+                .where(translation.c.entity == 'metro', 
+                       func.lower(translation.c.translate).like(func.lower(f"%{term}%")))
+        result = await session.execute(query)
+        ids = [item["entity_id"] for item in result.mappings().all()]
+        
     query = select(metro) \
-            .where(metro.c.deleted_at.is_(None)) \
+            .where(metro.c.deleted_at.is_(None), metro.c.id.in_(ids) if term else True) \
             .order_by(metro.c.id)
     result = await session.execute(query)
     return result.mappings().all()
