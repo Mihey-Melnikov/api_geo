@@ -20,8 +20,3 @@ city = Table("city", metadata,
     Column("deleted_at", TIMESTAMP, default=None, nullable=True),
     Column("need_automatic_update", Boolean, default=True),
 )
-
-translation_language = Table("translation_language", metadata,
-    Column("language_iso639", String, primary_key=True, index=True),
-    Column("description", String, nullable=False),
-)

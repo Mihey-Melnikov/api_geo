@@ -1,3 +1,4 @@
+from datetime import datetime
 from pydantic import BaseModel
 
 class CountryRead(BaseModel):
@@ -10,6 +11,7 @@ class CountryRead(BaseModel):
     osm_id: int
     osm_type: str
     need_automatic_update: bool | None = True
+    last_updated_at: datetime
 
 class CountryCreate(BaseModel):
     name: str

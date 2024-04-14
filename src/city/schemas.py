@@ -1,3 +1,4 @@
+from datetime import datetime
 from pydantic import BaseModel
 
 class CityRead(BaseModel):
@@ -12,6 +13,7 @@ class CityRead(BaseModel):
     osm_id: int
     osm_type: str
     need_automatic_update: bool | None = True
+    last_updated_at: datetime
 
 class CityCreate(BaseModel):
     region_id: int

@@ -13,7 +13,7 @@ pip install -r requirements.txt
 3. Создайте локальную БД миграцией
 
 ```python
-alembic upgrade gead
+alembic upgrade head
 ```
 
 4. Запустите проект

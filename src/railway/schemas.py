@@ -1,3 +1,4 @@
+from datetime import datetime
 from pydantic import BaseModel
 
 class RailwayRead(BaseModel):
@@ -14,6 +15,7 @@ class RailwayRead(BaseModel):
     osm_id: int
     osm_type: str
     need_automatic_update: bool | None = True
+    last_updated_at: datetime
 
 class RailwayCreate(BaseModel):
     city_id: int | None = None

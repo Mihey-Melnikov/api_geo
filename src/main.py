@@ -9,6 +9,7 @@ from src.country.router import router as router_country
 from src.airport.router import router as router_airport
 from src.railway.router import router as router_railway
 from src.metro.router import router as router_metro
+from src.translate.router import router as router_translate
 
 app = FastAPI(
     title="API Geo"
@@ -32,3 +33,4 @@ app.include_router(router_city)
 app.include_router(router_airport)
 app.include_router(router_railway)
 app.include_router(router_metro)
+app.include_router(router_translate)
