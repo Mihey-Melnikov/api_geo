@@ -2,9 +2,18 @@
 
 ## Быстрый запуск
 
-0. Установите PostgreSQL
-1. Клонируйте репозиторий
-2. Установите все необходимые модули
+0. Установите PostgreSQL и создайте сервер с кредами:
+
+```python
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=postgres
+DB_USER=postgres
+DB_PASS=postgres
+```
+
+2. Клонируйте репозиторий
+3. Установите все необходимые модули
 
 ```python
 pip install -r requirements.txt
