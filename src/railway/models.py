@@ -3,8 +3,7 @@ from sqlalchemy import Boolean, Float, ForeignKey, Table, Column, Integer, Strin
 from src.city.models import city
 from src.region.models import region
 from src.country.models import country
-
-metadata = MetaData()
+from src.database import metadata
 
 railway = Table("railway_station", metadata,
     Column("id", Integer, primary_key=True, index=True),

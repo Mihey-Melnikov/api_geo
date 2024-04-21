@@ -1,8 +1,7 @@
 from datetime import datetime
 from sqlalchemy import Boolean, Float, ForeignKey, Table, Column, Integer, String, TIMESTAMP, MetaData
 from src.city.models import city
-
-metadata = MetaData()
+from src.database import metadata
 
 metro = Table("metro", metadata,
     Column("id", Integer, primary_key=True, index=True),

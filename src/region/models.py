@@ -1,8 +1,7 @@
 from datetime import datetime
 from sqlalchemy import Boolean, Float, ForeignKey, Table, Column, Integer, String, TIMESTAMP, MetaData
 from src.country.models import country
-
-metadata = MetaData()
+from src.database import metadata
 
 region = Table("region", metadata,
     Column("id", Integer, primary_key=True, index=True),

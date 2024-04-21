@@ -1,7 +1,6 @@
 from datetime import datetime
 from sqlalchemy import Boolean, Float, Table, Column, Integer, String, TIMESTAMP, MetaData
-
-metadata = MetaData()
+from src.database import metadata
 
 country = Table("country", metadata,
     Column("id", Integer, primary_key=True, index=True),
