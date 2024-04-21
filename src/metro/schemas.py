@@ -18,7 +18,7 @@ class MetroRead(BaseModel):
     osm_type: str
     need_automatic_update: bool | None = True
     last_updated_at: datetime
-    deleted_at: datetime
+    deleted_at: datetime | None
 
 class MetroSearch(BaseModel):
     data: List[MetroRead]

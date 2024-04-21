@@ -16,7 +16,7 @@ class RegionRead(BaseModel):
     osm_id: int
     osm_type: str
     need_automatic_update: bool | None = True
-    last_updated_at: datetime
+    last_updated_at: datetime | None
 
 class RegionSearch(BaseModel):
     data: List[RegionRead]

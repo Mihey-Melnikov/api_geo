@@ -20,7 +20,7 @@ class CountryRead(BaseModel):
     osm_type: str
     need_automatic_update: bool | None = True
     last_updated_at: datetime
-    deleted_at: datetime
+    deleted_at: datetime | None
 
 class CountrySearch(BaseModel):
     data: List[CountryRead]
