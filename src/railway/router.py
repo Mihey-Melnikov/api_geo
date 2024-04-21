@@ -1,6 +1,5 @@
 from datetime import datetime
 import math
-from typing import List
 from fastapi import APIRouter, Depends, Query
 from sqlalchemy import func, or_, update, select, insert
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -17,7 +16,7 @@ router = APIRouter(
 
 @router.get("/{id}", response_model=RailwayRead)
 async def get_railway_by_id(
-    id: int, 
+    id: int,
     session: AsyncSession = Depends(get_async_session)):
     """
     Get full information about the railway station by ID.
@@ -29,8 +28,8 @@ async def get_railway_by_id(
 
 @router.get("/", response_model=RailwaySearch)
 async def search_railway(
-    term: str | None = None, 
-    page_number: int = Query(ge=1, default=1), 
+    term: str | None = None,
+    page_number: int = Query(ge=1, default=1),
     page_size: int = Query(ge=1, le=100, default=100),
     session: AsyncSession = Depends(get_async_session)):
     """
@@ -60,7 +59,7 @@ async def search_railway(
 
 @router.post("/", response_model=RailwayRead)
 async def add_railway(
-    new_railway: RailwayCreate, 
+    new_railway: RailwayCreate,
     session: AsyncSession = Depends(get_async_session)):
     """
     Create a new railway station.
@@ -74,7 +73,7 @@ async def add_railway(
 
 @router.delete("/{id}", response_model=RailwayRead)
 async def delete_railway(
-    id: int, 
+    id: int,
     session: AsyncSession = Depends(get_async_session)):
     """
     Delete a railway station.
@@ -89,8 +88,8 @@ async def delete_railway(
 
 @router.patch("/{id}", response_model=RailwayRead)
 async def update_railway(
-    id: int, 
-    updated_rows: RailwayUpdate, 
+    id: int,
+    updated_rows: RailwayUpdate,
     session: AsyncSession = Depends(get_async_session)):
     """
     Change the railway station.

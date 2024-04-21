@@ -1,6 +1,5 @@
 from datetime import datetime
 import math
-from typing import List
 from fastapi import APIRouter, Depends, Query
 from sqlalchemy import func, update, select, insert
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -17,7 +16,7 @@ router = APIRouter(
 
 @router.get("/{id}", response_model=RegionRead)
 async def get_region_by_id(
-    id: int, 
+    id: int,
     session: AsyncSession = Depends(get_async_session)):
     """
     Get full information about the region by ID.
@@ -29,8 +28,8 @@ async def get_region_by_id(
 
 @router.get("/", response_model=RegionSearch)
 async def search_regions(
-    term: str | None = None, 
-    page_number: int = Query(ge=1, default=1), 
+    term: str | None = None,
+    page_number: int = Query(ge=1, default=1),
     page_size: int = Query(ge=1, le=100, default=100),
     session: AsyncSession = Depends(get_async_session)):
     """
@@ -39,7 +38,7 @@ async def search_regions(
     ids = []
     if term is not None:
         query = select(translation.c.entity_id) \
-                .where(translation.c.entity == 'region', 
+                .where(translation.c.entity == 'region',
                        func.lower(translation.c.translate).like(func.lower(f"%{term}%")))
         result = await session.execute(query)
         ids = [item["entity_id"] for item in result.mappings().all()]
@@ -57,7 +56,7 @@ async def search_regions(
 
 @router.post("/", response_model=RegionRead)
 async def add_region(
-    new_region: RegionCreate, 
+    new_region: RegionCreate,
     session: AsyncSession = Depends(get_async_session)):
     """
     Create a new region.
@@ -71,7 +70,7 @@ async def add_region(
 
 @router.delete("/{id}", response_model=RegionRead)
 async def delete_region(
-    id: int, 
+    id: int,
     session: AsyncSession = Depends(get_async_session)):
     """
     Delete a region.
@@ -86,8 +85,8 @@ async def delete_region(
 
 @router.patch("/{id}", response_model=RegionRead)
 async def update_region(
-    id: int, 
-    updated_rows: RegionUpdate, 
+    id: int,
+    updated_rows: RegionUpdate,
     session: AsyncSession = Depends(get_async_session)):
     """
     Change the region.

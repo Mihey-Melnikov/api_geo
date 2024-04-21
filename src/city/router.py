@@ -1,6 +1,5 @@
 from datetime import datetime
 import math
-from typing import List
 from fastapi import APIRouter, Depends, Query
 from sqlalchemy import func, or_, update, select, insert
 from sqlalchemy.ext.asyncio import AsyncSession
