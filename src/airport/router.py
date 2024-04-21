@@ -59,7 +59,7 @@ async def search_airport(
         }}
 
 @router.post("/", response_model=AirportRead)
-async def add_airporty(
+async def add_airport(
     new_airport: AirportCreate,
     session: AsyncSession = Depends(get_async_session)):
     """

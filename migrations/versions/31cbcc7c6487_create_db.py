@@ -1,8 +1,8 @@
-"""create db
+"""Create db
 
-Revision ID: e097b4e87f5e
+Revision ID: 31cbcc7c6487
 Revises: 
-Create Date: 2024-04-14 13:32:30.358369
+Create Date: 2024-04-21 21:18:39.315339
 
 """
 from typing import Sequence, Union
@@ -12,7 +12,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision: str = 'e097b4e87f5e'
+revision: str = '31cbcc7c6487'
 down_revision: Union[str, None] = None
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
@@ -38,6 +38,8 @@ def upgrade() -> None:
     sa.Column('iso3166_alpha3', sa.String(length=3), nullable=False),
     sa.Column('phone_code', sa.String(), nullable=False),
     sa.Column('phone_mask', sa.String(), nullable=False),
+    sa.Column('latitude', sa.Float(), nullable=False),
+    sa.Column('longitude', sa.Float(), nullable=False),
     sa.Column('osm_id', sa.Integer(), nullable=False),
     sa.Column('osm_type', sa.String(length=1), nullable=False),
     sa.Column('last_updated_at', sa.TIMESTAMP(), nullable=False),
@@ -50,6 +52,8 @@ def upgrade() -> None:
     sa.Column('id', sa.Integer(), nullable=False),
     sa.Column('country_id', sa.Integer(), nullable=False),
     sa.Column('name', sa.String(), nullable=False),
+    sa.Column('latitude', sa.Float(), nullable=False),
+    sa.Column('longitude', sa.Float(), nullable=False),
     sa.Column('osm_id', sa.Integer(), nullable=False),
     sa.Column('osm_type', sa.String(length=1), nullable=False),
     sa.Column('last_updated_at', sa.TIMESTAMP(), nullable=False),
@@ -101,7 +105,7 @@ def upgrade() -> None:
     op.create_index(op.f('ix_airport_id'), 'airport', ['id'], unique=False)
     op.create_table('railway_station',
     sa.Column('id', sa.Integer(), nullable=False),
-    sa.Column('express3_code', sa.Integer(), nullable=False),
+    sa.Column('express3_code', sa.String(), nullable=False),
     sa.Column('is_main', sa.Boolean(), nullable=False),
     sa.Column('city_id', sa.Integer(), nullable=True),
     sa.Column('region_id', sa.Integer(), nullable=True),
