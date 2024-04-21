@@ -8,7 +8,7 @@ from src.translate.models import translation as translate
 from src.translate.schemas import TranslateCreate, TranslateRead, TranslateUpdate
 
 router = APIRouter(
-    prefix="/translate",
+    prefix="/api/translate",
     tags=["Translate"]
 )
 
