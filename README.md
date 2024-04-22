@@ -65,3 +65,9 @@ from src.auth.base_config import current_user
 from src.auth.models import User
 user: User = Depends(current_user)
 ```
+
+Запуск тестов  
+```python
+pytest -v -s --disable-warnings  tests/ 
+```
+

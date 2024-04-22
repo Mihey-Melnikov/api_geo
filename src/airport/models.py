@@ -1,5 +1,5 @@
 from datetime import datetime
-from sqlalchemy import Boolean, Float, ForeignKey, Table, Column, Integer, String, TIMESTAMP
+from sqlalchemy import Boolean, Float, ForeignKey, Table, Column, Integer, String, TIMESTAMP, MetaData
 from src.city.models import city
 from src.database import metadata
 
@@ -12,7 +12,7 @@ airport = Table("airport", metadata,
     Column("timezone", String, nullable=False),
     Column("latitude", Float, nullable=False),
     Column("longitude", Float, nullable=False),
-    Column("osm_id", Integer, nullable=False),
+    Column("osm_id", String, nullable=False),
     Column("osm_type", String(1), nullable=False),
     Column("last_updated_at", TIMESTAMP, default=datetime.now, onupdate=datetime.now, nullable=False),
     Column("deleted_at", TIMESTAMP, default=None, nullable=True),

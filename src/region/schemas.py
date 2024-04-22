@@ -13,7 +13,7 @@ class RegionRead(BaseModel):
     name: str
     latitude: float
     longitude: float
-    osm_id: int
+    osm_id: str
     osm_type: str
     need_automatic_update: bool | None = True
     last_updated_at: datetime | None
@@ -27,7 +27,7 @@ class RegionCreate(BaseModel):
     name: str
     latitude: float
     longitude: float
-    osm_id: int
+    osm_id: str
     osm_type: str
     need_automatic_update: bool | None = True
 
@@ -36,6 +36,6 @@ class RegionUpdate(BaseModel):
     name: str | None = None
     latitude: float | None = None
     longitude: float | None = None
-    osm_id: int | None = None
+    osm_id: str | None = None
     osm_type: str | None = None
     need_automatic_update: bool | None = None

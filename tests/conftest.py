@@ -14,6 +14,9 @@ from src.config import (DB_HOST_TEST, DB_NAME_TEST, DB_PASS_TEST, DB_PORT_TEST, 
 from src.main import app
 
 DATABASE_URL_TEST = f"postgresql+asyncpg://{DB_USER_TEST}:{DB_PASS_TEST}@{DB_HOST_TEST}:{DB_PORT_TEST}/{DB_NAME_TEST}"
+# мы делаем на прод базе, потому что в .env все тест креды = прод кредам
+# делаем так, потому что пока не можем на разных портах подключиться к двум базам
+# нужен докер
 
 engine_test = create_async_engine(DATABASE_URL_TEST, poolclass=NullPool)
 async_session_maker = sessionmaker(engine_test, class_=AsyncSession, expire_on_commit=False)
@@ -30,8 +33,9 @@ async def prepare_database():
     async with engine_test.begin() as conn:
         await conn.run_sync(metadata.create_all)
     yield
-    async with engine_test.begin() as conn:
-        await conn.run_sync(metadata.drop_all)
+#    async with engine_test.begin() as conn:
+#        await conn.run_sync(metadata.drop_all)
+# не выполняем это, чтобы не чистить прод базу после тестов
 
 # SETUP
 @pytest.fixture(scope="session")

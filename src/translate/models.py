@@ -1,7 +1,6 @@
 from datetime import datetime
 from sqlalchemy import Table, Column, Integer, String, TIMESTAMP, MetaData
-
-metadata = MetaData()
+from src.database import metadata
 
 translation_language = Table("translation_language", metadata,
     Column("language_iso639", String, primary_key=True, index=True),

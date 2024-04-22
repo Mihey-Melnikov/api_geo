@@ -14,7 +14,7 @@ class MetroRead(BaseModel):
     line_name: str
     latitude: float
     longitude: float
-    osm_id: int
+    osm_id: str
     osm_type: str
     need_automatic_update: bool | None = True
     last_updated_at: datetime
@@ -30,7 +30,7 @@ class MetroCreate(BaseModel):
     line_name: str
     latitude: float
     longitude: float
-    osm_id: int
+    osm_id: str
     osm_type: str
     need_automatic_update: bool | None = True
 
@@ -40,7 +40,7 @@ class MetroUpdate(BaseModel):
     line_name: str | None = None
     latitude: float | None = None
     longitude: float | None = None
-    osm_id: int | None = None
+    osm_id: str | None = None
     osm_type: str | None = None
     need_automatic_update: bool | None = None
     deleted_at: datetime | None = None
