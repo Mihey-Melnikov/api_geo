@@ -7,3 +7,4 @@
 /venv
 /cache
 /src/osm/cache
+/.pytest_cache
