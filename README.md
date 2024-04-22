@@ -25,7 +25,13 @@ pip install -r requirements.txt
 alembic upgrade head
 ```
 
-4. Запустите проект
+4. Запустите тесты (вместе с ними подтянуться тестовые данные)
+
+```python
+pytest -v -s --disable-warnings  tests/
+```
+
+5. Запустите проект
 
 ```python
 uvicorn src.main:app --reload
