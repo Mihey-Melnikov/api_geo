@@ -1,0 +1,12 @@
+"""
+Tags
+aeroway=aerodrome
+aeroway=heliport
+aeroway=runway
+aeroway=taxiway
+aeroway=apron
+aeroway=terminal
+aeroway=helipad
+aeroway=spaceport
+aeroway=airstrip
+"""

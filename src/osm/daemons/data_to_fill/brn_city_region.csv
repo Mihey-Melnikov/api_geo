@@ -1,0 +1,2879 @@
+"id","country_id","name","name_en","acase_code","del","ResortFeeRu","ResortFeeEn"
+"1","1","Адыгея","Republic of Adygeya","4","0",NULL,NULL
+"2","1","Алтай","Republic of Altai","5","0","С 1 мая 2018 г. в отеле взимается курортный сбор в размере 30 руб./сутки с человека. С 1 января 2019 г. размер курортного сбора составит 50 руб./сутки с человека.","From 1 May 2018 hotel charges 30 RUB a day per person as a resort fee. Since 1 January 2019 hotel will charge 50 RUB a day per person."
+"3","1","Алтайский край","Altai Territory","93","0","С 1 мая 2018 г. в отеле взимается курортный сбор в размере 30 руб./сутки с человека. С 1 января 2019 г. размер курортного сбора составит 50 руб./сутки с человека.","From 1 May 2018 hotel charges 30 RUB a day per person as a resort fee. Since 1 January 2019 hotel will charge 50 RUB a day per person."
+"4","1","Амурская область","Amur Region","74","0",NULL,NULL
+"5","1","Архангельская область","Arkhangelsk Region","76","0",NULL,NULL
+"6","1","Астраханская область","Astrakhan Region","77","0",NULL,NULL
+"7","1","Башкортостан","Republic of Bashkortostan","6","0",NULL,NULL
+"8","1","Белгородская область","Belgorod Region","25","0",NULL,NULL
+"9","1","Брянская область","Bryansk Region","19","0",NULL,NULL
+"10","1","Бурятия","Republic of Buryatia","7","0",NULL,NULL
+"12","1","Владимирская область","Vladimir Region","18","0",NULL,NULL
+"13","1","Волгоградская область","Volgograd Region","15","0",NULL,NULL
+"14","1","Вологодская область","Vologda Region","68","0",NULL,NULL
+"15","1","Воронежская область","Voronezh Region","55","0",NULL,NULL
+"16","1","Дагестан","Republic of Daghestan","8","0",NULL,NULL
+"17","1","Еврейская область","Jewish Autonomous Region","73","0",NULL,NULL
+"18","1","Ивановская область","Ivanovo Region","30","0",NULL,NULL
+"19","1","Ингушетия","Republic of Ingushetia","85","0",NULL,NULL
+"20","1","Иркутская область","Irkutsk Region","14","0",NULL,NULL
+"21","1","Кабардино-Балкария","Kabardino-Balkarian Republic","79","0",NULL,NULL
+"22","3","Казахстан","Kazakhstan","0","0",NULL,NULL
+"23","1","Калининградская область","Kaliningrad Region","23","0",NULL,NULL
+"24","1","Калмыкия","Republic of Kalmykia","12","0",NULL,NULL
+"25","1","Калужская область","Kaluga Region","66","0",NULL,NULL
+"26","1","Камчатский край","Kamchatka Territory","16","0",NULL,NULL
+"27","1","Карачаево-Черкессия","Karachayevo-Circassian Republic","9","0",NULL,NULL
+"28","1","Карелия","Republic of Karelia","52","0",NULL,NULL
+"29","1","Кемеровская область","Kemerovo Region","13","0",NULL,NULL
+"30","3","Кзыл-Ординская область","Kyzylorda Region","0","0",NULL,NULL
+"31","1","Кировская область","Kirov Region","60","0",NULL,NULL
+"32","1","Коми","Komi Republic","57","0",NULL,NULL
+"33","1","Костромская область","Kostroma Region","34","0",NULL,NULL
+"34","1","Краснодарский край","Krasnodar Territory","40","0","С 16 июля 2018 г. в отеле взимается курортный сбор в размере 10 руб./сутки с человека.","From 16 July 2018 hotel charges 10 RUB a day per person as a resort fee."
+"35","1","Красноярский край","Krasnoyarsk Territory","50","0",NULL,NULL
+"36","1","Курганская область","Kurgan Region","78","0",NULL,NULL
+"37","1","Курская область","Kursk Region","53","0",NULL,NULL
+"38","1","Ленинградская область","Leningrad Region","3","0",NULL,NULL
+"39","1","Липецкая область","Lipetsk Region","28","0",NULL,NULL
+"40","1","Магаданская область","Magadan Region","84","0",NULL,NULL
+"41","1","Марий-Эл","Republic of Mari El","56","0",NULL,NULL
+"42","1","Мордовия","Republic of Mordovia","87","0",NULL,NULL
+"70","1","Московская область","Moscow Region","2","0",NULL,NULL
+"71","1","Мурманская область","Murmansk Region","35","0",NULL,NULL
+"72","20","Нагорно-Карабахская Республика","Republic of Artsakh","0","0",NULL,NULL
+"73","1","Нижегородская область","Nizhny Novgorod Region","26","0",NULL,NULL
+"74","1","Новгородская область","Novgorod Region","54","0",NULL,NULL
+"75","1","Новосибирская область","Novosibirsk Region","27","0",NULL,NULL
+"76","1","Омская область","Omsk Region","80","0",NULL,NULL
+"77","1","Оренбургская область","Orenburg Region","31","0",NULL,NULL
+"78","1","Орловская область","Orel Region","51","0",NULL,NULL
+"79","1","Пензенская область","Penza Region","38","0",NULL,NULL
+"80","1","Пермский край","Perm Territory","37","0",NULL,NULL
+"81","1","Приморский край","Primorye Territory","63","0",NULL,NULL
+"82","1","Псковская область","Pskov Region","33","0",NULL,NULL
+"83","1","Ростовская область","Rostov Region","32","0",NULL,NULL
+"84","1","Рязанская область","Ryazan Region","86","0",NULL,NULL
+"85","1","Самарская область","Samara Region","22","0",NULL,NULL
+"86","1","Саратовская область","Saratov Region","20","0",NULL,NULL
+"87","1","Сахалинская область","Sakhalin Region","81","0",NULL,NULL
+"88","1","Свердловская область","Sverdlovsk Region","29","0",,
+"89","1","Северная Осетия","Republic of North Ossetia","75","0",NULL,NULL
+"90","1","Смоленская область","Smolensk Region","88","0",NULL,NULL
+"91","1","Ставропольский край","Stavropol Territory","39","0","С 1 мая 2018 г. в отеле взимается курортный сбор в размере 50 руб./сутки с человека.","From 1 May 2018 hotel charges 50 RUB a day per person as a resort fee."
+"92","1","Тамбовская область","Tambov Region","82","0",NULL,NULL
+"93","1","Татарстан","Republic of Tatarstan","11","0",NULL,NULL
+"94","1","Тверская область","Tver Region","24","0",NULL,NULL
+"95","1","Томская область","Tomsk Region","89","0",NULL,NULL
+"96","1","Тыва","Republic of Tuva","62","0",NULL,NULL
+"97","1","Тульская область","Tula Region","21","0",NULL,NULL
+"98","1","Тюменская область","Tyumen Region","67","0",NULL,NULL
+"99","1","Удмуртия","Udmurtian Republic","58","0",NULL,NULL
+"100","1","Ульяновская область","Ulyanovsk Region","43","0",NULL,NULL
+"101","1","Хабаровский край","Khabarovsk Territory","61","0",NULL,NULL
+"102","1","Хакасия","Republic of Khakassia","44","0",NULL,NULL
+"103","1","Челябинская область","Chelyabinsk Region","45","0",NULL,NULL
+"104","1","Чеченская Республика","Chechen Republic","59","0",NULL,NULL
+"106","1","Чувашия","Chuvash Republic","10","0",NULL,NULL
+"107","1","Чукотка","Chukotka Autonomous Area","91","0",NULL,NULL
+"108","1","Якутия","Republic of Sakha (Yakutia)","83","0",NULL,NULL
+"109","1","Ямало-Ненецкий Округ","Yamal-Nenets Autonomous Area","65","0",NULL,NULL
+"110","1","Ярославская область","Yaroslavl Region","17","0",NULL,NULL
+"111","19","Алабама","Alabama","0","0",NULL,NULL
+"112","19","Аляска","Alaska","0","0",NULL,NULL
+"113","19","Аризона","Arizona","0","0",NULL,NULL
+"114","19","Арканзас","Arkansas","0","0",NULL,NULL
+"115","19","Калифорния","California","0","0",NULL,NULL
+"116","19","Колорадо","Colorado","0","0",NULL,NULL
+"117","19","Коннектикут","Connecticut","0","0",NULL,NULL
+"118","19","Делавер","Delaware","0","0",NULL,NULL
+"119","19","Флорида","Florida","0","0",NULL,NULL
+"120","19","Джорджия","Georgia","0","0",NULL,NULL
+"121","19","Гавайи","Hawaii","0","0",NULL,NULL
+"122","19","Айдахо","Idaho","0","0",NULL,NULL
+"123","19","Иллинойс","Illinois","0","0",NULL,NULL
+"124","19","Индиана","Indiana","0","0",NULL,NULL
+"125","19","Айова","Iowa","0","0",NULL,NULL
+"126","19","Канзас","Kansas","0","0",NULL,NULL
+"127","19","Кентукки","Kentucky","0","0",NULL,NULL
+"128","19","Луизиана","Louisiana","0","0",NULL,NULL
+"129","19","Мэн","Maine","0","0",NULL,NULL
+"130","19","Мэриленд","Maryland","0","0",NULL,NULL
+"131","19","Массачусетс","Massachusetts","0","0",NULL,NULL
+"132","19","Мичиган","Michigan","0","0",NULL,NULL
+"133","19","Миннесота","Minnesota","0","0",NULL,NULL
+"134","19","Миссисипи","Mississippi","0","0",NULL,NULL
+"135","19","Миссури","Missouri","0","0",NULL,NULL
+"136","19","Монтана","Montana","0","0",NULL,NULL
+"137","19","Небраска","Nebraska","0","0",NULL,NULL
+"138","19","Невада","Nevada","0","0",NULL,NULL
+"139","19","Нью-Хэмпшир","New Hampshire","0","0",NULL,NULL
+"140","19","Нью-Джерси","New Jersey","0","0",NULL,NULL
+"141","19","Нью-Мексико","New Mexico","0","0",NULL,NULL
+"142","19","Нью-Йорк","New York","0","0",NULL,NULL
+"143","19","Северная Каролина","North Carolina","0","0",NULL,NULL
+"144","19","Северная Дакота","North Dakota","0","0",NULL,NULL
+"145","19","Огайо","Ohio","0","0",NULL,NULL
+"146","19","Оклахома","Oklahoma","0","0",NULL,NULL
+"147","19","Орегон","Oregon","0","0",NULL,NULL
+"148","19","Пенсильвания","Pennsylvania","0","0",NULL,NULL
+"149","19","Род Айленд","Rhode Island","0","0",NULL,NULL
+"150","19","Южная Каролина","South Carolina","0","0",NULL,NULL
+"151","19","Южная Дакота","South Dakota","0","0",NULL,NULL
+"152","19","Теннеси","Tennessee","0","0",NULL,NULL
+"153","19","Техас","Texas","0","0",NULL,NULL
+"154","19","Юта","Utah","0","0",NULL,NULL
+"155","19","Вермонт","Vermont","0","0",NULL,NULL
+"156","19","Вирджиния","Virginia","0","0",NULL,NULL
+"157","19","Вашингтон","Washington","0","0",NULL,NULL
+"158","19","Западная Вирджиния","West Virginia","0","0",NULL,NULL
+"159","19","Висконсин","Wisconsin","0","0",NULL,NULL
+"160","19","Вайоминг","Wyoming","0","0",NULL,NULL
+"161","49","Мадхья-Прадеш","Madhya Pradesh","0","0",NULL,NULL
+"162","49","Махараштра","Maharashtra","0","0",NULL,NULL
+"163","49","Бихар","Bihar","0","0",NULL,NULL
+"164","133","Антьокия","Antioquia","0","0",NULL,NULL
+"165","133","Сантандер","Santander","0","0",NULL,NULL
+"166","88","Параиба","Paraiba","0","0",NULL,NULL
+"168","14","Гирин","Jilin","0","0",NULL,NULL
+"169","14","Ляонин","Liaoning","0","0",NULL,NULL
+"170","14","Аньхой","Anhui","0","0",NULL,NULL
+"171","14","Шаньси","Shanxi","0","0",NULL,NULL
+"172","35","Конья","Konya","0","0",NULL,NULL
+"173","35","Зонгулдак","Zonguldak","0","0",NULL,NULL
+"174","13","Гессен","Hessen","0","0",NULL,NULL
+"175","13","Саксония","Sachsen","0","0",NULL,NULL
+"176","255","Тотиги ","Tochigi","0","0",NULL,NULL
+"177","255","Гумма","Gunma","0","0",NULL,NULL
+"178","35","Ыспарта","Isparta","0","0",NULL,NULL
+"179","35","Балыкесир","Balikesir","0","0",NULL,NULL
+"180","49","Харьяна","Haryana","0","0",NULL,NULL
+"181","49","Уттар-Прадеш","Uttar Pradesh","0","0",NULL,NULL
+"182","255","Окинава","Okinawa","0","0",NULL,NULL
+"183","255","Фукусима","Fukushima","0","0",NULL,NULL
+"184","14","Шаньдун","Shandong","0","0",NULL,NULL
+"185","14","Внутренняя Монголия","Inner Mongolia","0","0",NULL,NULL
+"186","14","Юньнань","Yunnan","0","0",NULL,NULL
+"187","255","Сайтама","Saitama","0","0",NULL,NULL
+"188","255","Тиба","Chiba","0","0",NULL,NULL
+"189","49","Западная Бенгалия","West Bengal","0","0",NULL,NULL
+"190","255","Ибараки","Ibaraki","0","0",NULL,NULL
+"191","255","Фукуока","Fukuoka","0","0",NULL,NULL
+"192","49","Раджастхан","Rajasthan","0","0",NULL,NULL
+"193","13","Нижняя Саксония","Lower Saxony","0","0",NULL,NULL
+"194","255","Фукуи","Fukui","0","0",NULL,NULL
+"195","255","Хёго","Hyogo","0","0",NULL,NULL
+"196","255","Кумамото","Kumamoto","0","0",NULL,NULL
+"197","255","Эхимэ","Ehime","0","0",NULL,NULL
+"198","89","Парана","Parana","0","0",NULL,NULL
+"199","89","Токантинс","Tocantins","0","0",NULL,NULL
+"200","1","Забайкальский край","Trans-Baikal Territory","90","0",NULL,NULL
+"201","13","Бранденбург","Brandenburg","0","0",NULL,NULL
+"202","13","Северный Рейн-Вестфалия","North Rhine-Westphalia","0","0",NULL,NULL
+"203","26","Нуэва-Эсиха","Nueva Ecija","0","0",NULL,NULL
+"204","26","Букиднон","Bukidnon","0","0",NULL,NULL
+"205","255","Вакаяма","Wakayama","0","0",NULL,NULL
+"206","26","Батаан","Bataan","0","0",NULL,NULL
+"207","13","Бавария","Bavaria","0","0",NULL,NULL
+"208","49","Карнатака","Karnataka","0","0",NULL,NULL
+"209","49","Джамму и Кашмир","Jammu and Kashmir","0","0",NULL,NULL
+"210","49","Уттаракханд","Uttarakhand","0","0",NULL,NULL
+"211","14","Цзянсу","Jiangsu","0","0",NULL,NULL
+"212","89","Мараньян","Maranhao","0","0",NULL,NULL
+"213","89","Эспириту-Санту","Espirito Santo","0","0",NULL,NULL
+"214","14","Хэйлунцзян","Heilongjiang","0","0",NULL,NULL
+"215","53","Северная территория","Northern Territory","0","0",NULL,NULL
+"216","53","Квинсленд","Queensland","0","0",NULL,NULL
+"217","53","Виктория","Victoria","0","0",NULL,NULL
+"218","22","Нижняя Австрия","Lower Austria","0","0",NULL,NULL
+"219","22","Форарльберг","Vorarlberg","0","0",NULL,NULL
+"220","76","Санта-Фе","Santa Fe","0","0",NULL,NULL
+"221","76","Сальта","Salta","0","0",NULL,NULL
+"222","58","Бургасская область","Burgas Province","0","0",NULL,NULL
+"223","58","Пловдивская область","Plovdiv Province","0","0",NULL,NULL
+"224","58","Варненская область","Varna Province","0","0",NULL,NULL
+"225","24","Норфолк","Norfolk","0","0",NULL,NULL
+"226","24","Дарем","Darem","0","0",NULL,NULL
+"227","36","Биньзыонг","Bình Dương","0","0",NULL,NULL
+"228","13","Баден-Вюртемберг","Baden-Württemberg","0","0",NULL,NULL
+"229","61","Крит","Crete","0","0",NULL,NULL
+"230","61","Центральная Македония","Central Macedonia","0","0",NULL,NULL
+"231","61","Халкидики","Halkidiki","0","0",NULL,NULL
+"233","40","Асориш","Azores","0","0",NULL,NULL
+"234","35","Измир","İzmir","0","0",NULL,NULL
+"235","35","Мугла","Muğla","0","0",NULL,NULL
+"236","10","Берн","Bern","0","0",NULL,NULL
+"237","61","Кефалиния","Cephalonia","0","0",NULL,NULL
+"238","10","Во","Vaud","0","0",NULL,NULL
+"239","10","Вале","Valais","0","0",NULL,NULL
+"240","1","Крым","Crimea","98","0","С 1 мая до 30 сентября 2018 г. в отеле взимается курортный сбор в размере 10 руб./сутки с человека.","From 1 May 2018 to 30 September 2018 hotel charges 10 RUB a day per person as a resort fee."
+"241","14","Хайнань","Hainan","0","0",NULL,NULL
+"243","1","Ненецкий автономный округ","Nenets Autonomous Area","41","0",NULL,NULL
+"246","1","Ханты-Мансийский автономный округ","Khanty-Mansi Autonomous Area – Yugra","0","0",NULL,NULL
+"249","76",,"Capital Federal","0","0",NULL,NULL
+"252","76","Энтре-Риос","Entre Ríos","0","0",NULL,NULL
+"255","76","Жужуй","Jujuy","0","0",NULL,NULL
+"258","76","Мендоса","Mendoza Province","0","0",NULL,NULL
+"261","76","Рио-Негро","Río Negro","0","0",NULL,NULL
+"264","76","Сан-Хуан","San Juan Province","0","0",NULL,NULL
+"267","76",,"San Luis Province","0","0",NULL,NULL
+"270","76",,"Santiago del Estero Province","0","0",NULL,NULL
+"273","76","Огненная Земля","Tierra del Fuego","0","0",NULL,NULL
+"276","22","Штирия","Styria","0","0",NULL,NULL
+"279","22","Тироль","Tyrol","0","0",NULL,NULL
+"282","53","Новый Южный Уэльс","New South Wales","0","0",NULL,NULL
+"285","53","Тасмания","Tasmania","0","0",NULL,NULL
+"288","37","Брюссель","Brussels Region","0","0",NULL,NULL
+"291","37","Восточная Фландрия","East-Flanders","0","0",NULL,NULL
+"294","37","Фламандский Брабант","Flemish Brabant","0","0",NULL,NULL
+"297","37","Эно","Hainaut Province","0","0",NULL,NULL
+"300","37","Льеж","Liege Province","0","0",NULL,NULL
+"303","37","Фламандский Лимбург","Limburg","0","0",NULL,NULL
+"306","37","Люксембург","Belgium Luxembourg","0","0",NULL,NULL
+"309","37","Намюр","Namur Province","0","0",NULL,NULL
+"312","37","Валлонский Брабант","Walloon Brabant","0","0",NULL,NULL
+"315","37","Западная Фландрия","West-Flanders","0","0",NULL,NULL
+"318","37","Бельгийские Арденны","Ardennes Belge","0","0",NULL,NULL
+"321","37",,"Belgium Coast","0","0",NULL,NULL
+"324","89","Алагоас","Alagoas","0","0",NULL,NULL
+"327","89","Амазонас","Amazonas","0","0",NULL,NULL
+"330","89","Баия","Bahia","0","0",NULL,NULL
+"333","89","Сеара","Ceará","0","0",NULL,NULL
+"336","89","Федеральный округ","Distrito Federal","0","0",NULL,NULL
+"339","89","Мату-Гросу-ду-Сул","Mato Grosso do Sul","0","0",NULL,NULL
+"342","89","Минас-Жерайс","Minas Gerais","0","0",NULL,NULL
+"345","89","Пернамбуку","Pernambuco","0","0",NULL,NULL
+"348","89","Рио-де-Жанейро","Rio de Janeiro State","0","0",NULL,NULL
+"351","89","Рио-Гранде-ду-Норти","Rio Grande do Norte","0","0",NULL,NULL
+"354","89","Рио-Гранде-ду-Сул","Rio Grande do Sul","0","0",NULL,NULL
+"357","89","Санта-Катарина","Santa Catarina","0","0",NULL,NULL
+"360","89","Сан-Паулу","Sao Paulo State","0","0",NULL,NULL
+"363","89","Сержипи","Sergipe","0","0",NULL,NULL
+"366","43","Британская Колумбия","British Columbia","0","0",NULL,NULL
+"369","43","Онтарио","Ontario","0","0",NULL,NULL
+"372","43","Квебек","Quebec","0","0",NULL,NULL
+"375","43","Новая Шотландия","Nova Scotia","0","0",NULL,NULL
+"378","10","Бернское высокогорье","Bernese Oberland","0","0",NULL,NULL
+"381","10","Центральная Швейцария","Central Switzerland","0","0",NULL,NULL
+"384","146","Восточная Швейцария","East Switzerland","0","0",NULL,NULL
+"387","10","Фрибург","Canton of Fribourg","0","0",NULL,NULL
+"390","10","Женевское озеро - Вауд","Lake Geneva / Vaud","0","0",NULL,NULL
+"393","10","Тичино","Canton of Ticino","0","0",NULL,NULL
+"396","10","Цюрих","Canton of Zurich","0","0",NULL,NULL
+"399","243","Сантьяго","Metropolitan Region","0","0",NULL,NULL
+"402","243",,"Easter Island","0","0",NULL,NULL
+"405","14",,"Chongqing Area","0","0",NULL,NULL
+"408","14","Фуцзянь","Fujian","0","0",NULL,NULL
+"411","14","Гуандун","Guangdong","0","0",NULL,NULL
+"414","14","Гуанси","Guangxi","0","0",NULL,NULL
+"417","14","Хэнань","Henan","0","0",NULL,NULL
+"420","14","Хубэй","Hubei","0","0",NULL,NULL
+"423","14","Тяньцзинь","Tianjin Area","0","0",NULL,NULL
+"426","14","Шэньси","Shaanxi","0","0",NULL,NULL
+"429","138","Пунтаренас","Puntarenas","0","0",NULL,NULL
+"432","31","Прага","Prague Region","0","0",NULL,NULL
+"435","31","Краловеградецкий край","Hradec Kralove","0","0",NULL,NULL
+"438","31","Карловы Вары","Karlovy Vary Region","0","0",NULL,NULL
+"441","31","Центральной Богемии","Central Bohemia","0","0",NULL,NULL
+"444","13","Мекленбург-Померания","Mecklenburg-Pomerania","0","0",NULL,NULL
+"447","13","Мозель - Германия","German Mosel","0","0",NULL,NULL
+"450","13","Рейнланд-Пфальц","Rhineland-Palatinate","0","0",NULL,NULL
+"453","13","Саар","Saarland","0","0",NULL,NULL
+"456","13","Саксония-Ангальт","Saxony-Anhalt","0","0",NULL,NULL
+"459","13","Шлезвиг-Гольштейн","Schleswig-Holstein","0","0",NULL,NULL
+"462","13","Тюрингия","Thuringia","0","0",NULL,NULL
+"465","38",,"Funen","0","0",NULL,NULL
+"468","38","Северная Ютландия","Nordjylland","0","0",NULL,NULL
+"471","38",,"Vestjylland","0","0",NULL,NULL
+"474","245","Галапагосские острова","Galapagos","0","0",NULL,NULL
+"477","245","Сьерра","Sierra","0","0",NULL,NULL
+"480","27","Андалусия","Andalucía","0","0",NULL,NULL
+"483","27","Арагон","Aragon","0","0",NULL,NULL
+"486","27","Астурия","Asturias","0","0",NULL,NULL
+"489","27","Балеарские острова","Balearic Islands","0","0",NULL,NULL
+"492","27","Страна Басков","Basque Country","0","0",NULL,NULL
+"495","27","Канарские острова","Canary Islands","0","0",NULL,NULL
+"498","27","Кантабрия","Cantabria","0","0",NULL,NULL
+"501","27","Кастилия-Ла-Манча","Castilla-La Mancha","0","0",NULL,NULL
+"504","27","Кастилия и Леон","Castile and Leon","0","0",NULL,NULL
+"507","27","Каталония","Catalonia","0","0",NULL,NULL
+"510","27","Галиcия","Galicia","0","0",NULL,NULL
+"513","27","Алава","Alava Province","0","0",NULL,NULL
+"516","27","Провинция Аликанте","Alicante Province","0","0",NULL,NULL
+"519","27","Провинция Авила","Avila Province","0","0",NULL,NULL
+"522","27","Провинция Барселона","Barcelona Province","0","0",NULL,NULL
+"525","27",,"Burgos Province","0","0",NULL,NULL
+"528","27",,"Cadiz Province","0","0",NULL,NULL
+"531","27",,"Ciudad Real Province","0","0",NULL,NULL
+"534","27",,"Cordoba Province","0","0",NULL,NULL
+"537","27","Фуэртевентура","Fuerteventura","0","0",NULL,NULL
+"540","27","Провинция Жирона","Girona Province","0","0",NULL,NULL
+"543","27","Гран-Канария","Gran Canaria","0","0",NULL,NULL
+"546","27",,"Granada Province","0","0",NULL,NULL
+"549","27",,"Guadalajara Province","0","0",NULL,NULL
+"552","27",,"Guipuzcoa","0","0",NULL,NULL
+"555","27","Муниципалитет Уэльва","Huelva Province","0","0",NULL,NULL
+"558","27",,"Jaén","0","0",NULL,NULL
+"561","27","Лансароте","Lanzarote","0","0",NULL,NULL
+"564","27","Ла-Риоха","La Rioja","0","0",NULL,NULL
+"567","27","Леон","Province of Leon","0","0",NULL,NULL
+"570","27",,"Lleida","0","0",NULL,NULL
+"573","27",,"Lugo Province","0","0",NULL,NULL
+"576","27","Провинция Мадрид","Community of Madrid","0","0",NULL,NULL
+"579","27","Провинция Малага","Malaga Province","0","0",NULL,NULL
+"582","27","Майорка","Majorca","0","0",NULL,NULL
+"585","27","Мурсия","Murcia","0","0",NULL,NULL
+"588","27","Наварра","Navarre","0","0",NULL,NULL
+"591","27",,"Ourense","0","0",NULL,NULL
+"594","27","Паленсия","Palencia","0","0",NULL,NULL
+"597","27",,"Pontevedra Province","0","0",NULL,NULL
+"600","27",,"Salamanca Province","0","0",NULL,NULL
+"603","27","Провинция Севилья","Seville Province","0","0",NULL,NULL
+"606","27",,"Soria","0","0",NULL,NULL
+"609","27",,"Tarragona Province","0","0",NULL,NULL
+"612","27","Тенерифе","Tenerife","0","0",NULL,NULL
+"615","27",,"Toledo Province","0","0",NULL,NULL
+"618","27",,"Valencia Province","0","0",NULL,NULL
+"621","27",,"Valladolid Province","0","0",NULL,NULL
+"624","27",,"Vizcaya","0","0",NULL,NULL
+"627","27",,"Provincia de Zamora","0","0",NULL,NULL
+"630","27",,"Zaragoza Province","0","0",NULL,NULL
+"633","12","Восточная Финляндия","Eastern Finland","0","0",NULL,NULL
+"636","12","Южная Финляндия","Southern Finland","0","0",NULL,NULL
+"639","12","Западная Финляндия","Western Finland","0","0",NULL,NULL
+"642","11","Эльзас","Alsace","0","0",NULL,NULL
+"645","11","Аквитания","Aquitaine","0","0",NULL,NULL
+"648","11","Овернь","Auvergne","0","0",NULL,NULL
+"651","11","Бретань","Brittany","0","0",NULL,NULL
+"654","11","Бургундия","Burgundy","0","0",NULL,NULL
+"657","11","Центр","Centre","0","0",NULL,NULL
+"660","11","Шампань - Арденны","Champagne - Ardenne","0","0",NULL,NULL
+"663","11","Франш-Конте","Franche-Comté","0","0",NULL,NULL
+"666","11","Лангедок-Руссильон","Languedoc-Roussillon","0","0",NULL,NULL
+"669","11","Лимузен","Limousin","0","0",NULL,NULL
+"672","11","Лотарингия","Lorraine","0","0",NULL,NULL
+"675","11","Юг-Пиренеи","Midi-Pyrénées","0","0",NULL,NULL
+"678","11","Нор-Па-де-Кале","Nord-Pas-de-Calais","0","0",NULL,NULL
+"681","11","Земли Луары","Pays de la Loire","0","0",NULL,NULL
+"684","11","Пикардия","Picardy","0","0",NULL,NULL
+"687","11","Прованс — Альпы — Лазурный Берег","Provence-Alpes-Côte d'Azur","0","0",NULL,NULL
+"690","11","Рона-Альпы","Rhône-Alps","0","0",NULL,NULL
+"693","11","Нормандия","Normandy","0","0",NULL,NULL
+"696","61","Острова Саронического залива - Аттика","Attica-Saronic Gulf Islands","0","0",NULL,NULL
+"699","61","Центральная Эллада","Central Greece","0","0",NULL,NULL
+"702","61","Киклады","Cyclades","0","0",NULL,NULL
+"705","61","Додеканес","Dodecanese","0","0",NULL,NULL
+"708","61",,"Evia-Sporades","0","0",NULL,NULL
+"711","61","Ионические острова","Ionian Islands","0","0",NULL,NULL
+"714","61",,"Macedonia","0","0",NULL,NULL
+"717","61",,"Northern Aegean Islands","0","0",NULL,NULL
+"720","61",,"Peloponnese (for supply target only)","0","0",NULL,NULL
+"723","59","Центральная Венгрия","Central Hungary","0","0",NULL,NULL
+"726","59","Западная Трансданубия","Western Transdanubia","0","0",NULL,NULL
+"729","59","Центральная Трансданубия","Central Transdanubia","0","0",NULL,NULL
+"732","59","Южная Трансданубия","Southern Transdanubia","0","0",NULL,NULL
+"735","59","Балатон","Lake Balaton","0","0",NULL,NULL
+"738","59","Северная Венгрия","Northern Hungary","0","0",NULL,NULL
+"741","59","Северный Альфёльд","Northern Great Plain","0","0",NULL,NULL
+"744","59",,"Southern Great Plain","0","0",NULL,NULL
+"747","121","Бали","Bali","0","0",NULL,NULL
+"750","121","Ява","Java","0","0",NULL,NULL
+"753","121","Сулавеси","Sulawesi","0","0",NULL,NULL
+"756","121","Калимантан","Kalimantan","0","0",NULL,NULL
+"759","121","Ломбок","Lombok","0","0",NULL,NULL
+"762","121","Суматра","Sumatra","0","0",NULL,NULL
+"765","52",,"Connacht","0","0",NULL,NULL
+"768","52",,"Leinster","0","0",NULL,NULL
+"771","52",,"Munster","0","0",NULL,NULL
+"774","52",,"Ulster","0","0",NULL,NULL
+"777","52","Каван","Cavan County","0","0",NULL,NULL
+"780","52","Графство Корк","County Cork","0","0",NULL,NULL
+"783","52","Донегал","Donegal County","0","0",NULL,NULL
+"786","52","Дублин","Dublin County","0","0",NULL,NULL
+"789","52","Голуэй","Galway County","0","0",NULL,NULL
+"792","52","Керри","Kerry","0","0",NULL,NULL
+"795","52","Килдэр","Kildare County","0","0",NULL,NULL
+"798","52","Мейо","Mayo","0","0",NULL,NULL
+"801","52","Роскоммон","Roscommon County","0","0",NULL,NULL
+"804","52","Уиклоу","Wicklow County","0","0",NULL,NULL
+"807","49",,"Central Zone","0","0",NULL,NULL
+"810","49",,"East Zone","0","0",NULL,NULL
+"813","49","Северная зона","North Zone","0","0",NULL,NULL
+"816","49",,"South Zone","0","0",NULL,NULL
+"819","49",,"Jammu & Kashmir Ski","0","0",NULL,NULL
+"822","49",,"Punjab, North","0","0",NULL,NULL
+"825","49",,"Uttaranchal, North","0","0",NULL,NULL
+"828","49",,"Haryana, North","0","0",NULL,NULL
+"831","49",,"Rajasthan, North","0","0",NULL,NULL
+"834","49",,"Uttar Pradesh, North","0","0",NULL,NULL
+"837","49",,"Jharkhand, East","0","0",NULL,NULL
+"840","49",,"West Bengal, East","0","0",NULL,NULL
+"843","49",,"Meghalaya, East","0","0",NULL,NULL
+"846","49",,"Tripura, East","0","0",NULL,NULL
+"849","49",,"Mizoram","0","0",NULL,NULL
+"852","49",,"Manipur","0","0",NULL,NULL
+"855","49",,"Nagaland","0","0",NULL,NULL
+"858","49",,"Assam, East","0","0",NULL,NULL
+"861","49",,"Arunachal Pradesh","0","0",NULL,NULL
+"864","49",,"Gujarat, Central","0","0",NULL,NULL
+"867","49",,"Bhopal, Central","0","0",NULL,NULL
+"870","49",,"Chhattisgarh","0","0",NULL,NULL
+"873","49",,"Orissa, Central","0","0",NULL,NULL
+"876","49",,"Maharashtra, Central","0","0",NULL,NULL
+"879","49",,"Goa South (deleted)","0","0",NULL,NULL
+"882","49",,"Karnataka, South","0","0",NULL,NULL
+"885","49",,"Andhra Pradesh, South","0","0",NULL,NULL
+"888","49",,"Mahe, South","0","0",NULL,NULL
+"891","49",,"Kerala, South","0","0",NULL,NULL
+"894","49",,"Tamilnadu, South","0","0",NULL,NULL
+"897","23","Калабрия","Calabria","0","0",NULL,NULL
+"900","23","Кампания","Campania","0","0",NULL,NULL
+"903","23","Эмилия-Романья","Emilia-Romagna","0","0",NULL,NULL
+"906","23","Фриули — Венеция-Джулия","Friuli Venezia Giulia","0","0",NULL,NULL
+"909","23","Лацио","Lazio","0","0",NULL,NULL
+"912","23","Лигурия","Liguria","0","0",NULL,NULL
+"915","23","Ломбардия","Lombardy","0","0",NULL,NULL
+"918","23","Марке","Marche","0","0",NULL,NULL
+"921","23","Пьемонт","Piedmont","0","0",NULL,NULL
+"924","23","Апулия","Apulia","0","0",NULL,NULL
+"927","23","Сардиния","Sardinia","0","0",NULL,NULL
+"930","23","Сицилия","Sicily","0","0",NULL,NULL
+"933","23","Тоскана","Tuscany","0","0",NULL,NULL
+"936","23","Трентино-Альто-Адидже","Trentino Alto Adige","0","0",NULL,NULL
+"939","23","Умбрия","Umbria","0","0",NULL,NULL
+"942","23","Валле д'Аоста","Valle d'Aosta","0","0",NULL,NULL
+"945","23","Венето","Veneto","0","0",NULL,NULL
+"948","255",,"Koto/Edogawa Ku","0","0",NULL,NULL
+"951","255",,"Tohoku","0","0",NULL,NULL
+"954","255","Канто","Kanto","0","0",NULL,NULL
+"957","255","Кошинецу","Koshinetsu","0","0",NULL,NULL
+"960","255","Токай","Tokai","0","0",NULL,NULL
+"963","255","Кансай","Kinki","0","0",NULL,NULL
+"966","255",,"Chugoku","0","0",NULL,NULL
+"969","255",,"Shikoku","0","0",NULL,NULL
+"972","255","Кюсю","Kyushu","0","0",NULL,NULL
+"975","157","Гоцо","Gozo","0","0",NULL,NULL
+"978","46","Джохор","Johor","0","0",NULL,NULL
+"981","46","Кедах","Kedah","0","0",NULL,NULL
+"984","46","Малакка","Melaka","0","0",NULL,NULL
+"987","46","Паханг","Pahang","0","0",NULL,NULL
+"990","46","Пенанг","Penang","0","0",NULL,NULL
+"993","46","Сабах","Sabah","0","0",NULL,NULL
+"996","46","Саравак","Sarawak","0","0",NULL,NULL
+"999","46","Селангор","Selangor","0","0",NULL,NULL
+"1002","46","Тренгану","Terengganu","0","0",NULL,NULL
+"1005","28","Дренте","Drenthe","0","0",NULL,NULL
+"1008","28","Флеволанд","Flevoland","0","0",NULL,NULL
+"1011","28","Фрисландия","Friesland","0","0",NULL,NULL
+"1014","28","Гелдерланд","Gelderland","0","0",NULL,NULL
+"1017","28","Гронинген","Groningen Province","0","0",NULL,NULL
+"1020","28","Лимбург","Limburg","0","0",NULL,NULL
+"1023","28","Северный Брабант","Noord-Brabant","0","0",NULL,NULL
+"1026","28","Северная Голландия","Noord-Holland","0","0",NULL,NULL
+"1029","28","Оверэйсел","Overijssel","0","0",NULL,NULL
+"1032","28","Утрехт","Utrecht Province","0","0",NULL,NULL
+"1035","28","Зеландия","Zeeland","0","0",NULL,NULL
+"1038","28","Южная Голландия","Zuid-Holland","0","0",NULL,NULL
+"1041","28",,"Ameland","0","0",NULL,NULL
+"1044","28",,"Dutch Coast","0","0",NULL,NULL
+"1047","28",,"Het Gooi","0","0",NULL,NULL
+"1050","28",,"Frisian lakes","0","0",NULL,NULL
+"1053","28",,"IJsselmeer","0","0",NULL,NULL
+"1056","28",,"Schiermonnikoog","0","0",NULL,NULL
+"1059","28",,"Schouwen-Duiveland","0","0",NULL,NULL
+"1062","28",,"Terschelling","0","0",NULL,NULL
+"1065","28","Тексел","Texel","0","0",NULL,NULL
+"1068","28","Твенте","Twente","0","0",NULL,NULL
+"1071","28","Велюве","Veluwe","0","0",NULL,NULL
+"1074","28",,"Vlieland","0","0",NULL,NULL
+"1077","28",,"West Frisian Islands","0","0",NULL,NULL
+"1080","28",,"Walcheren","0","0",NULL,NULL
+"1083","28",,"Zeeuws-Vlaanderen","0","0",NULL,NULL
+"1086","175","Акерсхус","Akershus","0","0",NULL,NULL
+"1089","175","Эуст-Агдер","Aust-Agder","0","0",NULL,NULL
+"1092","175","Бускеруд","Buskerud","0","0",NULL,NULL
+"1095","175","Хордаланн","Hordaland","0","0",NULL,NULL
+"1098","175","Нурланн","Nordland","0","0",NULL,NULL
+"1101","175","Оппланн","Oppland","0","0",NULL,NULL
+"1104","175","Осло","Oslo County","0","0",NULL,NULL
+"1107","175","Ругаланн","Rogaland","0","0",NULL,NULL
+"1110","175","Согн-ог-Фьюране","Sogn og Fjordane","0","0",NULL,NULL
+"1113","175","Телемарк","Telemark","0","0",NULL,NULL
+"1116","175","Вест-Агдер","Vest-Agder","0","0",NULL,NULL
+"1119","168",,"Gorkha, Nepal","0","0",NULL,NULL
+"1122","168",,"Lalitpur, Nepal","0","0",NULL,NULL
+"1125","173","Северный остров","North Island","0","0",NULL,NULL
+"1128","173",,"South Island","0","0",NULL,NULL
+"1131","192",,"Lima","0","0",NULL,NULL
+"1134","26","Лусон","Luzon","0","0",NULL,NULL
+"1137","26","Висайские острова","Visayas","0","0",NULL,NULL
+"1140","26","Минданао","Mindanao","0","0",NULL,NULL
+"1143","40","Алгарви","Algarve","0","0",NULL,NULL
+"1146","42","Даларна","Dalarna","0","0",NULL,NULL
+"1149","42","Стокгольм","Stockholm county","0","0",NULL,NULL
+"1152","42",,"Uppland","0","0",NULL,NULL
+"1155","56",,"Thailand","0","0",NULL,NULL
+"1158","57",,"Hammamet Bay","0","0",NULL,NULL
+"1161","35","Эгейский регион Турции","Aegean Region","0","0",NULL,NULL
+"1164","35","Черноморский регион Турции","Black Sea Region","0","0",NULL,NULL
+"1167","35","Центральная Анатолия","Central Anatolia Region","0","0",NULL,NULL
+"1170","35","Восточная Анатолия","East Anatolia Region","0","0",NULL,NULL
+"1173","35","Мраморноморский регион","Marmara Region","0","0",NULL,NULL
+"1176","35","Средиземноморский регион","Mediterranean Region Turkey","0","0",NULL,NULL
+"1179","35","Юго-Восточная Анатолия","South Eastern Anatolia Region","0","0",NULL,NULL
+"1182","24",,"Channel Islands","0","0",NULL,NULL
+"1185","24","Камбрия","Cumbria","0","0",NULL,NULL
+"1188","24","Дорсет","Dorset","0","0",NULL,NULL
+"1191","24","Лотиан","Lothian","0","0",NULL,NULL
+"1194","24","Эссекс","Essex","0","0",NULL,NULL
+"1197","24","Хэмпшир","Hampshire","0","0",NULL,NULL
+"1200","24","Остров Уайт","Isle of Wight","0","0",NULL,NULL
+"1203","24","Кент","Kent","0","0",NULL,NULL
+"1206","24","Ланкашир","Lancashire","0","0",NULL,NULL
+"1209","24",,"Northern Ireland","0","0",NULL,NULL
+"1212","24","Нортумберленд","Northumberland","0","0",NULL,NULL
+"1215","24","Оксфордшир","Oxfordshire","0","0",NULL,NULL
+"1218","24","Шотландия","Scotland","0","0",NULL,NULL
+"1221","24","Суррей","Surrey","0","0",NULL,NULL
+"1224","24","Историческое графство Суссекс","Sussex Historic County","0","0",NULL,NULL
+"1227","24","Гламорган","Glamorgan","0","0",NULL,NULL
+"1230","24","Уэльс","Wales","0","0",NULL,NULL
+"1233","24","Уорикшир","Warwickshire","0","0",NULL,NULL
+"1236","24","Вустершир","Worcestershire","0","0",NULL,NULL
+"1239","67","Восточный Кейп","Eastern Cape","0","0",NULL,NULL
+"1242","67",,"Northern Cape","0","0",NULL,NULL
+"1245","67","Западный Кейп","Western Cape","0","0",NULL,NULL
+"1248","28",,"PieterPad","0","0",NULL,NULL
+"1251","13","Федеральная земля Берлин","Berlin Federal State","0","0",NULL,NULL
+"1254","22","Бургенланд","Burgenland","0","0",NULL,NULL
+"1257","22","Каринтия","Carinthia","0","0",NULL,NULL
+"1260","22","Верхняя Австрия","Upper Austria","0","0",NULL,NULL
+"1263","22","Зальцбург","Salzburg","0","0",NULL,NULL
+"1266","22","Земля Вена","Vienna (state)","0","0",NULL,NULL
+"1269","11",,"Autoroute Paris - Nantes (A11)","0","0",NULL,NULL
+"1272","28",,"South Limburg","0","0",NULL,NULL
+"1275","66","Альпы","The Alps","0","0",NULL,NULL
+"1278","73","Канильо","Canillo","0","0",NULL,NULL
+"1281","73","Андорра-ла-Велья","Andorra la Vella","0","0",NULL,NULL
+"1284","73","Энкамп","Encamp","0","0",NULL,NULL
+"1287","73","Эскальдес-Энгордань","Escaldes-Engordany","0","0",NULL,NULL
+"1290","73","Ла-Массана","La Massana","0","0",NULL,NULL
+"1293","73","Ордино","Ordino","0","0",NULL,NULL
+"1296","73","Сант-Жулия-де-Лория","Sant Julià de Lòria","0","0",NULL,NULL
+"1299","30","Эмират Абу-Даби","Abu Dhabi Emirate","0","0",NULL,NULL
+"1302","141",,"Curaçao","0","0",NULL,NULL
+"1305","75",,"Antigua","0","0",NULL,NULL
+"1308","77",,"Aruba","0","0",NULL,NULL
+"1311","81",,"Barbados Island","0","0",NULL,NULL
+"1314","58","София","Sofia Province","0","0",NULL,NULL
+"1317","58","Благоевград","Blagoevgrad Province","0","0",NULL,NULL
+"1320","50","Бруней-Муара","Brunei-Muara","0","0",NULL,NULL
+"1323","14","Пекин","Beijing Area","0","0",NULL,NULL
+"1326","233","Монтевидео","Montevideo","0","0",NULL,NULL
+"1329","233","Колония-дель-Сакраменто","Colonia del Sacramento","0","0",NULL,NULL
+"1332","233","Пунта-дель-Эсте","Punta del Este","0","0",NULL,NULL
+"1335","10","Граубюнден","Grisons","0","0",NULL,NULL
+"1338","10",,"Lake Lucerne","0","0",NULL,NULL
+"1341","10","Нёвшательское озеро","Lake Neuchatel","0","0",NULL,NULL
+"1344","138","Алахуэла","Alajuela","0","0",NULL,NULL
+"1347","138","Лимон","Limon","0","0",NULL,NULL
+"1350","138","Сан-Хосе","San José","0","0",NULL,NULL
+"1353","41",,"Camagüey Province","0","0",NULL,NULL
+"1356","41",,"Ciego de Ávila Province","0","0",NULL,NULL
+"1359","41",,"Cienfuegos","0","0",NULL,NULL
+"1362","41",,"Isla de la Juventud","0","0",NULL,NULL
+"1365","41",,"Las Tunas Province","0","0",NULL,NULL
+"1368","41",,"Matanzas","0","0",NULL,NULL
+"1371","41",,"Santiago de Cuba Province","0","0",NULL,NULL
+"1374","41",,"Villa Clara","0","0",NULL,NULL
+"1377","41","Гавана","Ciudad de La Habana Province","0","0",NULL,NULL
+"1380","41",,"Holguín Province","0","0",NULL,NULL
+"1383","41",,"Sancti Spíritus","0","0",NULL,NULL
+"1386","130",,"Cyprus Island","0","0",NULL,NULL
+"1389","130",,"Cyprus Government controlled area","0","0",NULL,NULL
+"1392","31","Шумава","Sumava mountains","0","0",NULL,NULL
+"1395","117","Санто-Доминго","Santo Domingo Province","0","0",NULL,NULL
+"1398","117","Пуэрто-Плата","Puerto Plata Province","0","0",NULL,NULL
+"1401","245","Тунгурауа","Tungurahua","0","0",NULL,NULL
+"1404","245","Гуаяс","Guayas","0","0",NULL,NULL
+"1407","63","Красное море","Red Sea Governorate","0","0",NULL,NULL
+"1410","5","Харьюмаа","Harjumaa","0","0",NULL,NULL
+"1413","111","Сент-Джорджес","Saint George Parish","0","0",NULL,NULL
+"1416","111",,"Saint Andrew Parish","0","0",NULL,NULL
+"1419","103",,"Basse-Terre","0","0",NULL,NULL
+"1422","103",,"Saint Barthélemy","0","0",NULL,NULL
+"1425","103",,"Grande-Terre","0","0",NULL,NULL
+"1428","52","Мит","Meath","0","0",NULL,NULL
+"1431","254","Портленд","Portland","0","0",NULL,NULL
+"1434","254","Сент-Джеймс","Saint James","0","0",NULL,NULL
+"1437","254","Уэстморленд","Westmoreland","0","0",NULL,NULL
+"1440","254","Сент-Мэри","Saint Mary","0","0",NULL,NULL
+"1443","254","Трелони","Trelawny","0","0",NULL,NULL
+"1446","51","Луангпхабанг","Luang Prabang","0","0",NULL,NULL
+"1449","51","Вьентьян","Vientiane","0","0",NULL,NULL
+"1452","209","Кастри","Castries","0","0",NULL,NULL
+"1455","147","Клерво","Clervaux","0","0",NULL,NULL
+"1458","147","Дикирх","Diekirch","0","0",NULL,NULL
+"1461","147","Эхтернах","Echternach","0","0",NULL,NULL
+"1464","147",,"Esch-sur-Alzette","0","0",NULL,NULL
+"1467","147","Люксембург","Luxembourg","0","0",NULL,NULL
+"1470","147","Мерш","Mersch","0","0",NULL,NULL
+"1473","147","Ремих","Remich","0","0",NULL,NULL
+"1476","147","Вианден","Vianden","0","0",NULL,NULL
+"1479","147","Вильц","Wiltz","0","0",NULL,NULL
+"1482","159",,"Fort-de-France","0","0",NULL,NULL
+"1485","159","Ле-Марэн","Le Marin","0","0",NULL,NULL
+"1488","157",,"South Eastern Malta","0","0",NULL,NULL
+"1491","192","Провинция Арекипа","Arequipa","0","0",NULL,NULL
+"1494","192",,"Cusco","0","0",NULL,NULL
+"1497","192",,"Piura","0","0",NULL,NULL
+"1500","192",,"Madre de Dios","0","0",NULL,NULL
+"1503","25","Нижнесилезское воеводство","Lower Silesia","0","0",NULL,NULL
+"1506","25","Малопольское воеводство","Lesser Poland","0","0",NULL,NULL
+"1509","25","Поморское воеводство","Pomerania","0","0",NULL,NULL
+"1512","25","Великопольское воеводство","Greater Poland","0","0",NULL,NULL
+"1515","25","Мазовецкое воеводство","Masovia","0","0",NULL,NULL
+"1518","223","Тайбэй","Taipei Area","0","0",NULL,NULL
+"1521","223",,"Changhua County","0","0",NULL,NULL
+"1524","223",,"Taoyuan Municipality","0","0",NULL,NULL
+"1527","229",,"Tobago","0","0",NULL,NULL
+"1530","229","Тринидад","Trinidad","0","0",NULL,NULL
+"1533","229","Провинция Порт-оф-Спейн","Port of Spain Province","0","0",NULL,NULL
+"1536","57","Сус","Sousse","0","0",NULL,NULL
+"1539","57","Таузар","Tawzar","0","0",NULL,NULL
+"1542","214",,"Singapore","0","0",NULL,NULL
+"1545","221",,"Paramaribo","0","0",NULL,NULL
+"1548","191","Асунсьон","Asunción","0","0",NULL,NULL
+"1551","191",,"Cordillera","0","0",NULL,NULL
+"1554","42","Халланд","Halland","0","0",NULL,NULL
+"1557","42","Кальмар","Kalmar county","0","0",NULL,NULL
+"1560","42","Эстергетланд","Östergötland","0","0",NULL,NULL
+"1563","42","Сконе","Skåne","0","0",NULL,NULL
+"1566","42","Седерманланд","Sodermanland","0","0",NULL,NULL
+"1569","42","Вермланд","Värmland","0","0",NULL,NULL
+"1572","42","Вестра-Гёталанд","Västra Götaland","0","0",NULL,NULL
+"1575","42","Вестманланд","Vastmanland","0","0",NULL,NULL
+"1578","42",,"Småland","0","0",NULL,NULL
+"1581","127","Муниципалитет Пномпень","Phnom Penh Municipality","0","0",NULL,NULL
+"1584","127","Провинция Сием-Рип","Siem Reap Province","0","0",NULL,NULL
+"1587","76","Кордова","Córdoba Province","0","0",NULL,NULL
+"1590","76","Мисьонес","Misiones","0","0",NULL,NULL
+"1593","89","Гояс","Goiás","0","0",NULL,NULL
+"1596","89",,"Piauí","0","0",NULL,NULL
+"1599","243","Антофагаста","Antofagasta Region","0","0",NULL,NULL
+"1602","243",,"Tarapacá","0","0",NULL,NULL
+"1605","243",,"Bío Bío","0","0",NULL,NULL
+"1608","243",,"Atacama","0","0",NULL,NULL
+"1611","243","Кокимбо","Coquimbo Region","0","0",NULL,NULL
+"1614","243","Лос-Лагос","Los Lagos","0","0",NULL,NULL
+"1617","243","Магальянес","Magallanes","0","0",NULL,NULL
+"1620","243",,"Araucanía","0","0",NULL,NULL
+"1623","243","Вальпараисо","Valparaíso Region","0","0",NULL,NULL
+"1626","38",,"Århus","0","0",NULL,NULL
+"1629","38",,"Copenhagen","0","0",NULL,NULL
+"1632","38",,"Sønderjylland","0","0",NULL,NULL
+"1635","38",,"Vejle","0","0",NULL,NULL
+"1638","27",,"Albacete Province","0","0",NULL,NULL
+"1641","27",,"Almeria Province","0","0",NULL,NULL
+"1644","27",,"A Coruña","0","0",NULL,NULL
+"1647","11",,"Val de Marne","0","0",NULL,NULL
+"1650","11",,"Puy-de-Dôme","0","0",NULL,NULL
+"1653","61","Эвбея","Evia","0","0",NULL,NULL
+"1656","61",,"Thesprotia","0","0",NULL,NULL
+"1659","110",,"Hong Kong","0","0",NULL,NULL
+"1662","110",,"Lantau Island","0","0",NULL,NULL
+"1665","121","Острова Риау","Riau Kepulauan","0","0",NULL,NULL
+"1668","53","Западная Австралия","Western Australia","0","0",NULL,NULL
+"1671","53","Южная Австралия","South Australia","0","0",NULL,NULL
+"1674","53","Австралийская столичная территория","Australian Capital Territory","0","0",NULL,NULL
+"1677","147",,"Autoroute Luxembourg - Nice","0","0",NULL,NULL
+"1680","11","Корсика","Corsica","0","0",NULL,NULL
+"1683","27","Коста-дель-Гарраф","Costa del Garraf","0","0",NULL,NULL
+"1686","27","Коста-Брава","Costa Brava","0","0",NULL,NULL
+"1689","27","Коста-дель-Маресме","Costa del Maresme","0","0",NULL,NULL
+"1692","27","Коста-Дорада","Costa Dorada","0","0",NULL,NULL
+"1695","27",,"Azahar Coast","0","0",NULL,NULL
+"1698","27","Коста-де-Валенсия","Valencia Coast","0","0",NULL,NULL
+"1701","27","Коста-Бланка","Costa Blanca","0","0",NULL,NULL
+"1704","27","Коста-Калида","Costa Cálida","0","0",NULL,NULL
+"1707","11","Побережье Страны Басков","Basque Coast","0","0",NULL,NULL
+"1710","27",,"Cantabria Coast","0","0",NULL,NULL
+"1713","27","Косте-Верде (Астурия)","Costa Verde (Asturias)","0","0",NULL,NULL
+"1716","27",,"Altas Estuary","0","0",NULL,NULL
+"1719","27",,"Artabro Gulf","0","0",NULL,NULL
+"1722","27",,"Costa de la Muerte","0","0",NULL,NULL
+"1725","27","Риас-Бахас","Bajas Estuary","0","0",NULL,NULL
+"1728","27","Коста-де-ла-Лус","Costa de la Luz","0","0",NULL,NULL
+"1731","27","Коста-дель-Соль","Costa del Sol","0","0",NULL,NULL
+"1734","27","Коста-Тропикаль","Costa Tropical","0","0",NULL,NULL
+"1737","27","Коста-де-Альмерия","Almeria Coast","0","0",NULL,NULL
+"1740","27","Пальма","La Palma Island","0","0",NULL,NULL
+"1743","27","Форментера","Formentera","0","0",NULL,NULL
+"1746","27","Ибица","Ibiza","0","0",NULL,NULL
+"1749","27","Менорка","Menorca","0","0",NULL,NULL
+"1752","173","Окленд","Auckland Region","0","0",NULL,NULL
+"1755","173","Пленти","Bay of Plenty","0","0",NULL,NULL
+"1758","173","Кентербери","Canterbury","0","0",NULL,NULL
+"1761","173","Манавату-Уангануи","Manawatu","0","0",NULL,NULL
+"1764","173","Отаго","Otago","0","0",NULL,NULL
+"1767","173","Вайкато","Waikato","0","0",NULL,NULL
+"1770","173","Веллингтон","Wellington","0","0",NULL,NULL
+"1773","23","Абруццо","Abruzzo","0","0",NULL,NULL
+"1776","24","Джерси","Jersey","0","0",NULL,NULL
+"1779","11","Иль-де-Франс","Ile de France","0","0",NULL,NULL
+"1782","23","Озеро Комо","Lake Como","0","0",NULL,NULL
+"1785","23","Озеро Гарда","Lake Garda","0","0",NULL,NULL
+"1788","23","Озеро Лаго-Маджоре","Lago Maggiore - Italy","0","0",NULL,NULL
+"1791","23","Озеро Тразимено","Lake Trasimeno","0","0",NULL,NULL
+"1794","23","Кастелли Романи","Castelli Romani","0","0",NULL,NULL
+"1797","23","Эльба","Elba","0","0",NULL,NULL
+"1800","23","Остров Капри","Capri Island","0","0",NULL,NULL
+"1803","24","Гернси","Guernsey","0","0",NULL,NULL
+"1806","24","Озерный край","Lake District","0","0",NULL,NULL
+"1809","23","Доломиты","Dolomites","0","0",NULL,NULL
+"1812","24",,"Highland","0","0",NULL,NULL
+"1815","23","Итальянская Ривьера","Italian Riviera","0","0",NULL,NULL
+"1818","11",,"Autoroute Paris - Toulouse (A20)","0","0",NULL,NULL
+"1821","11",,"Autoroute Paris - Bordeaux (A10)","0","0",NULL,NULL
+"1824","23",,"Autoroute Karlsruhe - Milan","0","0",NULL,NULL
+"1827","13",,"Autoroute Kassel - Dresden - Prague","0","0",NULL,NULL
+"1830","13",,"Autoroute Frankfurt - Vienna","0","0",NULL,NULL
+"1833","11",,"D-day Beaches","0","0",NULL,NULL
+"1836","11",,"Mont Blanc Valley","0","0",NULL,NULL
+"1839","11",,"Gulf of Lion","0","0",NULL,NULL
+"1842","11",,"Atlantic Coast","0","0",NULL,NULL
+"1845","40","Байшу-Алентежу","Baixo Alentejo","0","0",NULL,NULL
+"1848","40","Эстремадура","Estremadura","0","0",NULL,NULL
+"1851","40",,"Ribatejo","0","0",NULL,NULL
+"1854","40","Минхо","Minho","0","0",NULL,NULL
+"1857","23","Версилия","Versilia","0","0",NULL,NULL
+"1860","23","Маремма","Grosseto Area","0","0",NULL,NULL
+"1863","23","Кьянти","Chianti","0","0",NULL,NULL
+"1866","11",,"Massif Central","0","0",NULL,NULL
+"1869","11",,"Opal Coast","0","0",NULL,NULL
+"1872","13","Бремен","Bremen","0","0",NULL,NULL
+"1875","13",,"German Wine Route","0","0",NULL,NULL
+"1878","13",,"Fairy tale Route","0","0",NULL,NULL
+"1881","13","Дорога замков","Castle Route","0","0",NULL,NULL
+"1884","13",,"Goethe Route","0","0",NULL,NULL
+"1887","13","Романтическая дорога","Romantic Road","0","0",NULL,NULL
+"1890","13","Шварцвальд","Black Forest","0","0",NULL,NULL
+"1893","13","Альгой","Allgäu","0","0",NULL,NULL
+"1896","13","Айфель","Eifel","0","0",NULL,NULL
+"1899","13","Хунсрюк","Hunsrück","0","0",NULL,NULL
+"1902","13",,"Luneburg Heath","0","0",NULL,NULL
+"1905","13",,"Siebengebirge","0","0",NULL,NULL
+"1908","13",,"Teutoburg Forest","0","0",NULL,NULL
+"1911","23","Озеро Исео","Lake Iseo","0","0",NULL,NULL
+"1914","11",,"Poitou","0","0",NULL,NULL
+"1917","11",,"Gorges du Tarn","0","0",NULL,NULL
+"1920","11",,"French Basque Country","0","0",NULL,NULL
+"1923","13","Гарц","Harz","0","0",NULL,NULL
+"1926","27",,"World Heritage Cities","0","0",NULL,NULL
+"1929","27",,"Routes of Sefarad","0","0",NULL,NULL
+"1932","27",,"Santiago's Route","0","0",NULL,NULL
+"1935","27",,"The English Route","0","0",NULL,NULL
+"1938","27",,"North Route","0","0",NULL,NULL
+"1941","27",,"The French Route","0","0",NULL,NULL
+"1944","27",,"Green Spain","0","0",NULL,NULL
+"1947","27",,"Silver Route","0","0",NULL,NULL
+"1950","27",,"Washington Irving","0","0",NULL,NULL
+"1953","36",,"Phu Quoc Island","0","0",NULL,NULL
+"1956","56","Ко-Тао","Koh Tao Island","0","0",NULL,NULL
+"1959","56","Самуи","Koh Samui","0","0",NULL,NULL
+"1962","56","Чанг","Koh Chang","0","0",NULL,NULL
+"1965","121",,"Pulau Bintan","0","0",NULL,NULL
+"1968","121",,"Pulau Batam","0","0",NULL,NULL
+"1971","26","Палаван","Palawan","0","0",NULL,NULL
+"1974","26",,"Nagarao","0","0",NULL,NULL
+"1977","13","Рюген","Rügen","0","0",NULL,NULL
+"1980","13",,"Reichenau","0","0",NULL,NULL
+"1983","116",,"Dominica","0","0",NULL,NULL
+"1986","103",,"Île Saint-Barthélemy","0","0",NULL,NULL
+"1989","61","Санторини","Santorini","0","0",NULL,NULL
+"1992","46","Острова Перхентиан","Perhentian Islands","0","0",NULL,NULL
+"1995","27",,"Badajoz Province","0","0",NULL,NULL
+"1998","27",,"Cuenca Province","0","0",NULL,NULL
+"2001","27",,"Castellon Province","0","0",NULL,NULL
+"2004","27",,"Caceres Province","0","0",NULL,NULL
+"2007","27","Эстремадура","Extremadura","0","0",NULL,NULL
+"2010","27","Валенсийское сообщество","Valencia Community","0","0",NULL,NULL
+"2013","40",,"Trás-os-Montes e Alto Douro","0","0",NULL,NULL
+"2016","40","Дору-Литорал","Douro Litoral","0","0",NULL,NULL
+"2019","40",,"Beira Interior Norte","0","0",NULL,NULL
+"2022","40",,"Beira Interior Sul","0","0",NULL,NULL
+"2025","40",,"Alto Alentejo","0","0",NULL,NULL
+"2028","11",,"Autoroute A8 - autoroutes du sud de la France","0","0",NULL,NULL
+"2031","11",,"Autoroute A51 - Autoroutes du sud de la France","0","0",NULL,NULL
+"2034","11",,"Autoroute A50 - Autoroutes du sud de la France","0","0",NULL,NULL
+"2037","11",,"A 57- Autoroutes du sud de la France","0","0",NULL,NULL
+"2040","11",,"Autoroute A55 - Autoroutes du sud de la France","0","0",NULL,NULL
+"2043","11",,"Autoroute A7 - Autoroutes du sud de la France - Autoroute du soleil","0","0",NULL,NULL
+"2046","11",,"Autoroute A52 - Autoroutes du sud de la France","0","0",NULL,NULL
+"2049","11",,"Autoroute A54 - Autoroutes du sud de la France","0","0",NULL,NULL
+"2052","11",,"Autoroute A9 - Autoroutes du sud de la France","0","0",NULL,NULL
+"2055","11",,"Autoroute A61 - Autoroutes du sud de la France","0","0",NULL,NULL
+"2058","11",,"Autoroute A66 - Autoroutes du sud de la France","0","0",NULL,NULL
+"2061","11",,"Autoroute A64 - Autoroutes du sud de la France","0","0",NULL,NULL
+"2064","11",,"Autoroute A63 - Autoroutes du sud de la France","0","0",NULL,NULL
+"2067","11",,"Autoroute A62 - Autoroutes du sud de la France","0","0",NULL,NULL
+"2070","11",,"Autoroute A20 - Autoroutes du sud de la France","0","0",NULL,NULL
+"2073","11",,"Autoroute A89 - Autoroutes du sud de la France","0","0",NULL,NULL
+"2076","11",,"Autoroute A75 - Autoroutes du sud de la France","0","0",NULL,NULL
+"2079","11",,"Autoroute A72 - Autoroutes du sud de la France","0","0",NULL,NULL
+"2082","11",,"Autoroute A10 - Autoroutes du sud de la France","0","0",NULL,NULL
+"2085","11",,"Autoroute A837 - Autoroutes du sud de la France","0","0",NULL,NULL
+"2088","11",,"Autoroute A11 - Autoroutes du sud de la France","0","0",NULL,NULL
+"2091","11","Сомма","Somme","0","0",NULL,NULL
+"2094","11","Эндр и Луара","Indre et Loire","0","0",NULL,NULL
+"2097","13","Зауэрланд","Sauerland","0","0",NULL,NULL
+"2100","11","Иль-де-Ре","Island of Ré","0","0",NULL,NULL
+"2103","25","Силезское воеводство","Silesia","0","0",NULL,NULL
+"2106","25","Западно-Поморское воеводство","West Pomerania","0","0",NULL,NULL
+"2109","147",,"Mullerthal","0","0",NULL,NULL
+"2112","147",,"Little Switzerland","0","0",NULL,NULL
+"2115","147",,"Moselle Valley Luxembourg","0","0",NULL,NULL
+"2118","11","Парижский Диснейленд","Disneyland Paris","0","0",NULL,NULL
+"2121","61","Корфу","Corfu","0","0",NULL,NULL
+"2124","130","Ларнака","Larnaca Region","0","0",NULL,NULL
+"2127","22",,"Salzburger Lake district","0","0",NULL,NULL
+"2130","11",,"Santiago's Route","0","0",NULL,NULL
+"2133","11",,"World Heritage Cities","0","0",NULL,NULL
+"2136","11",,"Oise","0","0",NULL,NULL
+"2139","163","Лазурный Берег","French Riviera","0","0",NULL,NULL
+"2142","11","Сен-Тропе залива","Gulf of Saint Tropez","0","0",NULL,NULL
+"2145","11","Воклюз","Vaucluse","0","0",NULL,NULL
+"2148","61","Родос","Rhodes","0","0",NULL,NULL
+"2151","27",,"Teruel","0","0",NULL,NULL
+"2154","23","Искья","Ischia Island","0","0",NULL,NULL
+"2157","27",,"Segovia","0","0",NULL,NULL
+"2160","22","Долина Гаштайн","Gastein Valley","0","0",NULL,NULL
+"2163","22","Высокий Тауэрн","Hohe Tauern","0","0",NULL,NULL
+"2166","13",,"Rennsteig","0","0",NULL,NULL
+"2169","22",,"Europa Sportregion","0","0",NULL,NULL
+"2172","37",,"Bruges Woodland","0","0",NULL,NULL
+"2175","22",,"Thermen- & Vulkanland Styria","0","0",NULL,NULL
+"2178","37",,"Westhoek","0","0",NULL,NULL
+"2181","37",,"Leiestreek","0","0",NULL,NULL
+"2184","22","Зальцкаммергут","Salzkammergut","0","0",NULL,NULL
+"2187","37",,"Scheldeland","0","0",NULL,NULL
+"2190","37",,"Groene Gordel","0","0",NULL,NULL
+"2193","22",,"Skicircus Saalbach Hinterglemm Leogang Fieberbrunn","0","0",NULL,NULL
+"2196","37",,"Antwerpse Kempen","0","0",NULL,NULL
+"2199","37",,"Hageland","0","0",NULL,NULL
+"2202","22","Окрестности Зальцбурга","Salzburg surrounding","0","0",NULL,NULL
+"2205","37",,"Maasland","0","0",NULL,NULL
+"2208","22",,"Central Carinthia","0","0",NULL,NULL
+"2211","37",,"Limburgse Kempen","0","0",NULL,NULL
+"2214","22",,"Nature arena Carinthia","0","0",NULL,NULL
+"2217","22",,"Wörthersee","0","0",NULL,NULL
+"2220","22",,"Semmering-Rax-Schneeberg","0","0",NULL,NULL
+"2223","22",,"Wienerwald","0","0",NULL,NULL
+"2226","22",,"Waldviertel","0","0",NULL,NULL
+"2229","22","Вахау","Wachau","0","0",NULL,NULL
+"2232","22",,"Marchfeld","0","0",NULL,NULL
+"2235","22",,"Mostviertel","0","0",NULL,NULL
+"2238","217","Дунай","Danube","0","0",NULL,NULL
+"2241","22","Ахензее","Achensee","0","0",NULL,NULL
+"2244","22","Арльберг","Arlberg","0","0",NULL,NULL
+"2247","22","Циллерталь","Zillertal","0","0",NULL,NULL
+"2250","22","Китцбюэльские Альпы","Kitzbühel Alps","0","0",NULL,NULL
+"2253","22",,"Mühlviertel","0","0",NULL,NULL
+"2256","10",,"Lake Zurich","0","0",NULL,NULL
+"2259","10",,"Schweizer Mittelland","0","0",NULL,NULL
+"2262","37",,"Flemish Ardennes","0","0",NULL,NULL
+"2265","31","Южная Богемия","South Bohemia","0","0",NULL,NULL
+"2268","31","Пльзень","Pilsen","0","0",NULL,NULL
+"2271","61","Закинф","Zakynthos","0","0",NULL,NULL
+"2274","13","Балтийское море","Baltic Sea","0","0",NULL,NULL
+"2277","37",,"Mons","0","0",NULL,NULL
+"2280","13","Узедом","Usedom","0","0",NULL,NULL
+"2283","13",,"Chiemgau","0","0",NULL,NULL
+"2286","147",,"Red Lands","0","0",NULL,NULL
+"2289","61","Кефалония","Kefalonia","0","0",NULL,NULL
+"2292","147","Капеллен","Capellen","0","0",NULL,NULL
+"2295","147",,"Redange","0","0",NULL,NULL
+"2298","23","Побережье Сорренто","Sorrento Coast","0","0",NULL,NULL
+"2301","23","Саленто","Salento","0","0",NULL,NULL
+"2304","23","Побережье Амальфи","Amalfi Coast","0","0",NULL,NULL
+"2307","24","Корнуолл","Cornwall","0","0",NULL,NULL
+"2310","24",,"Cumberland","0","0",NULL,NULL
+"2313","24","Девон","Devon","0","0",NULL,NULL
+"2316","24","Ноттингемшир","Nottinghamshire","0","0",NULL,NULL
+"2319","24","Сомерсет","Somerset","0","0",NULL,NULL
+"2322","24",,"Shetland","0","0",NULL,NULL
+"2325","24","Англия","England","0","0",NULL,NULL
+"2328","24","Лестершир","Leicestershire","0","0",NULL,NULL
+"2331","147",,"Sud","0","0",NULL,NULL
+"2334","206",,"St Martin","0","0",NULL,NULL
+"2337","13",,"Spitzingsee","0","0",NULL,NULL
+"2340","61","Греческие острова","Greek Islands","0","0",NULL,NULL
+"2343","23","Ольястра","Ogliastra","0","0",NULL,NULL
+"2346","23","Чиленто","Cilento","0","0",NULL,NULL
+"2349","35","Побережье Алании","Alanya Coast","0","0",NULL,NULL
+"2352","35",,"Antalya","0","0",NULL,NULL
+"2355","23",,"Iblei","0","0",NULL,NULL
+"2358","13",,"Vogtland","0","0",NULL,NULL
+"2361","61",,"Plaka","0","0",NULL,NULL
+"2364","23","Гарфаньяна","Garfagnana","0","0",NULL,NULL
+"2367","23",,"Lucca","0","0",NULL,NULL
+"2370","13","Зюльт","Sylt","0","0",NULL,NULL
+"2373","37","Антверпен","Antwerpen Province","0","0",NULL,NULL
+"2376","23","Ривьера Романьола","Romagna","0","0",NULL,NULL
+"2379","23","Озеро Лугано","Lake Lugano","0","0",NULL,NULL
+"2382","13",,"Steigerwald","0","0",NULL,NULL
+"2385","13",,"Osnabrücker Land","0","0",NULL,NULL
+"2388","28",,"Rijk van Nijmegen","0","0",NULL,NULL
+"2391","13",,"Ostalp","0","0",NULL,NULL
+"2394","13",,"Fichtelgebirge","0","0",NULL,NULL
+"2397","13","Тегернзе","Tegernsee","0","0",NULL,NULL
+"2400","157",,"Malta","0","0",NULL,NULL
+"2403","28",,"Region Arnhem Nijmegen","0","0",NULL,NULL
+"2406","13",,"Bavarian Forest","0","0",NULL,NULL
+"2409","13","Франкония","Franconia","0","0",NULL,NULL
+"2412","13",,"Franconian Lake District","0","0",NULL,NULL
+"2415","22","Питцталь","Pitztal","0","0",NULL,NULL
+"2418","13","Боденское озеро (Констанц)","Lake Constance","0","0",NULL,NULL
+"2421","23","Чинкве-Терре","Cinque Terre","0","0",NULL,NULL
+"2424","13",,"Ore Mountains","0","0",NULL,NULL
+"2427","13",,"Upper Palatinate Forest","0","0",NULL,NULL
+"2430","147",,"Gutland","0","0",NULL,NULL
+"2433","25","Люблинское воеводство","Lubelskie","0","0",NULL,NULL
+"2436","55","Истрия","Istria","0","0",NULL,NULL
+"2439","55","Далмация","Dalmatia","0","0",NULL,NULL
+"2442","37",,"High Fens","0","0",NULL,NULL
+"2445","27","Гомера","La Gomera","0","0",NULL,NULL
+"2448","13",,"Fischland-Darß-Zingst","0","0",NULL,NULL
+"2451","13",,"Neuschwanstein","0","0",NULL,NULL
+"2454","34","Трансильвания","Transylvania","0","0",NULL,NULL
+"2457","6","Рига","Riga","0","0",NULL,NULL
+"2460","7","Вильнюс","Vilnius county","0","0",NULL,NULL
+"2463","7","Клайпеда","Klaipeda county","0","0",NULL,NULL
+"2466","7","Каунас","Kaunas county","0","0",NULL,NULL
+"2469","5",,"South Estonia","0","0",NULL,NULL
+"2472","5",,"North Estonia","0","0",NULL,NULL
+"2475","5","Вырумаа","Võrumaa","0","0",NULL,NULL
+"2478","5",,"Lake Peipus","0","0",NULL,NULL
+"2481","10","Энгадин","Engadin","0","0",NULL,NULL
+"2484","55","Окрестности Сплита","Split Region","0","0",NULL,NULL
+"2487","55",,"Sibenik","0","0",NULL,NULL
+"2490","55","Задар","Zadar","0","0",NULL,NULL
+"2493","55",,"Kvarner","0","0",NULL,NULL
+"2496","13",,"Rostock","0","0",NULL,NULL
+"2499","13",,"Ulm","0","0",NULL,NULL
+"2502","61","Эпир","Epirus","0","0",NULL,NULL
+"2505","55",,"Zagreb","0","0",NULL,NULL
+"2508","13","Бергштрасе","Bergstraße","0","0",NULL,NULL
+"2511","10",,"Bernese Jura/Neuchatel","0","0",NULL,NULL
+"2514","10",,"Aargau / Basel region","0","0",NULL,NULL
+"2517","25","Горный хребет Высокий Есеник","Jeseniky Mountain","0","0",NULL,NULL
+"2520","25",,"Poznan","0","0",NULL,NULL
+"2523","25",,"Karkonosze","0","0",NULL,NULL
+"2526","10",,"St. Moritz Region","0","0",NULL,NULL
+"2529","13","Кимзее","Chiemsee","0","0",NULL,NULL
+"2532","61","Сирос","Syros","0","0",NULL,NULL
+"2535","61","Кос","Kos","0","0",NULL,NULL
+"2538","13","Верхняя Бавария","Upper Bavaria","0","0",NULL,NULL
+"2541","22",,"East Tyrol","0","0",NULL,NULL
+"2544","22",,"Großglockner-Grossvenediger","0","0",NULL,NULL
+"2547","31","Крконоше","Krkonose","0","0",NULL,NULL
+"2550","22","Брегенцервальд","Bregenzerwald","0","0",NULL,NULL
+"2553","31","Моравия и Силезия","Moravia-Silesia","0","0",NULL,NULL
+"2556","22",,"Spa destinations","0","0",NULL,NULL
+"2559","147",,"Upper-Sure","0","0",NULL,NULL
+"2562","13",,"Kempten","0","0",NULL,NULL
+"2565","25","Труймясто","Tricity","0","0",NULL,NULL
+"2568","23",,"Pontine","0","0",NULL,NULL
+"2571","22",,"Castels and Fortresses","0","0",NULL,NULL
+"2574","40",,"Faro District","0","0",NULL,NULL
+"2577","40",,"Braga District","0","0",NULL,NULL
+"2580","40",,"Viana do Castelo District","0","0",NULL,NULL
+"2583","40",,"Castelo Branco District","0","0",NULL,NULL
+"2586","40",,"Coimbra District","0","0",NULL,NULL
+"2589","40",,"Santarém District","0","0",NULL,NULL
+"2592","40",,"Porto District","0","0",NULL,NULL
+"2595","40",,"Aveiro District","0","0",NULL,NULL
+"2598","40",,"Lisboa District","0","0",NULL,NULL
+"2601","40",,"Evora District","0","0",NULL,NULL
+"2604","40",,"Beja District","0","0",NULL,NULL
+"2607","40",,"Setúbal District","0","0",NULL,NULL
+"2610","27",,"European Beach Destinations","0","0",NULL,NULL
+"2613","22",,"Vienna surrounding","0","0",NULL,NULL
+"2616","40","Серра-да-Эштрела","Serra da Estrela","0","0",NULL,NULL
+"2619","22",,"Zillertal Arena","0","0",NULL,NULL
+"2622","22","Эцталь","Ötztal","0","0",NULL,NULL
+"2625","11",,"Périgord","0","0",NULL,NULL
+"2628","11",,"Quercy","0","0",NULL,NULL
+"2631","11","Пиренеи","Pyrénées","0","0",NULL,NULL
+"2634","22","Вольфгангзе","Wolfgangsee","0","0",NULL,NULL
+"2637","22",,"Linz Land","0","0",NULL,NULL
+"2640","25","Свентокшиское воеводство","Swietokrzyskie","0","0",NULL,NULL
+"2643","40",,"Viseu district","0","0",NULL,NULL
+"2646","13",,"Rothenburg Land","0","0",NULL,NULL
+"2649","11",,"Calais Coquelles","0","0",NULL,NULL
+"2652","23",,"Reschenpass","0","0",NULL,NULL
+"2655","13",,"Vulkan Eifel","0","0",NULL,NULL
+"2658","13",,"Trier","0","0",NULL,NULL
+"2661","22","Штубайталь","Stubaital","0","0",NULL,NULL
+"2664","22","Озера Каринтии","Carinthian Lakes","0","0",NULL,NULL
+"2667","40",,"Leiria District","0","0",NULL,NULL
+"2670","10",,"Interlaken Region","0","0",NULL,NULL
+"2673","13","Кляйнвальзерталь","Kleinwalsertal","0","0",NULL,NULL
+"2676","28",,"Achterhoek","0","0",NULL,NULL
+"2679","22","Зеефельд","Seefeld Plateau","0","0",NULL,NULL
+"2682","61","Тинос","Tinos","0","0",NULL,NULL
+"2685","11",,"Disneyland","0","0",NULL,NULL
+"2688","175","Мёре-ог-Ромсдал","Møre og Romsdal","0","0",NULL,NULL
+"2691","175",,"Dovre","0","0",NULL,NULL
+"2694","175","Тромс","Troms","0","0",NULL,NULL
+"2697","175",,"Rondane","0","0",NULL,NULL
+"2700","175","Эстфолл","Østfold","0","0",NULL,NULL
+"2703","175","Вестфолл","Vestfold","0","0",NULL,NULL
+"2706","175","Хедмарк","Hedmark","0","0",NULL,NULL
+"2709","175","Финнмарк","Finnmark","0","0",NULL,NULL
+"2712","11","Дефанс","La Défense","0","0",NULL,NULL
+"2715","130","Лимасол","Limassol Region","0","0",NULL,NULL
+"2718","40",,"Portalegre District","0","0",NULL,NULL
+"2721","23","Ривьера-делле-Пальме","Riviera delle Palme","0","0",NULL,NULL
+"2724","23","Ривьера-дей-Фьори","Riviera dei Fiori","0","0",NULL,NULL
+"2727","11",,"Dordogne","0","0",NULL,NULL
+"2730","25","Любушское воеводство","Lubuskie","0","0",NULL,NULL
+"2733","24","Линкольншир","Lincolnshire","0","0",NULL,NULL
+"2736","24","Дербишир","Derbyshire","0","0",NULL,NULL
+"2739","24","Нортгемптоншир","Northamptonshire","0","0",NULL,NULL
+"2742","24","Чешир","Cheshire","0","0",NULL,NULL
+"2745","24","Хартфордшир","Hertfordshire","0","0",NULL,NULL
+"2748","130",,"Protaras","0","0",NULL,NULL
+"2751","23","Мугелло","Mugello","0","0",NULL,NULL
+"2754","23","Берег Этрусков","Etruscan Coast","0","0",NULL,NULL
+"2757","61","Ретимно","Rethymno","0","0",NULL,NULL
+"2760","40",,"Distrito de Bragança","0","0",NULL,NULL
+"2763","25","Регион Закопане","Zakopane Region","0","0",NULL,NULL
+"2766","35","Турецкая Ривьера","Turkish Riviera","0","0",NULL,NULL
+"2769","25",,"Krakow Region","0","0",NULL,NULL
+"2772","61","Ханья","Chania","0","0",NULL,NULL
+"2775","13",,"North Sea Coast Germany","0","0",NULL,NULL
+"2778","61",,"Mediterranean sea","0","0",NULL,NULL
+"2781","55","остров Крк","Krk Island","0","0",NULL,NULL
+"2784","55","Брач","Brac Island","0","0",NULL,NULL
+"2787","55","Остров Хвар","Hvar Island","0","0",NULL,NULL
+"2790","55","Корчула","Korcula Island","0","0",NULL,NULL
+"2793","22",,"Hiking destinations","0","0",NULL,NULL
+"2796","22",,"Tyrol West","0","0",NULL,NULL
+"2799","31","Пардубицкий край","Pardubice Region","0","0",NULL,NULL
+"2802","34",,"Muntenia","0","0",NULL,NULL
+"2805","34",,"Banat","0","0",NULL,NULL
+"2808","34",,"Moldova","0","0",NULL,NULL
+"2811","10","Давос","Davos","0","0",NULL,NULL
+"2814","61","Центральный Крит","Central Crete","0","0",NULL,NULL
+"2817","217","Низкие Татры","Low Tatra","0","0",NULL,NULL
+"2820","217","Кошицкий край","Košický kraj","0","0",NULL,NULL
+"2823","217","Высокие Татры","High Tatras","0","0",NULL,NULL
+"2826","217","Братиславский край","Bratislavský kraj","0","0",NULL,NULL
+"2829","40",,"Guarda district","0","0",NULL,NULL
+"2832","61",,"Greater Athens Area","0","0",NULL,NULL
+"2835","13",,"Swabian Forest","0","0",NULL,NULL
+"2838","13",,"Swabian Alps","0","0",NULL,NULL
+"2841","13",,"Markgräflerland","0","0",NULL,NULL
+"2844","13",,"High Rhine","0","0",NULL,NULL
+"2847","13",,"Paderborner Land","0","0",NULL,NULL
+"2850","13",,"Brunswick Land","0","0",NULL,NULL
+"2853","13",,"Thuringian Forest","0","0",NULL,NULL
+"2856","13",,"Waldecker Land","0","0",NULL,NULL
+"2859","13",,"Odenwald","0","0",NULL,NULL
+"2862","13",,"Bay of Kiel","0","0",NULL,NULL
+"2865","13",,"Westerwald","0","0",NULL,NULL
+"2868","13",,"Rhenish Hesse","0","0",NULL,NULL
+"2871","13","Нижняя Бавария","Lower Bavaria","0","0",NULL,NULL
+"2874","13",,"Bavarian Swabia","0","0",NULL,NULL
+"2877","13",,"Rhön","0","0",NULL,NULL
+"2880","13",,"Franconian Forest","0","0",NULL,NULL
+"2883","13","Мекленбургское поозёрье","Mecklenburg Lake District","0","0",NULL,NULL
+"2886","13",,"Mecklenburg Switzerland","0","0",NULL,NULL
+"2889","61",,"Thessaloniki surroundings","0","0",NULL,NULL
+"2892","147",,"Ardennes Luxembourg","0","0",NULL,NULL
+"2895","55","Лошинь","Lošinj Island","0","0",NULL,NULL
+"2898","13",,"East Frisia","0","0",NULL,NULL
+"2901","27",,"Huesca","0","0",NULL,NULL
+"2904","27",,"Sierra Nevada","0","0",NULL,NULL
+"2907","23","Изумрудный берег","Emerald Coast","0","0",NULL,NULL
+"2910","5","Ляэнемаа","Läänemaa","0","0",NULL,NULL
+"2913","5","Ляэне-Вирумаа","Lääne-Virumaa","0","0",NULL,NULL
+"2916","5","Пярнумаа","Pärnumaa","0","0",NULL,NULL
+"2919","5",,"Raplamaa","0","0",NULL,NULL
+"2922","5","Ярвамаа","Järvamaa","0","0",NULL,NULL
+"2925","5","Ида-Вирумаа","Ida-Virumaa","0","0",NULL,NULL
+"2928","5","Йыгевамаа","Jõgevamaa","0","0",NULL,NULL
+"2931","5","Тартумаа","Tartumaa","0","0",NULL,NULL
+"2934","5","Пылвамаа","Põlvamaa","0","0",NULL,NULL
+"2937","5","Валгамаа","Valgamaa","0","0",NULL,NULL
+"2940","5","Вильяндимаа","Viljandimaa","0","0",NULL,NULL
+"2943","5","Хийумаа","Hiiumaa","0","0",NULL,NULL
+"2946","5","Сааремаа","Saaremaa","0","0",NULL,NULL
+"2949","6",,"Aizkraukle Municipality","0","0",NULL,NULL
+"2952","6",,"Aluksne Municipality","0","0",NULL,NULL
+"2955","6",,"Balvi Municipality","0","0",NULL,NULL
+"2958","6",,"Bauskas","0","0",NULL,NULL
+"2961","6","Цесисский район","Cesu Municipality","0","0",NULL,NULL
+"2964","6","Даугавпилсский край","Daugavpils Municipality","0","0",NULL,NULL
+"2967","6",,"Dobele Municipality","0","0",NULL,NULL
+"2970","6",,"Gulbene Municipality","0","0",NULL,NULL
+"2973","6",,"Jekabpils Municipality","0","0",NULL,NULL
+"2976","6",,"Jelgava Municipality","0","0",NULL,NULL
+"2979","6",,"Kraslava Municipality","0","0",NULL,NULL
+"2982","6",,"Kuldiga Municipality","0","0",NULL,NULL
+"2985","6","Лиепайский район","Liepaja Municipality","0","0",NULL,NULL
+"2988","6",,"Limbazi Municipality","0","0",NULL,NULL
+"2991","6",,"Ludza Municipality","0","0",NULL,NULL
+"2994","6",,"Ogre Municipality","0","0",NULL,NULL
+"2997","6",,"Preili Municipality","0","0",NULL,NULL
+"3000","6",,"Rezekne Municipality","0","0",NULL,NULL
+"3003","6",,"Saldus Municipality","0","0",NULL,NULL
+"3006","6",,"Talsi Municipality","0","0",NULL,NULL
+"3009","6",,"Tukums Municipality","0","0",NULL,NULL
+"3012","6",,"Valka Municipality","0","0",NULL,NULL
+"3015","6",,"Ventspils Municipality","0","0",NULL,NULL
+"3018","6","Рижский залив","Gulf of Riga","0","0",NULL,NULL
+"3021","11",,"Bordeaux - Clermont Ferrand","0","0",NULL,NULL
+"3024","11",,"Lyon -Marseille","0","0",NULL,NULL
+"3027","11",,"Clermont Ferrand - Bordeaux","0","0",NULL,NULL
+"3030","61","Западный Крит","West Crete","0","0",NULL,NULL
+"3033","61",,"East Crete","0","0",NULL,NULL
+"3036","23","Базиликата","Basilicata","0","0",NULL,NULL
+"3039","27",,"Ceuta & Melilla","0","0",NULL,NULL
+"3042","217","Трнавский край","Trnavský kraj","0","0",NULL,NULL
+"3045","217","Липтов","Liptov","0","0",NULL,NULL
+"3048","217","Банскобистрицкий край","Banskobystrický kraj","0","0",NULL,NULL
+"3051","66",,"Greater Ljubljana","0","0",NULL,NULL
+"3054","66","Юлийские Альпы","Julian Alps","0","0",NULL,NULL
+"3057","66","Гореньска (Верхняя Крайна)","Gorenjska","0","0",NULL,NULL
+"3060","66","Помурье","Pomurje","0","0",NULL,NULL
+"3063","66","Корушка","Carinthia","0","0",NULL,NULL
+"3066","66","Внутренняя Крайна","Notranjska","0","0",NULL,NULL
+"3069","66","Нижняя Крайна","Dolenjska (Lower Carniola)","0","0",NULL,NULL
+"3072","66","Горишка и Карст","Goriska and Karst","0","0",NULL,NULL
+"3075","23",,"Caserta Area","0","0",NULL,NULL
+"3078","61",,"Leros","0","0",NULL,NULL
+"3081","61",,"Patra & Surroundings","0","0",NULL,NULL
+"3084","61",,"Delphi","0","0",NULL,NULL
+"3087","66","Штирия","Styria","0","0",NULL,NULL
+"3090","55","Остров Млет","Mljet Island","0","0",NULL,NULL
+"3093","13",,"Spreewald","0","0",NULL,NULL
+"3096","147","Гревенмахер","Grevenmacher","0","0",NULL,NULL
+"3099","23",,"Old Treviso Area","0","0",NULL,NULL
+"3102","23",,"Brescia Area","0","0",NULL,NULL
+"3105","23",,"Parma","0","0",NULL,NULL
+"3108","61","Патмос","Patmos","0","0",NULL,NULL
+"3111","61","Лесбос","Lesvos","0","0",NULL,NULL
+"3114","40",,"Vila Real district","0","0",NULL,NULL
+"3117","13",,"Fehmarn","0","0",NULL,NULL
+"3120","23",,"Valle dei Templi","0","0",NULL,NULL
+"3123","23",,"Procida Island","0","0",NULL,NULL
+"3126","61",,"Thessalia (for supply target only)","0","0",NULL,NULL
+"3129","61",,"Sporades","0","0",NULL,NULL
+"3132","25","Варминско-Мазурское воеводство","Warmia-Masuria","0","0",NULL,NULL
+"3135","25","Подляское воеводство","Podlaskie","0","0",NULL,NULL
+"3138","25","Куявско-Поморское воеводство","Kuyavian-Pomeranian","0","0",NULL,NULL
+"3141","25","Опольское воеводство","Opolskie","0","0",NULL,NULL
+"3144","25","Подкарпатское воеводство","Podkarpackie","0","0",NULL,NULL
+"3147","61","Сифнос","Sifnos","0","0",NULL,NULL
+"3150","35",,"Istanbul surroundings","0","0",NULL,NULL
+"3153","61",,"Agia Pelagia","0","0",NULL,NULL
+"3156","66","Словенская Истрия","Slovenian Istria","0","0",NULL,NULL
+"3159","13",,"Saxon Switzerland","0","0",NULL,NULL
+"3162","40","Пенеда-Жереш","Peneda-Gerês National Park","0","0",NULL,NULL
+"3165","40",,"Distrito de Portimão","0","0",NULL,NULL
+"3168","40",,"Sintra Region","0","0",NULL,NULL
+"3171","40",,"Pousadas de Bragança","0","0",NULL,NULL
+"3174","159",,"French West Indies","0","0",NULL,NULL
+"3177","215",,"West Indies","0","0",NULL,NULL
+"3180","40","Архипелаг Мадейра","Madeira Islands","0","0",NULL,NULL
+"3183","13",,"Lake Starnberger","0","0",NULL,NULL
+"3186","11",,"Mont Saint Michel","0","0",NULL,NULL
+"3189","37",,"Oost Kantons","0","0",NULL,NULL
+"3192","61","Милос","Milos","0","0",NULL,NULL
+"3195","23","Брианца","Brianza","0","0",NULL,NULL
+"3198","13","Европа-парк","Europa-Park","0","0",NULL,NULL
+"3201","13",,"Taunus","0","0",NULL,NULL
+"3204","19","Флорида-Кис","Florida Keys","0","0",NULL,NULL
+"3207","59",,"Lake Neusiedl","0","0",NULL,NULL
+"3210","19",,"Manhattan","0","0",NULL,NULL
+"3213","19",,"The Keys","0","0",NULL,NULL
+"3216","37",,"Hoge Kempen","0","0",NULL,NULL
+"3219","19",,"Dallas - Fort Worth Metropolitan Area","0","0",NULL,NULL
+"3222","23",,"Stromboli","0","0",NULL,NULL
+"3225","37",,"Mijnstreek","0","0",NULL,NULL
+"3228","37",,"Haspengouw","0","0",NULL,NULL
+"3231","13",,"Hockenheim Ring","0","0",NULL,NULL
+"3234","13",,"Potsdam","0","0",NULL,NULL
+"3237","13",,"Weser Uplands","0","0",NULL,NULL
+"3240","13",,"Franconian Switzerland","0","0",NULL,NULL
+"3243","19",,"Orlando Metropolitan Area","0","0",NULL,NULL
+"3246","19","Диснейуорлд Орландо","Disney World Area","0","0",NULL,NULL
+"3249","23","Побережье Римини","Rimini Coast","0","0",NULL,NULL
+"3252","13",,"Spessart","0","0",NULL,NULL
+"3255","25","Лодзинское воеводство","Lodz","0","0",NULL,NULL
+"3258","13",,"Schaumburg Land","0","0",NULL,NULL
+"3261","11","Женевское озеро","Lake Geneva","0","0",NULL,NULL
+"3264","61","Пелион","Pelion","0","0",NULL,NULL
+"3267","10",,"Jungfrau","0","0",NULL,NULL
+"3270","10",,"Matterhorn","0","0",NULL,NULL
+"3273","11","Долина Луары","Loire Valley","0","0",NULL,NULL
+"3276","52","Лимерик","Limerick County","0","0",NULL,NULL
+"3279","52","Клэр","Clare","0","0",NULL,NULL
+"3282","52","Уэксфорд","Wexford County","0","0",NULL,NULL
+"3285","52","Карлоу","Carlow County","0","0",NULL,NULL
+"3288","52","Литрим","Leitrim","0","0",NULL,NULL
+"3291","52","Килкенни","Kilkenny County","0","0",NULL,NULL
+"3294","52","Уотерфорд","Waterford County","0","0",NULL,NULL
+"3297","23","Липарские острова","Aeolian Islands","0","0",NULL,NULL
+"3300","23",,"Vulcano","0","0",NULL,NULL
+"3303","19",,"Puerto Rico","0","0",NULL,NULL
+"3306","19","Нью-Йоркская агломерация","New York Metropolitan area","0","0",NULL,NULL
+"3309","13",,"Ruhr area","0","0",NULL,NULL
+"3312","13",,"Ravensburg","0","0",NULL,NULL
+"3315","25","Балтийское море","Baltic Sea","0","0",NULL,NULL
+"3318","19","Округ Колумбия","District of Columbia","0","0",NULL,NULL
+"3321","124",,"Gullbringusýsla","0","0",NULL,NULL
+"3324","124",,"Eyjafjardarsysla","0","0",NULL,NULL
+"3327","124",,"Sudur-Mulasysla","0","0",NULL,NULL
+"3330","124",,"Austur-Skaftafellssysla","0","0",NULL,NULL
+"3333","124",,"Arnessysla","0","0",NULL,NULL
+"3336","124",,"Borgarfjardarsysla","0","0",NULL,NULL
+"3339","124",,"Sudur-Thingeyjarsysla","0","0",NULL,NULL
+"3342","124",,"Skagafjardarsysla","0","0",NULL,NULL
+"3345","255","Хоккайдо","Hokkaido","0","0",NULL,NULL
+"3348","255",,"Miyazaki","0","0",NULL,NULL
+"3351","255","Исикава","Ishikawa","0","0",NULL,NULL
+"3354","58","Добрич","Dobrich Province","0","0",NULL,NULL
+"3357","58","Смолян","Smolyan Province","0","0",NULL,NULL
+"3360","58","Плевен","Pleven Province","0","0",NULL,NULL
+"3363","58","Велико-Тырново","Veliko Tarnovo Province","0","0",NULL,NULL
+"3366","58","Пазарджик","Pazardzhik Province","0","0",NULL,NULL
+"3369","34","Брашов","Brasov","0","0",NULL,NULL
+"3372","34",,"Coverlui","0","0",NULL,NULL
+"3375","34","Бихор","Bihor","0","0",NULL,NULL
+"3378","34","Арджеш","Arges","0","0",NULL,NULL
+"3381","34","Мехединци","Mehedinti","0","0",NULL,NULL
+"3384","217",,"Dudince","0","0",NULL,NULL
+"3387","52","Типперэри","Tipperary County","0","0",NULL,NULL
+"3390","19",,"San Francisco Metropolitan Area","0","0",NULL,NULL
+"3393","22",,"Traunsee","0","0",NULL,NULL
+"3396","23","Коста-Парадизо","Costa Paradiso","0","0",NULL,NULL
+"3399","23","Коста-Реи","Costa Rei","0","0",NULL,NULL
+"3402","10",,"Lake Thun","0","0",NULL,NULL
+"3405","13",,"Lower Franconia","0","0",NULL,NULL
+"3408","61","Тасос","Thasos","0","0",NULL,NULL
+"3411","24",,"Westmorland","0","0",NULL,NULL
+"3414","24","Йоркшир","Yorkshire","0","0",NULL,NULL
+"3417","24","Шропшир","Shropshire","0","0",NULL,NULL
+"3420","24","Стаффордшир","Staffordshire","0","0",NULL,NULL
+"3423","24","Ратленд","Rutland","0","0",NULL,NULL
+"3426","24",,"Soke of Peterborough","0","0",NULL,NULL
+"3429","24",,"Huntingdonshire","0","0",NULL,NULL
+"3432","24","Кембриджшир","Cambridgeshire","0","0",NULL,NULL
+"3435","24",,"Isle of Ely","0","0",NULL,NULL
+"3438","24","Суффолк","Suffolk","0","0",NULL,NULL
+"3441","24","Бедфордшир","Bedfordshire","0","0",NULL,NULL
+"3444","24","Бакингемшир","Buckinghamshire","0","0",NULL,NULL
+"3447","24","Глостершир","Gloucestershire","0","0",NULL,NULL
+"3450","24","Херефордшир","Herefordshire","0","0",NULL,NULL
+"3453","24","Уилтшир","Wiltshire","0","0",NULL,NULL
+"3456","24","Беркшир","Berkshire","0","0",NULL,NULL
+"3459","24",,"Middlesex","0","0",NULL,NULL
+"3462","24","Большой Лондон","Greater London","0","0",NULL,NULL
+"3465","24","Повис","Powys","0","0",NULL,NULL
+"3468","24","Гвинед","Gwynedd","0","0",NULL,NULL
+"3471","24","Гвент","Gwent","0","0",NULL,NULL
+"3474","24","Девед","Dyfed","0","0",NULL,NULL
+"3477","24","Клоид","Clwyd","0","0",NULL,NULL
+"3480","24","Стратклайд","Strathclyde","0","0",NULL,NULL
+"3483","24","Дамфрис и Галлоуэй","Dumfries and Galloway","0","0",NULL,NULL
+"3486","24","Шотландские границы","Borders","0","0",NULL,NULL
+"3489","24","Грампиан","Grampian","0","0",NULL,NULL
+"3492","24","Файф","Fife","0","0",NULL,NULL
+"3495","24","Центральная Шотландия","Central Scotland","0","0",NULL,NULL
+"3498","24","Графство Антрим","Antrim County","0","0",NULL,NULL
+"3501","24",,"Armagh County","0","0",NULL,NULL
+"3504","24","Графство Даун","Down County","0","0",NULL,NULL
+"3507","24","Графство Фермана","Fermanagh County","0","0",NULL,NULL
+"3510","24","Графство Лондондерри","Londonderry County","0","0",NULL,NULL
+"3513","24","Графство Тайрон","Tyrone County","0","0",NULL,NULL
+"3516","24","Эйршир","Ayrshire","0","0",NULL,NULL
+"3519","24",,"Aberdeenshire","0","0",NULL,NULL
+"3522","24","Большой Манчестер","Greater Manchester","0","0",NULL,NULL
+"3525","24","Тэйсайд","Tayside","0","0",NULL,NULL
+"3528","24","Озеро Лох-Ломонд","Loch Lomond","0","0",NULL,NULL
+"3531","13","Ганзейский город Гамбург","Hansestadt Hamburg","0","0",NULL,NULL
+"3534","19",,"Midwest","0","0",NULL,NULL
+"3537","11",,"Ardèche","0","0",NULL,NULL
+"3540","24","Лох-Несс","Loch Ness","0","0",NULL,NULL
+"3543","11",,"Vosges","0","0",NULL,NULL
+"3546","23","Арджентарио","Argentario","0","0",NULL,NULL
+"3549","58","Солнечный берег","Sunny Beach Region","0","0",NULL,NULL
+"3552","28",,"Noord Beveland","0","0",NULL,NULL
+"3555","28",,"Zuid Beveland","0","0",NULL,NULL
+"3558","19","Ниагарский водопад","Niagara Falls","0","0",NULL,NULL
+"3561","40","Коста-де-Прата","Prata Coast","0","0",NULL,NULL
+"3564","19",,"Reno","0","0",NULL,NULL
+"3567","66","Регион Бохинь","Bohinj Region","0","0",NULL,NULL
+"3570","66","Блед","Bled Region","0","0",NULL,NULL
+"3573","55",,"Ciovo Island","0","0",NULL,NULL
+"3576","55",,"Rab Island","0","0",NULL,NULL
+"3579","55",,"Sipan","0","0",NULL,NULL
+"3582","13",,"Vogelsberg Mountains","0","0",NULL,NULL
+"3585","24",,"Isle of Arran","0","0",NULL,NULL
+"3588","19","Озеро Тахо","Lake Tahoe","0","0",NULL,NULL
+"3591","23",,"Val di Chiana aretina","0","0",NULL,NULL
+"3594","23",,"Val di Chiana senese","0","0",NULL,NULL
+"3597","19","Штат Нью-Йорк","New York State","0","0",NULL,NULL
+"3600","19",,"Washington DC Metropolitan area","0","0",NULL,NULL
+"3603","19",,"Casino & Gambling","0","0",NULL,NULL
+"3606","19",,"Phoenix Area","0","0",NULL,NULL
+"3609","64",,"Yucatan","0","0",NULL,NULL
+"3612","64","Штат Мехико","State of Mexico (Edomex)","0","0",NULL,NULL
+"3615","64",,"Pacific Coast","0","0",NULL,NULL
+"3618","64",,"Central Mexico","0","0",NULL,NULL
+"3621","97","Карибские острова","Caribbean Islands","0","0",NULL,NULL
+"3624","11","Озеро Анси","Lake Annecy","0","0",NULL,NULL
+"3627","11",,"Vendée","0","0",NULL,NULL
+"3630","11",,"Landes","0","0",NULL,NULL
+"3633","55",,"Kolocep Island","0","0",NULL,NULL
+"3636","55",,"Elafiti Islands","0","0",NULL,NULL
+"3639","25","Высокие Татры","Tatras","0","0",NULL,NULL
+"3642","40",,"Estoril Coast","0","0",NULL,NULL
+"3645","19",,"Daytona Beach","0","0",NULL,NULL
+"3648","23",,"Pantelleria Island","0","0",NULL,NULL
+"3651","25","Мазурия","Masuria","0","0",NULL,NULL
+"3654","19",,"Miami Metropolitan Area","0","0",NULL,NULL
+"3657","19","Большой Лос-Анджелес","Los Angeles Metropolitan Area","0","0",NULL,NULL
+"3660","27","Пикос-де-Эуропа","Picos de Europa","0","0",NULL,NULL
+"3663","11",,"Ain","0","0",NULL,NULL
+"3666","11",,"Aisne","0","0",NULL,NULL
+"3669","11",,"Allier","0","0",NULL,NULL
+"3672","11",,"Alpes-de-Haute-Provence","0","0",NULL,NULL
+"3675","11",,"Hautes-Alpes","0","0",NULL,NULL
+"3678","11","Приморские Альпы","Alpes-Maritimes","0","0",NULL,NULL
+"3681","11",,"Ardennes","0","0",NULL,NULL
+"3684","11",,"Ariège","0","0",NULL,NULL
+"3687","11",,"Aube","0","0",NULL,NULL
+"3690","11","Од","Aude","0","0",NULL,NULL
+"3693","11",,"Aveyron","0","0",NULL,NULL
+"3696","11","Буш-дю-Рон","Bouches-du-Rhône","0","0",NULL,NULL
+"3699","11",,"Calvados","0","0",NULL,NULL
+"3702","11",,"Cantal","0","0",NULL,NULL
+"3705","11",,"Charente","0","0",NULL,NULL
+"3708","11",,"Cher","0","0",NULL,NULL
+"3711","11",,"Corrèze","0","0",NULL,NULL
+"3714","11",,"Côte-d'Or","0","0",NULL,NULL
+"3717","11",,"Côtes-d'Armor","0","0",NULL,NULL
+"3720","11",,"Creuse","0","0",NULL,NULL
+"3723","11",,"Doubs","0","0",NULL,NULL
+"3726","11",,"Drôme","0","0",NULL,NULL
+"3729","11",,"Eure","0","0",NULL,NULL
+"3732","11",,"Eure-et-Loir","0","0",NULL,NULL
+"3735","11",,"Finistère","0","0",NULL,NULL
+"3738","11",,"Gard","0","0",NULL,NULL
+"3741","11","Верхняя Гаронна","Haute-Garonne","0","0",NULL,NULL
+"3744","11",,"Gers","0","0",NULL,NULL
+"3747","11","Департамент Жиронда","Gironde","0","0",NULL,NULL
+"3750","11",,"Hérault","0","0",NULL,NULL
+"3753","11",,"Ille-et-Vilaine","0","0",NULL,NULL
+"3756","11",,"Indre","0","0",NULL,NULL
+"3759","11","Приморская Шаранта","Charente-Maritime","0","0",NULL,NULL
+"3762","11","Горный массив Юра","Jura","0","0",NULL,NULL
+"3765","11",,"Loir-et-Cher","0","0",NULL,NULL
+"3768","11","Луара","Loire","0","0",NULL,NULL
+"3771","11",,"Loire-Atlantique","0","0",NULL,NULL
+"3774","11","Ло","Lot","0","0",NULL,NULL
+"3777","11",,"Lot-et-Garonne","0","0",NULL,NULL
+"3780","11",,"Lozère","0","0",NULL,NULL
+"3783","11",,"Maine-et-Loire","0","0",NULL,NULL
+"3786","11",,"Manche","0","0",NULL,NULL
+"3789","11","Департамент Марна","Marne","0","0",NULL,NULL
+"3792","11","Верхняя Марна","Haute-Marne","0","0",NULL,NULL
+"3795","11",,"Mayenne","0","0",NULL,NULL
+"3798","11",,"Meurthe-et-Moselle","0","0",NULL,NULL
+"3801","11",,"Meuse","0","0",NULL,NULL
+"3804","11",,"Morbihan","0","0",NULL,NULL
+"3807","11",,"Moselle","0","0",NULL,NULL
+"3810","11",,"Nièvre","0","0",NULL,NULL
+"3813","11",,"Nord","0","0",NULL,NULL
+"3816","11",,"Orne","0","0",NULL,NULL
+"3819","11","Па-де-Кале","Pas-de-Calais","0","0",NULL,NULL
+"3822","11",,"Pyrénées-Atlantiques","0","0",NULL,NULL
+"3825","11",,"Hautes-Pyrénées","0","0",NULL,NULL
+"3828","11",,"Pyrénées-Orientales","0","0",NULL,NULL
+"3831","11",,"Bas-Rhin","0","0",NULL,NULL
+"3834","11",,"Haut-Rhin","0","0",NULL,NULL
+"3837","11",,"Rhône","0","0",NULL,NULL
+"3840","11",,"Haute-Saône","0","0",NULL,NULL
+"3843","11",,"Saône-et-Loire","0","0",NULL,NULL
+"3846","11",,"Sarthe","0","0",NULL,NULL
+"3849","11",,"Savoie","0","0",NULL,NULL
+"3852","11",,"Haute-Savoie","0","0",NULL,NULL
+"3855","11",,"Seine-Maritime","0","0",NULL,NULL
+"3858","11",,"Seine-et-Marne","0","0",NULL,NULL
+"3861","11",,"Yvelines","0","0",NULL,NULL
+"3864","11",,"Deux-Sèvres","0","0",NULL,NULL
+"3867","11",,"Tarn","0","0",NULL,NULL
+"3870","11",,"Tarn-et-Garonne","0","0",NULL,NULL
+"3873","11","Вар","Var","0","0",NULL,NULL
+"3876","11",,"Haute-Vienne","0","0",NULL,NULL
+"3879","11",,"Yonne","0","0",NULL,NULL
+"3882","11",,"Territoire de Belfort","0","0",NULL,NULL
+"3885","11",,"Essonne","0","0",NULL,NULL
+"3888","11",,"Hauts-de-Seine","0","0",NULL,NULL
+"3891","11",,"Seine-Saint-Denis","0","0",NULL,NULL
+"3894","11",,"Val d'Oise","0","0",NULL,NULL
+"3897","11",,"Loiret","0","0",NULL,NULL
+"3900","11",,"Isère","0","0",NULL,NULL
+"3903","27",,"Sierra de Cazorla, Segura y Las Villas Nature Reserve","0","0",NULL,NULL
+"3906","27",,"Mistake","0","0",NULL,NULL
+"3909","24","Сноудония","Snowdonia","0","0",NULL,NULL
+"3912","24","Пик-Дистрикт","Peak District","0","0",NULL,NULL
+"3915","24",,"Dartmoor","0","0",NULL,NULL
+"3918","38",,"Frederiksborg","0","0",NULL,NULL
+"3921","38",,"Roskilde","0","0",NULL,NULL
+"3924","38",,"West Zealand","0","0",NULL,NULL
+"3927","38",,"Storstrøm","0","0",NULL,NULL
+"3930","38",,"Funen county","0","0",NULL,NULL
+"3933","38",,"Ribe amt","0","0",NULL,NULL
+"3936","38",,"Ringkjøbing","0","0",NULL,NULL
+"3939","38",,"Viborg amt","0","0",NULL,NULL
+"3942","11","Пуату-Шарант","Poitou-Charentes","0","0",NULL,NULL
+"3945","40","Алентежу","Alentejo","0","0",NULL,NULL
+"3948","40","Бейра-Алта","Beira Alta","0","0",NULL,NULL
+"3951","11",,"Côte d'Argent","0","0",NULL,NULL
+"3954","19",,"Boston Metropolitan Area","0","0",NULL,NULL
+"3957","27",,"Doñana National Park","0","0",NULL,NULL
+"3960","23","Южный Тироль","South Tyrol","0","0",NULL,NULL
+"3963","13",,"Bergisches Land","0","0",NULL,NULL
+"3966","55","Макарска Ривьера","Makarska Riviera","0","0",NULL,NULL
+"3969","61","Самос","Samos","0","0",NULL,NULL
+"3972","24","Остров Мэн","Isle of Man","0","0",NULL,NULL
+"3975","64","Ривьера-Майя","Riviera Maya","0","0",NULL,NULL
+"3978","64","Веракрус","Veracruz","0","0",NULL,NULL
+"3981","86",,"Bonaire","0","0",NULL,NULL
+"3984","19","Лонг-Айленд","Long Island","0","0",NULL,NULL
+"3987","55",,"Gorski kotar","0","0",NULL,NULL
+"3990","13",,"Münsterland","0","0",NULL,NULL
+"3993","66","Савиньска","Savinjska","0","0",NULL,NULL
+"3996","10",,"Lake Brienz","0","0",NULL,NULL
+"3999","27",,"Costa de Barcelona","0","0",NULL,NULL
+"4002","61","Саронические острова","Saronic Islands","0","0",NULL,NULL
+"4005","23",,"Salina","0","0",NULL,NULL
+"4008","23",,"Lipari","0","0",NULL,NULL
+"4011","55","Плитвицкие озера","Plitvice Lakes National Park","0","0",NULL,NULL
+"4014","55","Лицко-Сеньская жупания","Lika-Senj County","0","0",NULL,NULL
+"4017","66","Мариборское Похорье","Mariborsko Pohorje","0","0",NULL,NULL
+"4020","61","Фракия","Thrace","0","0",NULL,NULL
+"4023","11",,"Vienne","0","0",NULL,NULL
+"4026","28",,"De Kempen","0","0",NULL,NULL
+"4029","24",,"Outer Hebrides","0","0",NULL,NULL
+"4032","24","Остров Льюис","Isle of Lewis","0","0",NULL,NULL
+"4035","24",,"Orkney Islands","0","0",NULL,NULL
+"4038","24","Уэст-Мидлендс","West Midlands","0","0",NULL,NULL
+"4041","24",,"Lough Neagh","0","0",NULL,NULL
+"4044","66","Приморска","Primorska","0","0",NULL,NULL
+"4047","66","Посавье","Posavje","0","0",NULL,NULL
+"4050","66","Подравье","Podravje","0","0",NULL,NULL
+"4053","66",,"Zasavje","0","0",NULL,NULL
+"4056","66","Среднесловенский регион","Osrednjeslovenska","0","0",NULL,NULL
+"4059","55","Приморско-Горанская жупания","Primorsko-Goranska županija","0","0",NULL,NULL
+"4062","55","Карловацкая жупания","Karlovac county","0","0",NULL,NULL
+"4065","23","Национальный парк Сила","Sila National Park","0","0",NULL,NULL
+"4068","40","Серра-ду-Жереш","Serra do Gerês","0","0",NULL,NULL
+"4071","40",,"Serra da Peneda","0","0",NULL,NULL
+"4074","23","Молизе","Molise","0","0",NULL,NULL
+"4077","23",,"Ustica","0","0",NULL,NULL
+"4080","52","Лаут","Louth County","0","0",NULL,NULL
+"4083","52","Лиишь","Laois","0","0",NULL,NULL
+"4086","52","Слиго","Sligo County","0","0",NULL,NULL
+"4089","52",,"Offaly","0","0",NULL,NULL
+"4092","52",,"The Burren","0","0",NULL,NULL
+"4095","52",,"Connemara","0","0",NULL,NULL
+"4098","52",,"Lough Derg","0","0",NULL,NULL
+"4101","52",,"Lough Ree","0","0",NULL,NULL
+"4104","59",,"Zala county","0","0",NULL,NULL
+"4107","59","Ваш","Vas","0","0",NULL,NULL
+"4110","59","Матра","Matra","0","0",NULL,NULL
+"4113","31","Либерецкий край","Liberec Region","0","0",NULL,NULL
+"4116","31","Оломоуцкий край","Olomouc Region","0","0",NULL,NULL
+"4119","31","Злинский край","Zlin Region","0","0",NULL,NULL
+"4122","31","Высочина","Vysocina","0","0",NULL,NULL
+"4125","31","Усти-над-Лабем","Usti nad Labem","0","0",NULL,NULL
+"4128","31","Южноморавский край","South Moravian Region","0","0",NULL,NULL
+"4131","42","Уппсала","Uppsala county","0","0",NULL,NULL
+"4134","42","Йёнчёпинг","Jönköping county","0","0",NULL,NULL
+"4137","42","Крунуберг","Kronoberg","0","0",NULL,NULL
+"4140","42","Готланд","Gotland","0","0",NULL,NULL
+"4143","42","Блекинге","Blekinge","0","0",NULL,NULL
+"4146","42","Эребру","Orebro County","0","0",NULL,NULL
+"4149","42","Евлеборг","Gavleborg","0","0",NULL,NULL
+"4152","42","Вестерноррланд","Västernorrland","0","0",NULL,NULL
+"4155","42","Емтланд","Jämtland","0","0",NULL,NULL
+"4158","42","Вестерботтен","Västerbotten","0","0",NULL,NULL
+"4161","42","Норрботтен","Norrbotten","0","0",NULL,NULL
+"4164","42",,"Mälaren","0","0",NULL,NULL
+"4167","42",,"Norrland","0","0",NULL,NULL
+"4170","42",,"Svealand","0","0",NULL,NULL
+"4173","42","Гёталанд","Gotaland","0","0",NULL,NULL
+"4176","42",,"Vänern","0","0",NULL,NULL
+"4179","42",,"Vättern","0","0",NULL,NULL
+"4182","42",,"Hjälmaren","0","0",NULL,NULL
+"4185","13",,"East Frisian Islands","0","0",NULL,NULL
+"4188","13",,"North Frisian Islands","0","0",NULL,NULL
+"4191","23","Этна","Etna","0","0",NULL,NULL
+"4194","13","Район Берхтесгаден","Berchtesgadener Land","0","0",NULL,NULL
+"4197","13",,"Norderney","0","0",NULL,NULL
+"4200","13",,"Borkum Island","0","0",NULL,NULL
+"4203","13",,"Juist","0","0",NULL,NULL
+"4206","13",,"Baltrum","0","0",NULL,NULL
+"4209","13",,"Langeoog","0","0",NULL,NULL
+"4212","13",,"Spiekeroog","0","0",NULL,NULL
+"4215","13",,"Wangerooge","0","0",NULL,NULL
+"4218","19",,"Silicon Valley","0","0",NULL,NULL
+"4221","13",,"Föhr","0","0",NULL,NULL
+"4224","13",,"Amrum","0","0",NULL,NULL
+"4227","13",,"Pellworm","0","0",NULL,NULL
+"4230","13",,"Langeneß","0","0",NULL,NULL
+"4233","13","Верхняя Франкония","Upper Franconia","0","0",NULL,NULL
+"4236","13",,"Middle Franconia","0","0",NULL,NULL
+"4239","13",,"Upper Palatinate","0","0",NULL,NULL
+"4242","13",,"Neuwerk","0","0",NULL,NULL
+"4245","55",,"Pelješac","0","0",NULL,NULL
+"4248","24","Остров Скай","Isle of Skye","0","0",NULL,NULL
+"4251","24",,"Isle of Mull","0","0",NULL,NULL
+"4254","24",,"Inner Hebrides","0","0",NULL,NULL
+"4257","13",,"Holstein Switzerland","0","0",NULL,NULL
+"4260","13",,"Nordfriesland","0","0",NULL,NULL
+"4263","13",,"Upper Lusatia","0","0",NULL,NULL
+"4266","13",,"Zittau Mountains","0","0",NULL,NULL
+"4269","13",,"Schweriner See","0","0",NULL,NULL
+"4272","13",,"Plauer See","0","0",NULL,NULL
+"4275","13",,"Kummerower See","0","0",NULL,NULL
+"4278","13",,"Lake Steinhude","0","0",NULL,NULL
+"4281","13",,"Lake Plön","0","0",NULL,NULL
+"4284","31",,"Jizera Mountains","0","0",NULL,NULL
+"4287","22",,"Weinviertel","0","0",NULL,NULL
+"4290","22",,"Traunviertel","0","0",NULL,NULL
+"4293","58","Ловеч","Lovech Province","0","0",NULL,NULL
+"4296","58","Хасково","Haskovo Province","0","0",NULL,NULL
+"4299","34","Галац","Galaţi","0","0",NULL,NULL
+"4302","34","Муреш","Mureş","0","0",NULL,NULL
+"4305","22",,"Lünersee","0","0",NULL,NULL
+"4308","10",,"Lake Walen","0","0",NULL,NULL
+"4311","24",,"Isles of Scilly","0","0",NULL,NULL
+"4314","34","Добруджа","Dobruja","0","0",NULL,NULL
+"4317","124","Рейкьянес","Reykjanes","0","0",NULL,NULL
+"4320","124",,"Snæfellsnes Peninsula","0","0",NULL,NULL
+"4323","124","Вестфирдир","Westfjords","0","0",NULL,NULL
+"4326","11","Камарг","Camargue","0","0",NULL,NULL
+"4329","11","Прованс","Provence","0","0",NULL,NULL
+"4332","11","Горж-дю-Вердон","Gorges du Verdon","0","0",NULL,NULL
+"4335","11",,"Corbières","0","0",NULL,NULL
+"4338","11",,"Morvan","0","0",NULL,NULL
+"4341","11",,"Touraine","0","0",NULL,NULL
+"4344","11",,"Anjou","0","0",NULL,NULL
+"4347","11",,"Sologne","0","0",NULL,NULL
+"4350","11","Маре-Пуатвен","Marais Poitevin","0","0",NULL,NULL
+"4353","11","Озеро Бурже","Lac du Bourget","0","0",NULL,NULL
+"4356","11",,"Cévennes","0","0",NULL,NULL
+"4359","11",,"Cotentin","0","0",NULL,NULL
+"4362","11",,"Artois","0","0",NULL,NULL
+"4365","13","Альтмюльталь","Altmühltal","0","0",NULL,NULL
+"4368","35","Каппадокия","Cappadocia","0","0",NULL,NULL
+"4371","24",,"Gibraltar","0","0",NULL,NULL
+"4374","27",,"Cabañeros","0","0",NULL,NULL
+"4377","27","Национальный парк Ордеса-и-Монте-Пердидо","Ordesa y Monte Perdido National Park","0","0",NULL,NULL
+"4380","27",,"Pirineo Aragonés","0","0",NULL,NULL
+"4383","23","Озеро Больсена","Lake Bolsena","0","0",NULL,NULL
+"4386","22","Аттерзе","Attersee","0","0",NULL,NULL
+"4389","22","Милльштеттер-Зе","Millstätter See","0","0",NULL,NULL
+"4392","22","Оссиахерзе","Ossiacher See","0","0",NULL,NULL
+"4395","27",,"La Alpujarra","0","0",NULL,NULL
+"4398","58","Кюстендил","Kyustendil Province","0","0",NULL,NULL
+"4401","58",,"Rila Mountains","0","0",NULL,NULL
+"4404","58","Пирин","Pirin Mountains","0","0",NULL,NULL
+"4407","255",,"Ryukyu islands","0","0",NULL,NULL
+"4410","13",,"Upper Middle Rhine Valley","0","0",NULL,NULL
+"4413","27",,"Barcelona target","0","0",NULL,NULL
+"4416","28",,"Amsterdam (for supply target only)","0","0",NULL,NULL
+"4419","73",,"Andorra","0","0",NULL,NULL
+"4422","37",,"Brussels Airport (for supply target only)","0","0",NULL,NULL
+"4425","13",,"Schorfheide","0","0",NULL,NULL
+"4428","13",,"Uckermark","0","0",NULL,NULL
+"4431","23",,"Venice (for supply target only)","0","0",NULL,NULL
+"4434","13",,"München (for supply target only)","0","0",NULL,NULL
+"4437","13",,"Leipzig (for supply target only)","0","0",NULL,NULL
+"4440","13",,"Dresden (for supply target only)","0","0",NULL,NULL
+"4443","13",,"Düsseldorf","0","0",NULL,NULL
+"4446","13",,"Köln (for supply target only)","0","0",NULL,NULL
+"4449","13",,"Bonn (for supply target only)","0","0",NULL,NULL
+"4452","13",,"Hannover (for supply target only)","0","0",NULL,NULL
+"4455","13",,"Heidelberg (for supply target only)","0","0",NULL,NULL
+"4458","13",,"Füssen/ Schwangau (for supply target only)","0","0",NULL,NULL
+"4461","13",,"Garmisch-Partenkirchen (for supply target only)","0","0",NULL,NULL
+"4464","13",,"Nürnberg (for supply target only)","0","0",NULL,NULL
+"4467","147",,"Luxemburg (for supply target only)","0","0",NULL,NULL
+"4470","147",,"Luxemburg-city (for supply target only)","0","0",NULL,NULL
+"4473","11",,"Paris","0","0",NULL,NULL
+"4476","24","Котсуолд","Cotswolds","0","0",NULL,NULL
+"4479","24",,"Brecon Beacons","0","0",NULL,NULL
+"4482","30","Эмират Дубай","Dubai Emirate","0","0",NULL,NULL
+"4485","61","Лефкада","Lefkada","0","0",NULL,NULL
+"4488","55",,"Slavonia","0","0",NULL,NULL
+"4491","61","Эгина","Aegina","0","0",NULL,NULL
+"4494","61","Ангистри","Agistri","0","0",NULL,NULL
+"4497","61","Андрос","Andros","0","0",NULL,NULL
+"4500","61","Хиос","Chios Island","0","0",NULL,NULL
+"4503","61","Иос","Ios","0","0",NULL,NULL
+"4506","61",,"Karpathos","0","0",NULL,NULL
+"4509","61","Миконос","Mykonos","0","0",NULL,NULL
+"4512","61","Наксос","Naxos","0","0",NULL,NULL
+"4515","61","Парос","Paros","0","0",NULL,NULL
+"4518","64","Кинтана-Роо","Quintana Roo","0","0",NULL,NULL
+"4521","27",,"Sierra de Tramuntana","0","0",NULL,NULL
+"4524","11",,"Lac de Paladru","0","0",NULL,NULL
+"4527","23","Озеро Браччано","Lake Bracciano","0","0",NULL,NULL
+"4530","23","Озеро Вико","Lake Vico","0","0",NULL,NULL
+"4533","24",,"The Broads","0","0",NULL,NULL
+"4536","24",,"Bala Lake","0","0",NULL,NULL
+"4539","61","Амолиани","Amoliani","0","0",NULL,NULL
+"4542","24","Западный Суссекс","West Sussex","0","0",NULL,NULL
+"4545","27",,"Val d'Aran","0","0",NULL,NULL
+"4548","52",,"County Longford","0","0",NULL,NULL
+"4551","112",,"Greenland (for supply target only)","0","0",NULL,NULL
+"4554","124",,"Iceland (for supply target only)","0","0",NULL,NULL
+"4557","234",,"Faroe Islands (for supply target only)","0","0",NULL,NULL
+"4560","58",,"Bulgaria","0","0",NULL,NULL
+"4563","5",,"Estonia (for supply target only)","0","0",NULL,NULL
+"4566","212",,"Serbia (for supply target only)","0","0",NULL,NULL
+"4569","146",,"Liechtenstein","0","0",NULL,NULL
+"4572","6",,"Latvia (for supply target only)","0","0",NULL,NULL
+"4575","195",,"Macedonia (for supply target only)","0","0",NULL,NULL
+"4578","37",,"Brusselstad (for supply target only)","0","0",NULL,NULL
+"4581","13",,"Frankfurt a/M (for supply target only)","0","0",NULL,NULL
+"4584","13",,"Stuttgart (for supply target only)","0","0",NULL,NULL
+"4587","130",,"Cyprus (for supply target only)","0","0",NULL,NULL
+"4590","19",,"Miami Area (for supply target only)","0","0",NULL,NULL
+"4593","19",,"Orlando Area (for supply target only)","0","0",NULL,NULL
+"4596","19",,"Washington DC Area (for supply target only)","0","0",NULL,NULL
+"4599","19",,"SFO Area (for supply target only)","0","0",NULL,NULL
+"4602","19",,"LA Area (for supply target only)","0","0",NULL,NULL
+"4605","40",,"Albufeira Area (for supply target only)","0","0",NULL,NULL
+"4608","40",,"Lisbon City (for supply target only)","0","0",NULL,NULL
+"4611","40",,"Vilamoura Area (for supply target only)","0","0",NULL,NULL
+"4614","13",,"Lower Rhine","0","0",NULL,NULL
+"4617","130","Пафос","Paphos Region","0","0",NULL,NULL
+"4620","130","Никосия","Nicosia Region","0","0",NULL,NULL
+"4623","61",,"Athens (for supply target only)","0","0",NULL,NULL
+"4626","22","Ски Амаде","Ski Amadé","0","0",NULL,NULL
+"4629","61",,"Antiparos","0","0",NULL,NULL
+"4632","61","Фолегандрос","Folegandros","0","0",NULL,NULL
+"4635","61","Аморгос","Amorgos","0","0",NULL,NULL
+"4638","61","Итака","Ithaca","0","0",NULL,NULL
+"4641","61","Паксос","Paxoi","0","0",NULL,NULL
+"4644","61",,"Antipaxos","0","0",NULL,NULL
+"4647","61",,"Kalymnos","0","0",NULL,NULL
+"4650","61",,"Limnos","0","0",NULL,NULL
+"4653","61","Спеце","Spetses","0","0",NULL,NULL
+"4656","61","Идра","Hydra","0","0",NULL,NULL
+"4659","61","Алонисос","Alonissos","0","0",NULL,NULL
+"4662","61","Скопелос","Skopelos","0","0",NULL,NULL
+"4665","61","Скиатос","Skiathos","0","0",NULL,NULL
+"4668","19","Большой Чикаго","Chicago Metropolitan Area","0","0",NULL,NULL
+"4671","217","Жилинский край","Žilinský kraj","0","0",NULL,NULL
+"4674","217","Тренчианский край","Trenčiansky kraj","0","0",NULL,NULL
+"4677","217","Нитранский край","Nitriansky kraj","0","0",NULL,NULL
+"4680","217","Прешовский край","Prešovský kraj","0","0",NULL,NULL
+"4683","175",,"Valdres","0","0",NULL,NULL
+"4686","175","Нур-Тренделаг","Nord-Trøndelag","0","0",NULL,NULL
+"4689","175","Сер-Тренделаг","Sør-Trøndelag","0","0",NULL,NULL
+"4692","147",,"Oesling","0","0",NULL,NULL
+"4695","55","Остров Црес","Cres Island","0","0",NULL,NULL
+"4698","55","Ластово","Lastovo Island","0","0",NULL,NULL
+"4701","55","Вис","Vis Island","0","0",NULL,NULL
+"4704","55","Остров Паг","Pag Island","0","0",NULL,NULL
+"4707","24","Восточный Сассекс","East Sussex","0","0",NULL,NULL
+"4710","13",,"Lauenburg","0","0",NULL,NULL
+"4713","13",,"Lauenburg Lakes","0","0",NULL,NULL
+"4716","10",,"Lake Biel","0","0",NULL,NULL
+"4719","27",,"Burgos enclave in Alava","0","0",NULL,NULL
+"4722","23","Крете-Сенези","Crete Senesi","0","0",NULL,NULL
+"4725","23",,"Val di Chiana","0","0",NULL,NULL
+"4728","23","Валь д’Орча","Val d'Orcia","0","0",NULL,NULL
+"4731","23",,"Valdarno","0","0",NULL,NULL
+"4734","23",,"Val di Merse","0","0",NULL,NULL
+"4737","124",,"Norður-Múlasýsla","0","0",NULL,NULL
+"4740","58",,"Sliven Province","0","0",NULL,NULL
+"4743","124",,"Rangárvallasýsla","0","0",NULL,NULL
+"4746","124",,"Vestur-Skaftafellssýsla","0","0",NULL,NULL
+"4749","24",,"Exmoor","0","0",NULL,NULL
+"4752","24","Полуостров Гоуэр","Gower Peninsula","0","0",NULL,NULL
+"4755","24",,"Vale of Glamorgan","0","0",NULL,NULL
+"4758","55",,"Murter Island","0","0",NULL,NULL
+"4761","67",,"North West","0","0",NULL,NULL
+"4764","67","Гаутенг","Gauteng","0","0",NULL,NULL
+"4767","67","Лимпопо","Limpopo","0","0",NULL,NULL
+"4770","67","Мпумаланга","Mpumalanga","0","0",NULL,NULL
+"4773","67","Квазулу-Наталь","KwaZulu-Natal","0","0",NULL,NULL
+"4776","67","Фри-Стейт","Free State","0","0",NULL,NULL
+"4779","27","Каталонские Пиренеи","Pirineo Catalán","0","0",NULL,NULL
+"4782","11","Лез-Арк","Les Arcs","0","0",NULL,NULL
+"4785","24","Нью-Форест","New Forest","0","0",NULL,NULL
+"4788","34","Сучава","Suceava","0","0",NULL,NULL
+"4791","55","Крапинско-Загорская жупания","Krapina-Zagorje County","0","0",NULL,NULL
+"4794","58","Габрово","Gabrovo Province","0","0",NULL,NULL
+"4797","58",,"Kardzhali Province","0","0",NULL,NULL
+"4800","58",,"Montana Province","0","0",NULL,NULL
+"4803","58",,"Pernik Province","0","0",NULL,NULL
+"4806","58",,"Razgrad Province","0","0",NULL,NULL
+"4809","58","Русе","Ruse Province","0","0",NULL,NULL
+"4812","58","Шумен","Shumen Province","0","0",NULL,NULL
+"4815","58","Силистра","Silistra Province","0","0",NULL,NULL
+"4818","58","Стара Загора","Stara Zagora Province","0","0",NULL,NULL
+"4821","58",,"Targovishte Province","0","0",NULL,NULL
+"4824","58","Видин","Vidin Province","0","0",NULL,NULL
+"4827","58",,"Vratsa Province","0","0",NULL,NULL
+"4830","58","Ямбол","Yambol Province","0","0",NULL,NULL
+"4833","34","Алба","Alba","0","0",NULL,NULL
+"4836","34","Арад","Arad","0","0",NULL,NULL
+"4839","34","Бакэу","Bacău","0","0",NULL,NULL
+"4842","34","Бистрица-Нэсэуд","Bistriţa-Năsăud","0","0",NULL,NULL
+"4845","34","Ботошани","Botoşani","0","0",NULL,NULL
+"4848","34","Брэила","Brăila","0","0",NULL,NULL
+"4851","34","Бузэу","Buzău","0","0",NULL,NULL
+"4854","34","Караш-Северин","Caraş-Severin","0","0",NULL,NULL
+"4857","34",,"Călăraşi","0","0",NULL,NULL
+"4860","34","Клуж","Cluj","0","0",NULL,NULL
+"4863","34","Констанца","Constanţa County","0","0",NULL,NULL
+"4866","34","Ковасна","Covasna","0","0",NULL,NULL
+"4869","34","Дымбовица","Dâmboviţa","0","0",NULL,NULL
+"4872","34","Долж","Dolj","0","0",NULL,NULL
+"4875","34","Джурджу","Giurgiu","0","0",NULL,NULL
+"4878","34","Горж","Gorj","0","0",NULL,NULL
+"4881","34","Харгита","Harghita","0","0",NULL,NULL
+"4884","34","Хунедоара","Hunedoara","0","0",NULL,NULL
+"4887","34",,"Ialomiţa","0","0",NULL,NULL
+"4890","34","Яссы","Iaşi","0","0",NULL,NULL
+"4893","34","Илфов","Ilfov","0","0",NULL,NULL
+"4896","34","Марамуреш","Maramureş","0","0",NULL,NULL
+"4899","34","Нямц","Neamţ","0","0",NULL,NULL
+"4902","34","Олт","Olt","0","0",NULL,NULL
+"4905","34","Прахова","Prahova","0","0",NULL,NULL
+"4908","34","Сату-Маре","Satu Mare","0","0",NULL,NULL
+"4911","34","Салай","Sălaj","0","0",NULL,NULL
+"4914","34","Жудец Сибиу","Sibiu County","0","0",NULL,NULL
+"4917","34",,"Teleorman","0","0",NULL,NULL
+"4920","34","Тимиш","Timiş","0","0",NULL,NULL
+"4923","34","Тулча","Tulcea","0","0",NULL,NULL
+"4926","34",,"Vaslui","0","0",NULL,NULL
+"4929","34","Вылча","Vâlcea","0","0",NULL,NULL
+"4932","34",,"Vrancea","0","0",NULL,NULL
+"4935","34",,"Danube Delta","0","0",NULL,NULL
+"4938","12","Лапландия","Lapland","0","0",NULL,NULL
+"4941","12","Аландские острова","Åland Islands","0","0",NULL,NULL
+"4944","61","Икария","Icaria","0","0",NULL,NULL
+"4947","24",,"Yorkshire Dales","0","0",NULL,NULL
+"4950","24",,"North York Moors","0","0",NULL,NULL
+"4953","24",,"Galloway Forest Park","0","0",NULL,NULL
+"4956","24",,"National Forest","0","0",NULL,NULL
+"4959","24",,"Forest of Dean","0","0",NULL,NULL
+"4962","24",,"Cairngorms","0","0",NULL,NULL
+"4965","24",,"South Downs","0","0",NULL,NULL
+"4968","24",,"Kent Downs","0","0",NULL,NULL
+"4971","24",,"Surrey Hills","0","0",NULL,NULL
+"4974","24",,"The Chilterns","0","0",NULL,NULL
+"4977","24",,"Blackdown Hills","0","0",NULL,NULL
+"4980","24",,"Dedham Vale","0","0",NULL,NULL
+"4983","24",,"Forest of Bowland","0","0",NULL,NULL
+"4986","24",,"High Weald","0","0",NULL,NULL
+"4989","24",,"Lincolnshire Wolds","0","0",NULL,NULL
+"4992","24",,"Malvern Hills","0","0",NULL,NULL
+"4995","24",,"Mendip Hills","0","0",NULL,NULL
+"4998","24",,"Nidderdale","0","0",NULL,NULL
+"5001","24",,"North Pennines","0","0",NULL,NULL
+"5004","24",,"North Wessex Downs","0","0",NULL,NULL
+"5007","24",,"Quantock Hills","0","0",NULL,NULL
+"5010","24",,"Tamar Valley","0","0",NULL,NULL
+"5013","24",,"Shropshire Hills","0","0",NULL,NULL
+"5016","13",,"Frankenhöhe","0","0",NULL,NULL
+"5019","13",,"Saale-Unstrut","0","0",NULL,NULL
+"5022","7","Алитус","Alytus County","0","0",NULL,NULL
+"5025","7","Мариямполе","Marijampolė county","0","0",NULL,NULL
+"5028","7","Паневежис","Panevėžys county","0","0",NULL,NULL
+"5031","7","Шяуляй","Šiauliai county","0","0",NULL,NULL
+"5034","7","Таураге","Tauragė county","0","0",NULL,NULL
+"5037","7","Тельшяй","Telšiai county","0","0",NULL,NULL
+"5040","7","Утена","Utena county","0","0",NULL,NULL
+"5043","6","Курземе","Kurzeme","0","0",NULL,NULL
+"5046","6","Земгале","Zemgale","0","0",NULL,NULL
+"5049","6",,"Vidzeme (deleted)","0","0",NULL,NULL
+"5052","6","Латгалия","Latgale","0","0",NULL,NULL
+"5055","6",,"Pieriga","0","0",NULL,NULL
+"5058","27",,"Urdaibai","0","0",NULL,NULL
+"5061","27",,"Cabo Finisterre","0","0",NULL,NULL
+"5064","27",,"Cape Finisterre","0","0",NULL,NULL
+"5067","23","Полуостров Соррентине","Sorrentine Peninsula","0","0",NULL,NULL
+"5070","61","Кассандра","Kassandra","0","0",NULL,NULL
+"5073","61","Ситония","Sithonia","0","0",NULL,NULL
+"5076","61","Гора Афон","Mount Athos","0","0",NULL,NULL
+"5079","30","Эмират Шарджа","Sharjah Emirate","0","0",NULL,NULL
+"5082","30","Фуджейра","Fujairah","0","0",NULL,NULL
+"5085","30","Рас-Аль-Хайма","Ras Al Khaimah","0","0",NULL,NULL
+"5088","30","Аджман","Ajman","0","0",NULL,NULL
+"5091","30","Умм-эль-Кайвайн","Umm al-Quwain","0","0",NULL,NULL
+"5094","11",,"Vanoise National Park","0","0",NULL,NULL
+"5097","55","Загребская жупания","Zagreb County","0","0",NULL,NULL
+"5100","23","Национальный парк Стельвио","Stelvio National Park","0","0",NULL,NULL
+"5103","23","Гаргано","Gargano","0","0",NULL,NULL
+"5106","23","Майелла","Majella","0","0",NULL,NULL
+"5109","23","Гран-Сассо","Gran Sasso","0","0",NULL,NULL
+"5112","23","Монти-делла-Лага","Monti della Laga","0","0",NULL,NULL
+"5115","23","Монти-Сибиллини","Monti Sibillini","0","0",NULL,NULL
+"5118","23","Национальный парк Форесте-Касентинези, Монте-Фальтерона и Кампинья","Parco nazionale delle Foreste Casentinesi, Monte Falterona e Campigna","0","0",NULL,NULL
+"5121","23","Поллино","Pollino","0","0",NULL,NULL
+"5124","23","Аспромонте","Aspromonte","0","0",NULL,NULL
+"5127","23","Горы Неброди","Nebrodi Park","0","0",NULL,NULL
+"5130","175","Согне-фьорд","Sognefjord","0","0",NULL,NULL
+"5133","124","Хёвюдборгарсвайдид","Reykjavik Greater Region","0","0",NULL,NULL
+"5136","124","Нордурланд","North Iceland","0","0",NULL,NULL
+"5139","124","Сюдюрланд","South Iceland","0","0",NULL,NULL
+"5142","124","Эйстюрланд","East Iceland","0","0",NULL,NULL
+"5145","124","Вестурланд","West Iceland","0","0",NULL,NULL
+"5148","23","Фавиньяна","Favignana","0","0",NULL,NULL
+"5151","23",,"Aegadian Islands","0","0",NULL,NULL
+"5154","23","Лампедуза","Lampedusa","0","0",NULL,NULL
+"5157","13",,"Rhine District","0","0",NULL,NULL
+"5160","13",,"Heligoland","0","0",NULL,NULL
+"5163","27",,"Ribeira Sacra","0","0",NULL,NULL
+"5166","28",,"Zuid-Holland Zuid","0","0",NULL,NULL
+"5169","28",,"Goeree-Overflakkee","0","0",NULL,NULL
+"5172","13",,"Autoroute Frankfurt Salzburg","0","0",NULL,NULL
+"5175","28",,"Autoroute Utrecht Paris","0","0",NULL,NULL
+"5178","28",,"Autoroute Utrecht Frankfurt","0","0",NULL,NULL
+"5181","19",,"Joshua Tree National Park","0","0",NULL,NULL
+"5184","27",,"Cadí-Moixeró","0","0",NULL,NULL
+"5187","27",,"Sierra de Gredos","0","0",NULL,NULL
+"5190","11",,"Étang de Berre","0","0",NULL,NULL
+"5193","30",,"UAE Supply Target","0","0",NULL,NULL
+"5196","27",,"Sierra de Grazalema","0","0",NULL,NULL
+"5199","67","Национальный парк Крюгер","Kruger National Park","0","0",NULL,NULL
+"5202","28",,"3Vtravel","0","0",NULL,NULL
+"5205","38","Столичная область","Hovedstaden","0","0",NULL,NULL
+"5208","38","Центральная Ютландия","Midtjylland","0","0",NULL,NULL
+"5211","38","Южная Дания","Syddanmark","0","0",NULL,NULL
+"5214","38","Зеландия","Sjælland og Øerne","0","0",NULL,NULL
+"5217","38","Борнхольм","Bornholm","0","0",NULL,NULL
+"5220","38",,"Jutland","0","0",NULL,NULL
+"5223","38",,"Sealand","0","0",NULL,NULL
+"5226","42",,"Sweden South","0","0",NULL,NULL
+"5229","42",,"Sweden North","0","0",NULL,NULL
+"5232","67",,"Makalali Conservancy","0","0",NULL,NULL
+"5235","67",,"Balule Conservancy","0","0",NULL,NULL
+"5238","67",,"Klaserie Nature Reserve","0","0",NULL,NULL
+"5241","67",,"Kapama Game Reserve","0","0",NULL,NULL
+"5244","67",,"Thornybush Game Reserve","0","0",NULL,NULL
+"5247","67",,"Timbavati Game Reserve","0","0",NULL,NULL
+"5250","67",,"Manyeleti Game Reserve","0","0",NULL,NULL
+"5253","67",,"Sabi Sand Game Reserve","0","0",NULL,NULL
+"5256","28",,"Zaanstreek","0","0",NULL,NULL
+"5259","28",,"West-Friesland","0","0",NULL,NULL
+"5262","23","Дельта реки По","Po Delta","0","0",NULL,NULL
+"5265","55","Вараждинская жупания","Varaždin County","0","0",NULL,NULL
+"5268","43","Альберта","Alberta","0","0",NULL,NULL
+"5271","43",,"Banff National Park","0","0",NULL,NULL
+"5274","43","Манитоба","Manitoba","0","0",NULL,NULL
+"5277","43","Саскачеван","Saskatchewan","0","0",NULL,NULL
+"5280","43","Нью-Брансуик","New Brunswick","0","0",NULL,NULL
+"5283","43",,"Newfoundland and Labrador","0","0",NULL,NULL
+"5286","43","Остров Принца Эдуарда","Prince Edward Island","0","0",NULL,NULL
+"5289","43",,"Yukon","0","0",NULL,NULL
+"5292","43",,"Nunavut","0","0",NULL,NULL
+"5295","43",,"Northwest Territories","0","0",NULL,NULL
+"5298","24",,"Wirral","0","0",NULL,NULL
+"5301","64","Пуэбла","State of Puebla","0","0",NULL,NULL
+"5304","64","Герреро","Guerrero","0","0",NULL,NULL
+"5307","64","Халиско","Jalisco","0","0",NULL,NULL
+"5310","64","Оахака","Oaxaca","0","0",NULL,NULL
+"5313","64","Мичоакан","Michoacan","0","0",NULL,NULL
+"5316","64",,"Mexico (for supply target only)","0","0",NULL,NULL
+"5319","63","Аль Каира","Cairo Governorate","0","0",NULL,NULL
+"5322","63","Асуан","Aswan Governorate","0","0",NULL,NULL
+"5325","63","Эль-Гиза","Giza Governorate","0","0",NULL,NULL
+"5328","63","Южный Синай","South Sinai","0","0",NULL,NULL
+"5331","63","Аль-Луксор","Luxor Governorate","0","0",NULL,NULL
+"5334","63",,"Egypt (for supply target only)","0","0",NULL,NULL
+"5337","24",,"Northumberland National Park","0","0",NULL,NULL
+"5340","24","Тайн и Уир","Tyne and Wear","0","0",NULL,NULL
+"5343","24","Северный Йоркшир","North Yorkshire","0","0",NULL,NULL
+"5346","24","Восточный райдинг Йоркшира","East Riding of Yorkshire","0","0",NULL,NULL
+"5349","24","Западный Йоркшир","West Yorkshire","0","0",NULL,NULL
+"5352","24","Южный Йоркшир","South Yorkshire","0","0",NULL,NULL
+"5355","24","Мерсисайд","Merseyside","0","0",NULL,NULL
+"5358","24","Бристоль","City of Bristol","0","0",NULL,NULL
+"5361","22","Факер-Зе","Faaker See","0","0",NULL,NULL
+"5364","22",,"Fuschlsee","0","0",NULL,NULL
+"5367","22",,"Hallstättersee","0","0",NULL,NULL
+"5370","22",,"Irrsee","0","0",NULL,NULL
+"5373","22","Озеро Цель","Lake Zell - Kaprun Region","0","0",NULL,NULL
+"5376","10",,"Lake Murten","0","0",NULL,NULL
+"5379","24",,"Anglesey","0","0",NULL,NULL
+"5382","11",,"Lac de Serre-Ponçon","0","0",NULL,NULL
+"5385","11","Нижняя Нормандия","Lower Normandy","0","0",NULL,NULL
+"5388","11","Верхняя Нормандия","Upper Normandy","0","0",NULL,NULL
+"5391","19",,"Great Smoky Mountains","0","0",NULL,NULL
+"5394","42","Эланд","Oland","0","0",NULL,NULL
+"5397","59",,"Őrségi National Park","0","0",NULL,NULL
+"5400","24","Пембрукшир","Pembrokeshire","0","0",NULL,NULL
+"5403","24",,"Ceredigion","0","0",NULL,NULL
+"5406","24",,"Carmarthenshire","0","0",NULL,NULL
+"5409","24",,"Lleyn Peninsula","0","0",NULL,NULL
+"5412","19",,"Tampa (for supply target only)","0","0",NULL,NULL
+"5415","19",,"Atlanta (for supply target only)","0","0",NULL,NULL
+"5418","19",,"New Orleans (for supply target only)","0","0",NULL,NULL
+"5421","19","Мауи","Maui","0","0",NULL,NULL
+"5424","19","Остров Гавайи","The Big Island","0","0",NULL,NULL
+"5427","19","Оаху","Oahu","0","0",NULL,NULL
+"5430","19",,"Lanai","0","0",NULL,NULL
+"5433","19",,"Molokai","0","0",NULL,NULL
+"5436","19","Кауаи","Kauai","0","0",NULL,NULL
+"5439","24","Ланаркшир","Lanarkshire","0","0",NULL,NULL
+"5442","24","Аргайл и Бьют","Argyll and Bute","0","0",NULL,NULL
+"5445","24","Северо-Шотландское нагорье","Highlands","0","0",NULL,NULL
+"5448","24",,"Moray","0","0",NULL,NULL
+"5451","76",,"Patagonia","0","0",NULL,NULL
+"5454","24",,"Blackpool (for supply target only)","0","0",NULL,NULL
+"5457","13",,"Palatinate Forest","0","0",NULL,NULL
+"5460","11",,"Vosges du Nord","0","0",NULL,NULL
+"5463","7","Куршский залив","Curonian Lagoon","0","0",NULL,NULL
+"5466","7","Куршская коса","Curonian Spit","0","0",NULL,NULL
+"5469","13",,"Warnemünde (for supply target only)","0","0",NULL,NULL
+"5472","13",,"Lübeck","0","0",NULL,NULL
+"5475","13",,"Weimar (for supply target only)","0","0",NULL,NULL
+"5478","13",,"Mosel (for supply target only)","0","0",NULL,NULL
+"5481","175",,"Mjøsa","0","0",NULL,NULL
+"5484","11",,"CDG (for supply target only)","0","0",NULL,NULL
+"5487","11",,"Orly (for supply target only)","0","0",NULL,NULL
+"5490","24",,"Glencoe","0","0",NULL,NULL
+"5493","19","Винная долина Напа","Napa Valley Wine Country","0","0",NULL,NULL
+"5496","22",,"Außerfern","0","0",NULL,NULL
+"5499","22",,"Lungau","0","0",NULL,NULL
+"5502","22","Понгау","Pongau","0","0",NULL,NULL
+"5505","22",,"Pinzgau","0","0",NULL,NULL
+"5508","27",,"Axarquía","0","0",NULL,NULL
+"5511","27",,"Sierra de las Nieves","0","0",NULL,NULL
+"5514","27",,"Los Alcornocales Natural Park","0","0",NULL,NULL
+"5517","27","Кабо-де-Гата","Cabo de Gata","0","0",NULL,NULL
+"5520","56","Канчанабури","Kanchanaburi Province","0","0",NULL,NULL
+"5523","56","Северный Таиланд","Northern Thailand","0","0",NULL,NULL
+"5526","56","Северо-восточный Таиланд","North-Eastern Thailand","0","0",NULL,NULL
+"5529","56","Центральный Таиланд","Central Thailand","0","0",NULL,NULL
+"5532","56","Южный Таиланд","South Thailand","0","0",NULL,NULL
+"5535","56","Восточный Таиланд","East Thailand","0","0",NULL,NULL
+"5538","52",,"Lough Corrib","0","0",NULL,NULL
+"5541","175",,"Nordfjord","0","0",NULL,NULL
+"5544","13",,"Hainich","0","0",NULL,NULL
+"5547","61",,"Attica (for supply target only)","0","0",NULL,NULL
+"5550","187","Мертвое море","Dead Sea","0","0",NULL,NULL
+"5553","121","Нуса-Дуа","Nusa Dua peninsula","0","0",NULL,NULL
+"5556","19",,"California North","0","0",NULL,NULL
+"5559","19",,"California South (for supply target only)","0","0",NULL,NULL
+"5562","19",,"Outskirts-NYC","0","0",NULL,NULL
+"5565","40",,"Centro (Nuts2)","0","0",NULL,NULL
+"5568","40",,"Norte (for supply target only)","0","0",NULL,NULL
+"5571","40","Побережье Алентежу","Alentejo Litoral","0","0",NULL,NULL
+"5574","13",,"Rothaar Mountains","0","0",NULL,NULL
+"5577","24",,"Midlothian","0","0",NULL,NULL
+"5580","14","Чжэцзян","Zhejiang","0","0",NULL,NULL
+"5583","14","Шанхай","Shanghai Area","0","0",NULL,NULL
+"5586","24","Северный Уэльс","North Wales","0","0",NULL,NULL
+"5589","24","Южный Уэльс","South Wales","0","0",NULL,NULL
+"5592","43",,"Montreal (for supply target only)","0","0",NULL,NULL
+"5595","40","Центр Алентежу","Alentejo Central","0","0",NULL,NULL
+"5598","212","Воеводина","Vojvodina","0","0",NULL,NULL
+"5601","27",,"Cerdanya","0","0",NULL,NULL
+"5604","27",,"Baixa Cerdanya","0","0",NULL,NULL
+"5607","11",,"French Cerdagne","0","0",NULL,NULL
+"5610","13",,"Diemelsee","0","0",NULL,NULL
+"5613","24",,"Bassenthwaite Lake","0","0",NULL,NULL
+"5616","24",,"Coniston Water","0","0",NULL,NULL
+"5619","24",,"Derwentwater","0","0",NULL,NULL
+"5622","24",,"Ullswater","0","0",NULL,NULL
+"5625","24",,"Wastwater","0","0",NULL,NULL
+"5628","24","Уиндермир","Windermere","0","0",NULL,NULL
+"5631","24",,"Loch Awe","0","0",NULL,NULL
+"5634","24",,"Loch Fyne","0","0",NULL,NULL
+"5637","24",,"Argyll Forest Park","0","0",NULL,NULL
+"5640","24",,"Firth of Clyde","0","0",NULL,NULL
+"5643","24",,"Gare Loch","0","0",NULL,NULL
+"5646","24",,"Rosneath Peninsula","0","0",NULL,NULL
+"5649","24",,"Cowal","0","0",NULL,NULL
+"5652","24",,"Kintyre","0","0",NULL,NULL
+"5655","24",,"Knapdale","0","0",NULL,NULL
+"5658","24",,"Isle of Bute","0","0",NULL,NULL
+"5661","24",,"Machars","0","0",NULL,NULL
+"5664","24",,"Rhins of Galloway","0","0",NULL,NULL
+"5667","27","Дельта Эбро","Delta de l'Ebre","0","0",NULL,NULL
+"5670","24",,"Loch Broom","0","0",NULL,NULL
+"5673","24",,"Applecross Peninsula","0","0",NULL,NULL
+"5676","24",,"Loch Rannoch","0","0",NULL,NULL
+"5679","24","Пертшир","Perthshire","0","0",NULL,NULL
+"5682","24","Ангус","Angus","0","0",NULL,NULL
+"5685","24",,"Caithness","0","0",NULL,NULL
+"5688","24",,"Knoydart","0","0",NULL,NULL
+"5691","24",,"Road to the Isles","0","0",NULL,NULL
+"5694","24",,"Moray Firth","0","0",NULL,NULL
+"5697","24",,"Black Isle","0","0",NULL,NULL
+"5700","56","Пхукет","Phuket Province","0","0",NULL,NULL
+"5703","46","Лангкави","Langkawi","0","0",NULL,NULL
+"5706","13",,"Middle Elbe","0","0",NULL,NULL
+"5709","13",,"Elbtalaue","0","0",NULL,NULL
+"5712","46","Келантан","Kelantan","0","0",NULL,NULL
+"5715","46","Перак","Perak","0","0",NULL,NULL
+"5718","46","Негри-Сембилан","Negeri Sembilan","0","0",NULL,NULL
+"5721","46",,"Perlis","0","0",NULL,NULL
+"5724","46","Высокогорье Камерон","Cameron Highlands","0","0",NULL,NULL
+"5727","46",,"Endau Rompin","0","0",NULL,NULL
+"5730","46",,"Taman Negara","0","0",NULL,NULL
+"5733","56",,"Ko Pha Ngan","0","0",NULL,NULL
+"5736","13",,"Zugspitze","0","0",NULL,NULL
+"5739","19","Полуостров Кейп-Код","Cape Cod","0","0",NULL,NULL
+"5742","34",,"Lacul Razim","0","0",NULL,NULL
+"5745","212",,"Iron Gate","0","0",NULL,NULL
+"5748","23","Пустерталь","Pustertal","0","0",NULL,NULL
+"5751","23",,"Vinschgau","0","0",NULL,NULL
+"5754","73","Грандвалира","Grandvalira","0","0",NULL,NULL
+"5757","73","Вальнорд","Vallnord","0","0",NULL,NULL
+"5760","27",,"Cap de Creus Nature Reserve","0","0",NULL,NULL
+"5763","23",,"Milano (for supply target only)","0","0",NULL,NULL
+"5766","23",,"Firenze (for supply target only)","0","0",NULL,NULL
+"5769","24",,"Western Isles","0","0",NULL,NULL
+"5772","24",,"East Lothian","0","0",NULL,NULL
+"5775","24",,"West Lothian","0","0",NULL,NULL
+"5778","11","Национальный парк Меркантур","Mercantour National Park","0","0",NULL,NULL
+"5781","56","Острова Пхи-Пхи","Phi Phi Islands","0","0",NULL,NULL
+"5784","56","Пхетчабун","Phetchabun Province","0","0",NULL,NULL
+"5787","13",,"Baltic Sea (Mecklenburg-Vorpommern)","0","0",NULL,NULL
+"5790","13",,"Baltic Sea (Schleswig-Holstein)","0","0",NULL,NULL
+"5793","31","Водохранилище Липно","Lake Lipno","0","0",NULL,NULL
+"5796","19",,"Lake Champlain","0","0",NULL,NULL
+"5799","184","Провиденшиалс","Providenciales","0","0",NULL,NULL
+"5802","11",,"Étang de Thau","0","0",NULL,NULL
+"5805","56","Ко-Куд","Koh Kood","0","0",NULL,NULL
+"5808","52","Уэстмит","Westmeath","0","0",NULL,NULL
+"5811","25",,"Klodzko Valley","0","0",NULL,NULL
+"5814","25",,"Table Mountains","0","0",NULL,NULL
+"5817","25","Бещады","Bieszczady","0","0",NULL,NULL
+"5820","25",,"Drawsko Lakeland","0","0",NULL,NULL
+"5823","13",,"Mainz (for supply target only)","0","0",NULL,NULL
+"5826","13",,"Oldenburg (for supply target only)","0","0",NULL,NULL
+"5829","13",,"Ulm-Freiburg (for supply target only)","0","0",NULL,NULL
+"5832","61",,"Cape Malea","0","0",NULL,NULL
+"5835","61","Полуостров Мани","Mani Peninsula","0","0",NULL,NULL
+"5838","13",,"SH-east","0","0",NULL,NULL
+"5841","13",,"SH-west (for supply target only)","0","0",NULL,NULL
+"5844","13",,"NRW-1 (for supply target only)","0","0",NULL,NULL
+"5847","13",,"BW-South (for supply target only)","0","0",NULL,NULL
+"5850","13",,"BW-North (for supply target only)","0","0",NULL,NULL
+"5853","13",,"Breisgau","0","0",NULL,NULL
+"5856","13",,"Saxon Elbeland","0","0",NULL,NULL
+"5859","61",,"Meganisi","0","0",NULL,NULL
+"5862","40","Терсейра","Terceira","0","0",NULL,NULL
+"5865","40","Остров Пику","Pico island","0","0",NULL,NULL
+"5868","40","Сан-Мигел","São Miguel","0","0",NULL,NULL
+"5871","40",,"Faial","0","0",NULL,NULL
+"5874","11",,"Gulf of Morbihan","0","0",NULL,NULL
+"5877","27",,"Sierra de Guadarrama","0","0",NULL,NULL
+"5880","27",,"Sierra Norte de Madrid","0","0",NULL,NULL
+"5883","42",,"Siljan","0","0",NULL,NULL
+"5886","24",,"Kyles of Bute","0","0",NULL,NULL
+"5889","13",,"Saaler Bodden","0","0",NULL,NULL
+"5892","13",,"Bodstedter Bodden","0","0",NULL,NULL
+"5895","13",,"Barther Bodden","0","0",NULL,NULL
+"5898","13",,"Darss-Zingst Bodden Chain","0","0",NULL,NULL
+"5901","64",,"Cozumel","0","0",NULL,NULL
+"5904","59",,"Lake Tisza","0","0",NULL,NULL
+"5907","43","Остров Ванкувер","Vancouver Island","0","0",NULL,NULL
+"5910","19",,"Kohala Coast","0","0",NULL,NULL
+"5913","61",,"Symi","0","0",NULL,NULL
+"5916","13",,"Upper Danube","0","0",NULL,NULL
+"5919","23",,"Valtellina","0","0",NULL,NULL
+"5922","199",,"San Marino (for supply target only)","0","0",NULL,NULL
+"5925","63","Эль-Файюм","El Fayoum","0","0",NULL,NULL
+"5928","55","Сисацко-Мославинская жупания","Sisak-Moslavina County","0","0",NULL,NULL
+"5931","55","Копривницко-Крижевацкая жупания","Koprivnica-Križevci County","0","0",NULL,NULL
+"5934","55",,"Bjelovar-Bilogora County","0","0",NULL,NULL
+"5937","55","Вировитицко-Подравская жупания","Virovitica-Podravina County","0","0",NULL,NULL
+"5940","55",,"Požega-Slavonia County","0","0",NULL,NULL
+"5943","55","Бродско-Посавская жупания","Brod-Posavina County","0","0",NULL,NULL
+"5946","55","Осиецко-Бараньская жупания","Osječko-baranjska županija","0","0",NULL,NULL
+"5949","55","Вуковарско-Сремская жупания","Vukovar-Syrmia County","0","0",NULL,NULL
+"5952","55","Меджумурская жупания","Međimurje County","0","0",NULL,NULL
+"5955","212","Центральная Сербия","Central Serbia","0","0",NULL,NULL
+"5958","19",,"The Catskills","0","0",NULL,NULL
+"5961","11",,"Belle Île en Mer","0","0",NULL,NULL
+"5964","163",,"Monaco (for supply target only)","0","0",NULL,NULL
+"5967","11",,"Alsace Wine Route","0","0",NULL,NULL
+"5970","40","Оэсте","Oeste","0","0",NULL,NULL
+"5973","64","Гуанахуато","Guanajuato","0","0",NULL,NULL
+"5976","11","Остров Олерон","Island of Oleron","0","0",NULL,NULL
+"5979","59",,"Danube Ipoly National Park","0","0",NULL,NULL
+"5982","64","Сонора","Sonora","0","0",NULL,NULL
+"5985","19","Ориндж","Orange County","0","0",NULL,NULL
+"5988","24",,"Northern Highlands","0","0",NULL,NULL
+"5991","176","Эд-Дахилия","Ad Dakhiliyah","0","0",NULL,NULL
+"5994","176",,"Ad Dhahirah","0","0",NULL,NULL
+"5997","176","Эль-Батина","Al Batinah","0","0",NULL,NULL
+"6000","176",,"Al Buraimi","0","0",NULL,NULL
+"6003","176",,"Al Wusta","0","0",NULL,NULL
+"6006","176","Эш-Шаркия","Al Sharqiyah","0","0",NULL,NULL
+"6009","176","Дофар","Dhofar","0","0",NULL,NULL
+"6012","176","Мусандам","Musandam","0","0",NULL,NULL
+"6015","176","Маскат","Muscat Governorate","0","0",NULL,NULL
+"6018","201","Эш-Шаркия","Eastern Province","0","0",NULL,NULL
+"6021","201","Эр-Рияд","Riyadh Province","0","0",NULL,NULL
+"6024","201","Эль-Мадина","Al Madinah Al Munnawarah Province","0","0",NULL,NULL
+"6027","201",,"Saudie Arabia (for supply target only)","0","0",NULL,NULL
+"6030","19",,"San Diego Metropolitan Area","0","0",NULL,NULL
+"6033","201","Мекка","Makkah Al Mukarramah Province","0","0",NULL,NULL
+"6036","13",,"Sauerland (for supply target only)","0","0",NULL,NULL
+"6039","22",,"Ausseerland","0","0",NULL,NULL
+"6042","208",,"Palm Island","0","0",NULL,NULL
+"6045","19",,"Laguna Madre","0","0",NULL,NULL
+"6048","96",,"Tortola","0","0",NULL,NULL
+"6051","13",,"Eifel (for supply target only)","0","0",NULL,NULL
+"6054","11",,"Route Napoléon","0","0",NULL,NULL
+"6057","22",,"Attergau","0","0",NULL,NULL
+"6060","22",,"Mondsee - Irrsee","0","0",NULL,NULL
+"6063","40","Санта-Мария","Santa Maria","0","0",NULL,NULL
+"6066","19","Бескиды","test region","0","0",NULL,NULL
+"6069","25",,"Little Beskids","0","0",NULL,NULL
+"6072","23","Тусция","Tuscia","0","0",NULL,NULL
+"6075","64","Керетаро","Querétaro","0","0",NULL,NULL
+"6078","23","Тосканский архипелаг","Tuscan Archipelago","0","0",NULL,NULL
+"6081","23","Изоле-Тремити","Isole Tremiti","0","0",NULL,NULL
+"6084","61",,"Serifos","0","0",NULL,NULL
+"6087","64","Чьяпас","Chiapas","0","0",NULL,NULL
+"6090","97","Виргинские острова, США","United States Virgin Islands","0","0",NULL,NULL
+"6093","19",,"Saint John","0","0",NULL,NULL
+"6096","64","Тамаулипас","Tamaulipas","0","0",NULL,NULL
+"6099","27","Иерро","El Hierro","0","0",NULL,NULL
+"6102","24",,"Mid Wales","0","0",NULL,NULL
+"6105","61",,"Kythira","0","0",NULL,NULL
+"6108","40",,"Serra de São Mamede","0","0",NULL,NULL
+"6111","61",,"Kastelorizo","0","0",NULL,NULL
+"6114","27",,"Alto Tajo","0","0",NULL,NULL
+"6117","24",,"Lough Erne","0","0",NULL,NULL
+"6120","19","Йеллоустоун","Yellowstone","0","0",NULL,NULL
+"6123","24",,"Strangford Lough","0","0",NULL,NULL
+"6126","52","Монаган","Monaghan County","0","0",NULL,NULL
+"6129","64","Наярит","Nayarit","0","0",NULL,NULL
+"6132","89",,"Tinharé","0","0",NULL,NULL
+"6135","89","Илья-Гранди","Ilha Grande","0","0",NULL,NULL
+"6138","19",,"Adirondack Mountains","0","0",NULL,NULL
+"6141","37",,"Meetjesland","0","0",NULL,NULL
+"6144","121","Бинтан","Bintan","0","0",NULL,NULL
+"6147","121","Батам","Batam","0","0",NULL,NULL
+"6150","122","Петра","Petra","0","0",NULL,NULL
+"6153","49","Тамилнад","Tamil Nadu","0","0",NULL,NULL
+"6156","49","Керала","Kerala","0","0",NULL,NULL
+"6159","49",,"Uttaranchal","0","0",NULL,NULL
+"6162","49","Орисса","Orissa","0","0",NULL,NULL
+"6165","49",,"Meghalaya","0","0",NULL,NULL
+"6168","49","Химачал-Прадеш","Himachal Pradesh","0","0",NULL,NULL
+"6171","49","Андхра-Прадеш","Andhra Pradesh","0","0",NULL,NULL
+"6174","49","Дели","Delhi","0","0",NULL,NULL
+"6177","49","Гуджарат","Gujarat","0","0",NULL,NULL
+"6180","27","Коста Адехе","Costa Adeje","0","0",NULL,NULL
+"6183","49",,"Jim Corbett National Park","0","0",NULL,NULL
+"6186","64","Юкатан","Yucatán","0","0",NULL,NULL
+"6189","64","Агуаскальентес","Aguascalientes","0","0",NULL,NULL
+"6192","64",,"San Luis Potosí","0","0",NULL,NULL
+"6195","64","Колима","Colima","0","0",NULL,NULL
+"6198","64",,"Tlaxcala","0","0",NULL,NULL
+"6201","64","Синалоа","Sinaloa","0","0",NULL,NULL
+"6204","64","Южная Нижняя Калифорния","Baja California Sur","0","0",NULL,NULL
+"6207","64","Табаско","Tabasco","0","0",NULL,NULL
+"6210","64","Морелос","Morelos","0","0",NULL,NULL
+"6213","64","Кампече","Campeche","0","0",NULL,NULL
+"6216","64","Нуэво-Леон","Nuevo León","0","0",NULL,NULL
+"6219","22",,"Nockberge","0","0",NULL,NULL
+"6222","27",,"Costa Guipúzcoa","0","0",NULL,NULL
+"6225","27",,"Costa Vizcaya","0","0",NULL,NULL
+"6228","143","Горный Ливан","Mount Lebanon","0","0",NULL,NULL
+"6231","143",,"Bekaa Valley","0","0",NULL,NULL
+"6234","64",,"Zacatecas","0","0",NULL,NULL
+"6237","19",,"Fort Lauderdale (for supply target only)","0","0",NULL,NULL
+"6240","52",,"Ring of Kerry","0","0",NULL,NULL
+"6243","56","Ко Ланта","Koh Lanta","0","0",NULL,NULL
+"6246","11","Серр-Шевалье","Serre Chevalier","0","0",NULL,NULL
+"6249","173",,"New Zealand (for supply target only)","0","0",NULL,NULL
+"6252","173","Таранаки","Taranaki","0","0",NULL,NULL
+"6255","173","Хокс-Бей","Hawke's Bay","0","0",NULL,NULL
+"6258","173","Мальборо","Marlborough","0","0",NULL,NULL
+"6261","173","Нортленд","Northland","0","0",NULL,NULL
+"6264","173",,"Coromandel Peninsula","0","0",NULL,NULL
+"6267","22",,"Innviertel","0","0",NULL,NULL
+"6270","11",,"Beaujolais","0","0",NULL,NULL
+"6273","11",,"Burgundy vineyards","0","0",NULL,NULL
+"6276","5",,"Muhu","0","0",NULL,NULL
+"6279","97","Сент-Томас","Saint Thomas","0","0",NULL,NULL
+"6282","97",,"Saint Croix","0","0",NULL,NULL
+"6285","97",,"Saint John","0","0",NULL,NULL
+"6288","146","Долина Рейна","Rhine Valley","0","0",NULL,NULL
+"6291","67",,"Garden Route","0","0",NULL,NULL
+"6294","67",,"Route 62","0","0",NULL,NULL
+"6297","11","Шампань","Champagne","0","0",NULL,NULL
+"6300","38",,"Rømø","0","0",NULL,NULL
+"6303","11",,"Medoc","0","0",NULL,NULL
+"6306","11",,"Entre-Deux-Mers","0","0",NULL,NULL
+"6309","11",,"Graves","0","0",NULL,NULL
+"6312","11",,"Armagnac","0","0",NULL,NULL
+"6315","23","Озеро Орта","Lake Orta","0","0",NULL,NULL
+"6318","23","Валь-ди-Соле","Val di Sole","0","0",NULL,NULL
+"6321","79","Острова Абако","Abaco Islands","0","0",NULL,NULL
+"6324","79","Остров Харбор","Harbour Island","0","0",NULL,NULL
+"6327","173","Саутленд","Southland","0","0",NULL,NULL
+"6330","19","Нантакет","Nantucket","0","0",NULL,NULL
+"6333","11","Люберон","Luberon","0","0",NULL,NULL
+"6336","11",,"Evasion Mont-Blanc","0","0",NULL,NULL
+"6339","11","Гранд Массив","Le Grand Massif","0","0",NULL,NULL
+"6342","11","Порт дю Солей","Les Portes du Soleil","0","0",NULL,NULL
+"6345","11","Горнолыжный регион Эспас Килли","Espace Killy","0","0",NULL,NULL
+"6348","11",,"Le Grand Domaine","0","0",NULL,NULL
+"6351","11",,"Les Sybelles","0","0",NULL,NULL
+"6354","11","Три Долины","3 Valleys","0","0",NULL,NULL
+"6357","11","Парадиски","Paradiski","0","0",NULL,NULL
+"6360","19","Остров Мартас-Винъярд","Martha's Vineyard","0","0",NULL,NULL
+"6363","64",,"Costalegre","0","0",NULL,NULL
+"6366","22",,"Wallersee","0","0",NULL,NULL
+"6369","67",,"Cape Winelands","0","0",NULL,NULL
+"6372","19",,"Savannah (for supply target only)","0","0",NULL,NULL
+"6375","19",,"Hilton Head (for supply target only)","0","0",NULL,NULL
+"6378","19",,"Charleston (for supply target only)","0","0",NULL,NULL
+"6381","19",,"Nashville (for supply target only)","0","0",NULL,NULL
+"6384","19",,"Myrtle Beach (for supply target only)","0","0",NULL,NULL
+"6387","19",,"Raleigh (for supply target only)","0","0",NULL,NULL
+"6390","173","Уэст-Кост","West Coast","0","0",NULL,NULL
+"6393","53",,"Gold Coast","0","0",NULL,NULL
+"6396","67",,"Cape Town Southern Suburbs","0","0",NULL,NULL
+"6399","67","Северный пригород Кейптауна","Cape Town Northern Suburbs","0","0",NULL,NULL
+"6402","67",,"False Bay","0","0",NULL,NULL
+"6405","67",,"Table Bay","0","0",NULL,NULL
+"6408","67",,"Cape West Coast","0","0",NULL,NULL
+"6411","67",,"Overberg","0","0",NULL,NULL
+"6414","67",,"Swartland","0","0",NULL,NULL
+"6417","67",,"Cederberg","0","0",NULL,NULL
+"6420","19",,"Naples / Fort Myers (for supply target only)","0","0",NULL,NULL
+"6423","19",,"Jacksonville (for supply target only)","0","0",NULL,NULL
+"6426","67",,"Atlantic Seaboard","0","0",NULL,NULL
+"6429","67",,"Addo Elephant Park","0","0",NULL,NULL
+"6432","67",,"Hluhluwe Imfolozi Park","0","0",NULL,NULL
+"6435","23",,"Val d'Ayas","0","0",NULL,NULL
+"6438","23","Монтероза-Ски","Monterosa Ski","0","0",NULL,NULL
+"6441","53",,"Hunter Valley","0","0",NULL,NULL
+"6444","53",,"Yarra Valley","0","0",NULL,NULL
+"6447","38",,"Limfjord","0","0",NULL,NULL
+"6450","242",,"Montenegro (for supply target only)","0","0",NULL,NULL
+"6453","64","Нижняя Калифорния","Baja California","0","0",NULL,NULL
+"6456","53","Голубые горы","Blue Mountains","0","0",NULL,NULL
+"6459","208",,"Saint Vincent","0","0",NULL,NULL
+"6462","52",,"Achill Island","0","0",NULL,NULL
+"6465","19",,"Lowcountry","0","0",NULL,NULL
+"6468","28",,"Kop van Noord-Holland","0","0",NULL,NULL
+"6471","28",,"Noord-Kennemerland","0","0",NULL,NULL
+"6474","28",,"Zuid-Kennemerland","0","0",NULL,NULL
+"6477","30",,"ME-East (for supply target only)","0","0",NULL,NULL
+"6480","61",,"Fourni","0","0",NULL,NULL
+"6483","57","Джерба","Djerba","0","0",NULL,NULL
+"6486","40",,"Centro (for supply target only)","0","0",NULL,NULL
+"6489","13",,"Hiddensee","0","0",NULL,NULL
+"6492","11",,"Massif du Sancy","0","0",NULL,NULL
+"6495","53","Солнечное побережье","Sunshine Coast","0","0",NULL,NULL
+"6498","53",,"Swan Valley","0","0",NULL,NULL
+"6501","23","Грессоней","Gressoney","0","0",NULL,NULL
+"6504","53",,"Barossa Valley","0","0",NULL,NULL
+"6507","43","Полуостров Гаспе","Gaspé Peninsula","0","0",NULL,NULL
+"6510","173",,"Tasman","0","0",NULL,NULL
+"6513","38","Остров Зеландия","Zealand","0","0",NULL,NULL
+"6516","38",,"Lolland","0","0",NULL,NULL
+"6519","38",,"Falster","0","0",NULL,NULL
+"6522","38",,"North Zealand","0","0",NULL,NULL
+"6525","19",,"Philadelphia Metropolitan Area","0","0",NULL,NULL
+"6528","122","Мертвое море (Иордания)","Dead Sea Jordan","0","0",NULL,NULL
+"6531","38",,"Als","0","0",NULL,NULL
+"6534","75",,"Barbuda","0","0",NULL,NULL
+"6537","89",,"Santa Catarina Island","0","0",NULL,NULL
+"6540","175",,"Svalbard","0","0",NULL,NULL
+"6543","173",,"Stewart Island","0","0",NULL,NULL
+"6546","19","Гранд-Каньон","Grand Canyon","0","0",NULL,NULL
+"6549","53",,"Cairns Beaches","0","0",NULL,NULL
+"6552","76","Санта-Крус","Santa Cruz","0","0",NULL,NULL
+"6555","76","Буэнос-Айрес","Buenos Aires Province","0","0",NULL,NULL
+"6558","76",,"Catamarca Province","0","0",NULL,NULL
+"6561","76",,"Chaco","0","0",NULL,NULL
+"6564","76","Чубут","Chubut","0","0",NULL,NULL
+"6567","76","Корриентес","Corrientes Province","0","0",NULL,NULL
+"6570","76",,"Formosa Province","0","0",NULL,NULL
+"6573","76",,"La Pampa","0","0",NULL,NULL
+"6576","76",,"La Rioja Province","0","0",NULL,NULL
+"6579","76","Неукен","Neuquén Province","0","0",NULL,NULL
+"6582","76","Тукуман","Tucumán","0","0",NULL,NULL
+"6585","19","Национальный парк Йосемити","Yosemite National Park","0","0",NULL,NULL
+"6588","19",,"Santa Catalina Island","0","0",NULL,NULL
+"6591","63",,"Lake Karoun","0","0",NULL,NULL
+"6594","19",,"Glen Canyon","0","0",NULL,NULL
+"6597","38",,"Ringkøbing Fjord","0","0",NULL,NULL
+"6600","19",,"Outer Banks","0","0",NULL,NULL
+"6603","19",,"Pamlico Sound","0","0",NULL,NULL
+"6606","68","Иерусалимский округ","Jerusalem District","0","0",NULL,NULL
+"6609","68","Северный округ Израиля","North District Israel","0","0",NULL,NULL
+"6612","68","Хайфский округ","Haifa District","0","0",NULL,NULL
+"6615","68","Центральный Округ Израиля","Center District Israel","0","0",NULL,NULL
+"6618","68","Тель-Авивский округ","Tel Aviv District","0","0",NULL,NULL
+"6621","68","Южный округ Израиля","South District Israel","0","0",NULL,NULL
+"6624","68","Тивериадское озеро","Sea of Galilee","0","0",NULL,NULL
+"6627","68","Голанские высоты","Golan Heights","0","0",NULL,NULL
+"6630","68","Негев","Negev","0","0",NULL,NULL
+"6633","68","Галилея","Galilee","0","0",NULL,NULL
+"6636","187",,"West Bank","0","0",NULL,NULL
+"6639","175",,"Jotunheimen","0","0",NULL,NULL
+"6642","175",,"Dovrefjell","0","0",NULL,NULL
+"6645","175",,"Jostedalsbreen","0","0",NULL,NULL
+"6648","27",,"La Vera","0","0",NULL,NULL
+"6651","27",,"Valle del Jerte","0","0",NULL,NULL
+"6654","64","Коауила","Coahuila","0","0",NULL,NULL
+"6657","13",,"Rheinsberg Lake Region","0","0",NULL,NULL
+"6660","53",,"Shark Bay Australia","0","0",NULL,NULL
+"6663","173",,"Gisborne","0","0",NULL,NULL
+"6666","53",,"Margaret River Region","0","0",NULL,NULL
+"6669","34","Буковина","Bukovina","0","0",NULL,NULL
+"6672","89",,"Mato Grosso","0","0",NULL,NULL
+"6675","89",,"Rondonia","0","0",NULL,NULL
+"6678","89",,"Acre","0","0",NULL,NULL
+"6681","89","Пара","Pará","0","0",NULL,NULL
+"6684","89",,"Roraima","0","0",NULL,NULL
+"6687","89","Амапа","Amapá","0","0",NULL,NULL
+"6690","27",,"Priorat","0","0",NULL,NULL
+"6693","27",,"Terra Alta","0","0",NULL,NULL
+"6696","27",,"Pallars Sobirà","0","0",NULL,NULL
+"6699","53",,"Whitsundays","0","0",NULL,NULL
+"6702","42",,"Mjörn","0","0",NULL,NULL
+"6705","23","Побережье Абруццо","Abruzzo Coast","0","0",NULL,NULL
+"6708","52",,"Dingle Peninsula","0","0",NULL,NULL
+"6711","110",,"New Territories","0","0",NULL,NULL
+"6714","10",,"Vallemaggia","0","0",NULL,NULL
+"6717","10",,"Valle Verzasca","0","0",NULL,NULL
+"6720","10",,"Malcantone","0","0",NULL,NULL
+"6723","10",,"Leventina","0","0",NULL,NULL
+"6726","42",,"Lapland Sweden","0","0",NULL,NULL
+"6729","19",,"NY upstate (for supply target only)","0","0",NULL,NULL
+"6732","13",,"Trier-Saarburg","0","0",NULL,NULL
+"6735","55",,"Dugi Otok","0","0",NULL,NULL
+"6738","55",,"Ugljan Island","0","0",NULL,NULL
+"6741","24",,"London2Surrey","0","0",NULL,NULL
+"6744","24",,"London2Kent","0","0",NULL,NULL
+"6747","24",,"London2Essex","0","0",NULL,NULL
+"6750","24",,"Surrey2London","0","0",NULL,NULL
+"6753","24",,"Sussex2London","0","0",NULL,NULL
+"6756","24",,"WM2East","0","0",NULL,NULL
+"6759","35","Озеро Ван","Van Lake","0","0",NULL,NULL
+"6762","53",,"Kangaroo Island","0","0",NULL,NULL
+"6765","10",,"Val Bedretto","0","0",NULL,NULL
+"6768","7","Неринга","Neringa","0","0",NULL,NULL
+"6771","53",,"Moreton Island","0","0",NULL,NULL
+"6774","176",,"Masirah","0","0",NULL,NULL
+"6777","201","Асир","Asir Province","0","0",NULL,NULL
+"6780","14",,"Gansu","0","0",NULL,NULL
+"6783","14","Хэбэй","Hebei","0","0",NULL,NULL
+"6786","14","Хунань","Hunan","0","0",NULL,NULL
+"6789","14",,"Jiangxi","0","0",NULL,NULL
+"6792","14","Нинся","Ningxia","0","0",NULL,NULL
+"6795","14","Цинхай","Qinghai","0","0",NULL,NULL
+"6798","14","Сычуань","Sichuan","0","0",NULL,NULL
+"6801","14",,"Xinjiang","0","0",NULL,NULL
+"6804","14","Тибет","Tibet","0","0",NULL,NULL
+"6807","61","Тилос","Tilos","0","0",NULL,NULL
+"6810","110",,"Hong Kong Country","0","0",NULL,NULL
+"6813","10",,"Emmental","0","0",NULL,NULL
+"6816","201",,"Al Qassim Province","0","0",NULL,NULL
+"6819","40",,"Graciosa","0","0",NULL,NULL
+"6822","40",,"Flores Island","0","0",NULL,NULL
+"6825","13",,"Weimarer Land","0","0",NULL,NULL
+"6828","40","Провинция Дору","Douro","0","0",NULL,NULL
+"6831","23","Ланге","Langhe","0","0",NULL,NULL
+"6834","10",,"Piano di Magadino","0","0",NULL,NULL
+"6837","27",,"Monfragüe","0","0",NULL,NULL
+"6840","61","Порос","Poros Island","0","0",NULL,NULL
+"6843","65",,"Hawar Islands","0","0",NULL,NULL
+"6846","53",,"Kakadu","0","0",NULL,NULL
+"6849","25",,"Hel Peninsula","0","0",NULL,NULL
+"6852","53",,"Kosciuszko National Park","0","0",NULL,NULL
+"6855","53","Великая океанская дорога","Great Ocean Road","0","0",NULL,NULL
+"6858","23","Валь-ди-Фьемме","Val di Fiemme","0","0",NULL,NULL
+"6861","53",,"Port Stephens","0","0",NULL,NULL
+"6864","27",,"Vall de Boí","0","0",NULL,NULL
+"6867","10",,"Lavaux","0","0",NULL,NULL
+"6870","61",,"Elafonisos","0","0",NULL,NULL
+"6873","53",,"Mornington Peninsula","0","0",NULL,NULL
+"6876","19",,"Disneyland California","0","0",NULL,NULL
+"6879","10",,"Gstaad Saanenland","0","0",NULL,NULL
+"6882","23","Валь-ди-Фасса","Val di Fassa","0","0",NULL,NULL
+"6885","23",,"Val Rendena","0","0",NULL,NULL
+"6888","23","Валь-Гардена","Val Gardena","0","0",NULL,NULL
+"6891","23","Мадонна-ди-Кампильо","Madonna di Campiglio","0","0",NULL,NULL
+"6894","23","Ортизеи","Ortisei","0","0",NULL,NULL
+"6897","23","Корвара-ин-Бадия","Corvara in Badia","0","0",NULL,NULL
+"6900","23","Фольгарида","Folgarida","0","0",NULL,NULL
+"6903","23","Доломиты, горнолыжный район","Dolomiti Ski","0","0",NULL,NULL
+"6906","10",,"Scuol","0","0",NULL,NULL
+"6909","10",,"Moesano","0","0",NULL,NULL
+"6912","10",,"Bellinzona and upper Ticino","0","0",NULL,NULL
+"6915","10",,"Upper Engadin","0","0",NULL,NULL
+"6918","10",,"Lower Engadin","0","0",NULL,NULL
+"6921","10",,"Savognin","0","0",NULL,NULL
+"6924","10",,"Prättigau","0","0",NULL,NULL
+"6927","10",,"Surselva","0","0",NULL,NULL
+"6930","10",,"Davos Klosters","0","0",NULL,NULL
+"6933","10","Санкт-Мориц","Engadin St. Moritz","0","0",NULL,NULL
+"6936","11",,"Espace Diamant","0","0",NULL,NULL
+"6939","23","Альта Бадия","Alta Badia","0","0",NULL,NULL
+"6942","10",,"Flims Laax Falera","0","0",NULL,NULL
+"6945","23",,"Valle Aurina","0","0",NULL,NULL
+"6948","11",,"Espace San Bernardo","0","0",NULL,NULL
+"6951","22","Австрийские Альпы","Austrian Alps","0","0",NULL,NULL
+"6954","23","Виа-Латтеа","Via Lattea","0","0",NULL,NULL
+"6957","11","Лыжный курорт на озере Анси","Lake Annecy Ski Resort","0","0",NULL,NULL
+"6960","10",,"Lenzerheide","0","0",NULL,NULL
+"6963","11",,"Val Cenis","0","0",NULL,NULL
+"6966","23","Альта Вальтеллина","Alta Valtellina","0","0",NULL,NULL
+"6969","22",,"Montafon","0","0",NULL,NULL
+"6972","11",,"Queyras National Park","0","0",NULL,NULL
+"6975","10",,"Disentis Sedrun","0","0",NULL,NULL
+"6978","23",,"Val Passiria","0","0",NULL,NULL
+"6981","23","Сольда, Ортлес","Solda all'Ortles","0","0",NULL,NULL
+"6984","10","Ароза","Arosa","0","0",NULL,NULL
+"6987","22","Долина Альпбах","Alpbach Valley","0","0",NULL,NULL
+"6990","11","Французские Альпы","French Alps","0","0",NULL,NULL
+"6993","10",,"Viamala","0","0",NULL,NULL
+"6996","23","Альпе ди Сьюзи","Alpe di Siusi","0","0",NULL,NULL
+"6999","10",,"Bergell","0","0",NULL,NULL
+"7002","11",,"Belledonne","0","0",NULL,NULL
+"7005","23","Паганелла","Altopiano della Paganella","0","0",NULL,NULL
+"7008","22","Танхаймер-Вальд","Tannheimer Tal","0","0",NULL,NULL
+"7011","23","Чиветта","Civetta","0","0",NULL,NULL
+"7014","10",,"Heidiland","0","0",NULL,NULL
+"7017","11",,"Chartreuse","0","0",NULL,NULL
+"7020","23","План-де-Коронес","Plan de Corones","0","0",NULL,NULL
+"7023","11",,"Vercors","0","0",NULL,NULL
+"7026","10","Флумсерберг","Flumserberg","0","0",NULL,NULL
+"7029","11",,"Tarentaise Valley","0","0",NULL,NULL
+"7032","22","Ишгль-Пацнаун","Ischgl-Paznaun","0","0",NULL,NULL
+"7035","23","Сестриере","Sestriere Ski","0","0",NULL,NULL
+"7038","10",,"Toggenburg","0","0",NULL,NULL
+"7041","10",,"Interlaken","0","0",NULL,NULL
+"7044","11",,"Val d'Arly","0","0",NULL,NULL
+"7047","22",,"Tiroler Zugspitz Arena","0","0",NULL,NULL
+"7050","10",,"Saastal","0","0",NULL,NULL
+"7053","11",,"Maurienne Valley","0","0",NULL,NULL
+"7056","10",,"Val d'Anniviers","0","0",NULL,NULL
+"7059","23","Кавалезе","Cavalese","0","0",NULL,NULL
+"7062","22",,"Wipptal","0","0",NULL,NULL
+"7065","10",,"4 Valleys","0","0",NULL,NULL
+"7068","23","Курмайор","Courmayeur Ski","0","0",NULL,NULL
+"7071","23","Червиния","Monte Cervino Ski Area","0","0",NULL,NULL
+"7074","22","Хинтертукс","Hintertux Glacier","0","0",NULL,NULL
+"7077","23","Шамполюк","Champoluc","0","0",NULL,NULL
+"7080","22",,"Kitzsteinhorn","0","0",NULL,NULL
+"7083","23","Ливиньо","Livigno Ski Area","0","0",NULL,NULL
+"7086","23","Кортина д' Ампеццо","Cortina d'Ampezzo","0","0",NULL,NULL
+"7089","11",,"Pyrenees National Park","0","0",NULL,NULL
+"7092","22",,"Wildschönau","0","0",NULL,NULL
+"7095","22",,"Stubai Glacier","0","0",NULL,NULL
+"7098","11",,"Lac Blanc","0","0",NULL,NULL
+"7101","22",,"Mariazeller Land","0","0",NULL,NULL
+"7104","23","Кадоре","Cadore","0","0",NULL,NULL
+"7107","22",,"Dachstein - Krippenstein","0","0",NULL,NULL
+"7110","22",,"Dachstein West","0","0",NULL,NULL
+"7113","11","Гора Монблан","Mont Blanc - France","0","0",NULL,NULL
+"7116","22","Шладминг-Дахштайн","Schladming - Dachstein","0","0",NULL,NULL
+"7119","10",,"La Gruyere","0","0",NULL,NULL
+"7122","22",,"Obertauern","0","0",NULL,NULL
+"7125","22","Ледник Мёльталь","Mölltaler Glacier","0","0",NULL,NULL
+"7128","10",,"Les Diablerets","0","0",NULL,NULL
+"7131","10",,"Chateau d'Oex","0","0",NULL,NULL
+"7134","10",,"Jura Vaudois","0","0",NULL,NULL
+"7137","10",,"Aletsch","0","0",NULL,NULL
+"7140","10",,"Grächen","0","0",NULL,NULL
+"7143","23",,"San Martino di Castrozza","0","0",NULL,NULL
+"7146","10",,"Hoch Ybrig","0","0",NULL,NULL
+"7149","10",,"Swiss Knife Valley","0","0",NULL,NULL
+"7152","23",,"Val di Susa","0","0",NULL,NULL
+"7155","23",,"Valle Isarco","0","0",NULL,NULL
+"7158","10","Швейцарские Альпы","Swiss Alps","0","0",NULL,NULL
+"7161","23","Скирама Адамелло Брента","Skirama Dolomiti Adamello Brenta","0","0",NULL,NULL
+"7164","23",,"Valchiavenna","0","0",NULL,NULL
+"7167","11",,"French Pyrénées","0","0",NULL,NULL
+"7170","23","Пила","Pila","0","0",NULL,NULL
+"7173","10","Кран-Монтана","Crans Montana","0","0",NULL,NULL
+"7176","23","Бреннер","Brenner","0","0",NULL,NULL
+"7179","22",,"Grossglockner","0","0",NULL,NULL
+"7182","22",,"Gerlitzen","0","0",NULL,NULL
+"7185","22",,"Simonhöhe","0","0",NULL,NULL
+"7188","22",,"Dobratsch","0","0",NULL,NULL
+"7191","22",,"Bad Kleinkirchheim - Nock Mountains National Park","0","0",NULL,NULL
+"7194","22",,"Kufstein","0","0",NULL,NULL
+"7197","11",,"Jura Mountains","0","0",NULL,NULL
+"7200","11","Вогезы","Massif des Vosges","0","0",NULL,NULL
+"7203","22","Инсбрук","Innsbruck","0","0",NULL,NULL
+"7206","23","Горы Трентино","Trentino Mountains","0","0",NULL,NULL
+"7209","10",,"Belalp","0","0",NULL,NULL
+"7212","201",,"Hail Province","0","0",NULL,NULL
+"7215","10",,"Verbier - St.Bernard","0","0",NULL,NULL
+"7218","10","Церматт","Zermatt Resort Area","0","0",NULL,NULL
+"7221","11",,"Le Lioran","0","0",NULL,NULL
+"7224","11",,"Super Besse","0","0",NULL,NULL
+"7227","10","Санкт-Галлен","St.Gallen Canton","0","0",NULL,NULL
+"7230","43",,"Vancouver Olympics","0","0",NULL,NULL
+"7233","61","Кея","Kea (Tzia)","0","0",NULL,NULL
+"7236","19",,"Block Island","0","0",NULL,NULL
+"7239","213","Маэ","Mahé","0","0",NULL,NULL
+"7242","38",,"Mon","0","0",NULL,NULL
+"7245","11","Бассен-д'Аркашон","Arcachon Bay","0","0",NULL,NULL
+"7248","63",,"Port Said Governorate","0","0",NULL,NULL
+"7251","64","Лос-Кабос","Los Cabos","0","0",NULL,NULL
+"7254","53",,"Central Coast","0","0",NULL,NULL
+"7257","27",,"La Masella","0","0",NULL,NULL
+"7260","27",,"Baqueira - Beret","0","0",NULL,NULL
+"7263","27",,"Formigal","0","0",NULL,NULL
+"7266","27",,"Cerler Ski Region","0","0",NULL,NULL
+"7269","27",,"Candanchú","0","0",NULL,NULL
+"7272","27",,"Boí Taüll","0","0",NULL,NULL
+"7275","42",,"Sälen","0","0",NULL,NULL
+"7278","42","Оре","Åre","0","0",NULL,NULL
+"7281","42",,"Riksgränsen","0","0",NULL,NULL
+"7284","10",,"Lotschental","0","0",NULL,NULL
+"7287","12",,"Levi","0","0",NULL,NULL
+"7290","12",,"Ylläs","0","0",NULL,NULL
+"7293","35","Анталийское побережье","Antalya Coast","0","0",NULL,NULL
+"7296","61",,"Zagori","0","0",NULL,NULL
+"7299","35","Бодрум","Bodrum","0","0",NULL,NULL
+"7302","25",,"Sobieszewo Island","0","0",NULL,NULL
+"7305","35","Кемер","Kemer","0","0",NULL,NULL
+"7308","63","Суэц","Suez Governorate","0","0",NULL,NULL
+"7311","63","Александрия","Alexandria Governorate","0","0",NULL,NULL
+"7314","53",,"Port Douglas","0","0",NULL,NULL
+"7317","30","Остров Сир-Бани-Яс","Sir Bani Yas Island","0","0",NULL,NULL
+"7320","30",,"Yas Island","0","0",NULL,NULL
+"7323","23","Доломиты Суперски","Dolomiti Superski","0","0",NULL,NULL
+"7326","23","Лимоне-Пьемонте","Limone Piemonte","0","0",NULL,NULL
+"7329","11",,"Upper Corsica","0","0",NULL,NULL
+"7332","11",,"South Corsica","0","0",NULL,NULL
+"7335","23","Тонале","Tonale","0","0",NULL,NULL
+"7338","58","Горнолыжный курорт Банско","Bansko Region","0","0",NULL,NULL
+"7341","19",,"Phoenix Metropolitan Area","0","0",NULL,NULL
+"7344","35","Провинция Анталья","Antalya Province","0","0",NULL,NULL
+"7347","183","Аитутаки","Aitutaki","0","0",NULL,NULL
+"7350","235","Вити-Леву","Viti Levu","0","0",NULL,NULL
+"7353","122","Акаба","Aqaba Governorate","0","0",NULL,NULL
+"7356","122","Мадаба","Madaba Governorate","0","0",NULL,NULL
+"7359","122","Провинция Амман","Amman Governorate","0","0",NULL,NULL
+"7362","140","Аль-Асима","Al Asimah","0","0",NULL,NULL
+"7365","140",,"Hawalli","0","0",NULL,NULL
+"7368","140",,"Mubarak Al-Kabeer","0","0",NULL,NULL
+"7371","140",,"Al Jahra","0","0",NULL,NULL
+"7374","143","Провинция Бейрут","Beirut Governorate","0","0",NULL,NULL
+"7377","65","Столичная мухафаза","Capital Governorate","0","0",NULL,NULL
+"7380","65","Центральная мухафаза","Central Governorate","0","0",NULL,NULL
+"7383","143",,"South Governorate","0","0",NULL,NULL
+"7386","143",,"Nabatiye","0","0",NULL,NULL
+"7389","65","Северная мухафаза","Northern Governorate","0","0",NULL,NULL
+"7392","28",,"Schiphol (for supply target only)","0","0",NULL,NULL
+"7395","11",,"Megève","0","0",NULL,NULL
+"7398","40",,"São Jorge Island","0","0",NULL,NULL
+"7401","56","Провинция Бангкок","Bangkok Province","0","0",NULL,NULL
+"7404","43",,"Okanagan Valley","0","0",NULL,NULL
+"7407","23","Мондоле-Ски","Mondole Ski","0","0",NULL,NULL
+"7410","173","Бей-оф-Айлендс","Bay of Islands","0","0",NULL,NULL
+"7413","22",,"Innsbruck (for supply target only)","0","0",NULL,NULL
+"7416","22",,"Graz (for supply target only)","0","0",NULL,NULL
+"7419","22",,"Linz (for supply target only)","0","0",NULL,NULL
+"7422","10",,"Obergoms","0","0",NULL,NULL
+"7425","10",,"Aigle","0","0",NULL,NULL
+"7428","10",,"Goms","0","0",NULL,NULL
+"7431","10",,"Pays d'Enhaut","0","0",NULL,NULL
+"7434","33","Сеул","Seoul Special City","0","0",NULL,NULL
+"7437","33","Кёнгидо","Gyeonggi-do","0","0",NULL,NULL
+"7440","33","Пусан","Busan Metropolitan City","0","0",NULL,NULL
+"7443","33","Кёнсан-Намдо","Gyeongsangnam-do","0","0",NULL,NULL
+"7446","33","Тэгу","Daegu Metropolitan City","0","0",NULL,NULL
+"7449","10","Базель-Ланд","Basel-Landschaft","0","0",NULL,NULL
+"7452","42",,"Orust","0","0",NULL,NULL
+"7455","19",,"Detroit Metropolitan Area","0","0",NULL,NULL
+"7458","23","Национальный парк Абруццо","National Park of Abruzzo","0","0",NULL,NULL
+"7461","23",,"Valle di Ledro","0","0",NULL,NULL
+"7464","52",,"Aran Islands","0","0",NULL,NULL
+"7467","52",,"Inishmore","0","0",NULL,NULL
+"7470","23","Ирпиния","Irpinia","0","0",NULL,NULL
+"7473","23","Национальный парк Майелла","Majella National Park","0","0",NULL,NULL
+"7476","22",,"Oberinntal","0","0",NULL,NULL
+"7479","10","Ааргау","Aargau","0","0",NULL,NULL
+"7482","10","Аппенцелль — Ауссерроден","Appenzell Ausserrhoden","0","0",NULL,NULL
+"7485","10","Гларус","Canton of Glarus","0","0",NULL,NULL
+"7488","10","Базель-Штадт","Canton of Basel-Stadt","0","0",NULL,NULL
+"7491","27",,"Malaga-Marbella (for supply target only)","0","0",NULL,NULL
+"7494","27",,"Torremolinos-Benalmadena (for supply target only)","0","0",NULL,NULL
+"7497","10","Женева","Canton of Geneva","0","0",NULL,NULL
+"7500","27",,"Valencia city (for supply target only)","0","0",NULL,NULL
+"7503","10","Юра","Jura","0","0",NULL,NULL
+"7506","10","Люцерн","Canton of Lucerne","0","0",NULL,NULL
+"7509","10","Невшатель","Canton of Neuchâtel","0","0",NULL,NULL
+"7512","10","Нидвальден","Nidwalden","0","0",NULL,NULL
+"7515","10","Обвальден","Obwalden","0","0",NULL,NULL
+"7518","10","Шаффхаузен","Canton of Schaffhausen","0","0",NULL,NULL
+"7521","10","Швиц","Canton of Schwyz","0","0",NULL,NULL
+"7524","10","Золотурн","Canton of Solothurn","0","0",NULL,NULL
+"7527","10","Тургау","Thurgau","0","0",NULL,NULL
+"7530","23",,"Val di Non","0","0",NULL,NULL
+"7533","10","Ури","Uri","0","0",NULL,NULL
+"7536","10","Цуг","Canton of Zug","0","0",NULL,NULL
+"7539","10",,"Chiasso","0","0",NULL,NULL
+"7542","23","Валь Сеналес","Val Senales","0","0",NULL,NULL
+"7545","10",,"Locarno Ascona Losone","0","0",NULL,NULL
+"7548","238",,"Manihi","0","0",NULL,NULL
+"7551","238","Таити","Tahiti","0","0",NULL,NULL
+"7554","238","Муреа","Moorea","0","0",NULL,NULL
+"7557","238","Бора-Бора","Bora Bora","0","0",NULL,NULL
+"7560","67",,"Cape Peninsula","0","0",NULL,NULL
+"7563","11",,"Mountain Region (for supply target only)","0","0",NULL,NULL
+"7566","24",,"Bath (for supply target only)","0","0",NULL,NULL
+"7569","175","Лофотенские острова","Lofoten","0","0",NULL,NULL
+"7572","11",,"Aquitaine 1 (for supply target only)","0","0",NULL,NULL
+"7575","11",,"Aquitaine 2 (for supply target only)","0","0",NULL,NULL
+"7578","11",,"Aquitaine 3 (for supply target only)","0","0",NULL,NULL
+"7581","11",,"Midi Pyrenees 1 (for supply target only)","0","0",NULL,NULL
+"7584","27",,"A Marina Lucense","0","0",NULL,NULL
+"7587","11",,"PACA 2 (for supply target only)","0","0",NULL,NULL
+"7590","11",,"PACA 3 (for supply target only)","0","0",NULL,NULL
+"7593","40","Северный регион","Norte Region","0","0",NULL,NULL
+"7596","40","Центральный регион","Centro","0","0",NULL,NULL
+"7599","40","Лиссабонский регион","Lisbon Region","0","0",NULL,NULL
+"7602","10","Аппенцелль — Иннерроден","Appenzell Innerrhoden","0","0",NULL,NULL
+"7605","10",,"Mittelbunden","0","0",NULL,NULL
+"7608","61","Восточная Македония","East Macedonia and Thrace","0","0",NULL,NULL
+"7611","61","Южные Эгейские острова","South Aegean","0","0",NULL,NULL
+"7614","61","Западная Греция","West Greece","0","0",NULL,NULL
+"7617","61","Западная Македония","West Macedonia","0","0",NULL,NULL
+"7620","53",,"Phillip Island","0","0",NULL,NULL
+"7623","10",,"Val Mustair","0","0",NULL,NULL
+"7626","23","Саннио","Sannio","0","0",NULL,NULL
+"7629","61",,"Plastira lake","0","0",NULL,NULL
+"7632","27",,"Valle del Tiétar","0","0",NULL,NULL
+"7635","158",,"Morocco 1 (for supply target only)","0","0",NULL,NULL
+"7638","57",,"Tunisia 1 (for supply target only)","0","0",NULL,NULL
+"7641","57",,"Tunisia 2 (for supply target only)","0","0",NULL,NULL
+"7644","158",,"Morocco 2 (for supply target only)","0","0",NULL,NULL
+"7647","19",,"Destin / Fort Walton (for supply target only)","0","0",NULL,NULL
+"7650","19",,"Panama City (for supply target only)","0","0",NULL,NULL
+"7653","19",,"Pensacola (for supply target only)","0","0",NULL,NULL
+"7656","10",,"Kandertal","0","0",NULL,NULL
+"7659","10",,"Haslital","0","0",NULL,NULL
+"7662","24",,"Isle of Harris","0","0",NULL,NULL
+"7665","42",,"Osterlen","0","0",NULL,NULL
+"7668","61",,"Anatoliki Makedonia (for supply target only)","0","0",NULL,NULL
+"7671","61","Аттика","Attica","0","0",NULL,NULL
+"7674","61","Пелопоннес","Peloponnese","0","0",NULL,NULL
+"7677","61","Фессалия","Thessalia","0","0",NULL,NULL
+"7680","10",,"Gambarogno","0","0",NULL,NULL
+"7683","63",,"South Sinai (for supply target only)","0","0",NULL,NULL
+"7686","63",,"Al Bahr Al Ahmar (for supply target only)","0","0",NULL,NULL
+"7689","63",,"Al Jizah (for supply target only)","0","0",NULL,NULL
+"7692","63",,"Port Said Governorate (for supply target only)","0","0",NULL,NULL
+"7695","63",,"Birket Qarun (for supply target only)","0","0",NULL,NULL
+"7698","63",,"Suez Governorate (for supply target only)","0","0",NULL,NULL
+"7701","63",,"Al Qahirah (for supply target only)","0","0",NULL,NULL
+"7704","63",,"Al Uqsur (for supply target only)","0","0",NULL,NULL
+"7707","63",,"Al Fayyum (for supply target only)","0","0",NULL,NULL
+"7710","63",,"Alexandria Governorate (for supply target only)","0","0",NULL,NULL
+"7713","63",,"Aswan (for supply target only)","0","0",NULL,NULL
+"7716","43",,"Thompson Okanagan","0","0",NULL,NULL
+"7719","235",,"Coral Coast","0","0",NULL,NULL
+"7722","56","Чиангмай","Chiang Mai Province","0","0",NULL,NULL
+"7725","19",,"The Berkshires","0","0",NULL,NULL
+"7728","27",,"Rioja Alavesa","0","0",NULL,NULL
+"7731","235",,"Nanuya Balavu Island","0","0",NULL,NULL
+"7734","235",,"Mana Island","0","0",NULL,NULL
+"7737","235",,"Beachcomber Island","0","0",NULL,NULL
+"7740","235",,"Kadavu Island","0","0",NULL,NULL
+"7743","10",,"Geneva City (for supply target only)","0","0",NULL,NULL
+"7746","10",,"Zurich City (for supply target only)","0","0",NULL,NULL
+"7749","10",,"Basel City (for supply target only)","0","0",NULL,NULL
+"7752","10",,"Luzern City (for supply target only)","0","0",NULL,NULL
+"7755","10",,"Zermatt City (for supply target only)","0","0",NULL,NULL
+"7758","10",,"Bern (for supply target only)","0","0",NULL,NULL
+"7761","10",,"Graubünden (for supply target only)","0","0",NULL,NULL
+"7764","68",,"Israel All (for supply target only)","0","0",NULL,NULL
+"7767","10",,"Aargau (for supply target only)","0","0",NULL,NULL
+"7770","10",,"Basel-Landschaft (for supply target only)","0","0",NULL,NULL
+"7773","10",,"Solothurn (for supply target only)","0","0",NULL,NULL
+"7776","10",,"Glarus (for supply target only)","0","0",NULL,NULL
+"7779","56",,"Amphoe Khanom (for supply target only)","0","0",NULL,NULL
+"7782","28",,"Tholen","0","0",NULL,NULL
+"7785","10",,"Bernese Jura / Neuchatel (for supply target only)","0","0",NULL,NULL
+"7788","175",,"Kystriksveien","0","0",NULL,NULL
+"7791","175",,"Hardangervidda National Tourist Route","0","0",NULL,NULL
+"7794","175",,"Jæren","0","0",NULL,NULL
+"7797","175",,"Southern Norway","0","0",NULL,NULL
+"7800","24",,"Loch Lomond and The Trossachs National Park","0","0",NULL,NULL
+"7803","10",,"Axalp","0","0",NULL,NULL
+"7806","10",,"Zurich highlands","0","0",NULL,NULL
+"7809","27",,"Jandia","0","0",NULL,NULL
+"7812","61",,"Messinia","0","0",NULL,NULL
+"7815","22",,"Inntal","0","0",NULL,NULL
+"7818","22",,"Tux","0","0",NULL,NULL
+"7821","22",,"Fügen","0","0",NULL,NULL
+"7824","22","Клопайнерзее","Klopeinersee","0","0",NULL,NULL
+"7827","56","Пхангнга","Phang Nga Province","0","0",NULL,NULL
+"7830","11",,"Beaune-Dijon-Macon (for supply target only)","0","0",NULL,NULL
+"7833","11",,"Clermont (for supply target only)","0","0",NULL,NULL
+"7836","11",,"Rhones Alpes 1 (for supply target only)","0","0",NULL,NULL
+"7839","24",,"Bournemouth (for supply target only)","0","0",NULL,NULL
+"7842","23","Залив Орозеи","Gulf of Orosei","0","0",NULL,NULL
+"7845","23","Полуостров Синис","Sinis Peninsula","0","0",NULL,NULL
+"7848","23","Коста Верде","Costa Verde","0","0",NULL,NULL
+"7851","67",,"Panorama Route","0","0",NULL,NULL
+"7854","10",,"Klosters","0","0",NULL,NULL
+"7857","22",,"Kaunertal Area","0","0",NULL,NULL
+"7860","58","Родопы","Rhodope Mountains","0","0",NULL,NULL
+"7863","23","Провинция Ливорно","Province of Livorno","0","0",NULL,NULL
+"7866","23",,"Pisa Area","0","0",NULL,NULL
+"7869","23",,"Siena Area","0","0",NULL,NULL
+"7872","23",,"Arezzo Area","0","0",NULL,NULL
+"7875","23",,"Firenze Area","0","0",NULL,NULL
+"7878","23",,"Prato Area","0","0",NULL,NULL
+"7881","23",,"Pistoia Area","0","0",NULL,NULL
+"7884","23",,"Massa Carrara Area","0","0",NULL,NULL
+"7887","23",,"Verona Area","0","0",NULL,NULL
+"7890","23",,"Vicenza Province","0","0",NULL,NULL
+"7893","23",,"Padova Area","0","0",NULL,NULL
+"7896","23",,"Rovigo Area","0","0",NULL,NULL
+"7899","23",,"Belluno Area","0","0",NULL,NULL
+"7902","23",,"Treviso Area","0","0",NULL,NULL
+"7905","23",,"Venezia Area","0","0",NULL,NULL
+"7908","53","Магнетик-Айленд","Magnetic Island","0","0",NULL,NULL
+"7911","173","Остров Уаихеке","Waiheke Island","0","0",NULL,NULL
+"7914","10",,"Alpes Vaudoises","0","0",NULL,NULL
+"7917","95","Остров Маргарита","Margarita Island","0","0",NULL,NULL
+"7920","23",,"Piacenza Area","0","0",NULL,NULL
+"7923","23",,"Parma Area","0","0",NULL,NULL
+"7926","23",,"Reggio Emilia","0","0",NULL,NULL
+"7929","23",,"Modena Area","0","0",NULL,NULL
+"7932","23","Провинция Болонья","Bologna Province","0","0",NULL,NULL
+"7935","23",,"Ferrara Area","0","0",NULL,NULL
+"7938","23",,"Ravenna Area","0","0",NULL,NULL
+"7941","23",,"Forli-Cesena Area","0","0",NULL,NULL
+"7944","23",,"Rimini Area","0","0",NULL,NULL
+"7947","23","Побережье Лацио","Lazio Coast","0","0",NULL,NULL
+"7950","61",,"Samothraki Island","0","0",NULL,NULL
+"7953","57",,"Golfe of Tunis","0","0",NULL,NULL
+"7956","22",,"Lechtal","0","0",NULL,NULL
+"7959","23",,"Val Badia","0","0",NULL,NULL
+"7962","49","Гоа","Goa","0","0",NULL,NULL
+"7965","27",,"El Bierzo","0","0",NULL,NULL
+"7968","53",,"Daylesford and the Macedon Ranges","0","0",NULL,NULL
+"7971","53",,"Gippsland","0","0",NULL,NULL
+"7974","53",,"Murray River","0","0",NULL,NULL
+"7977","53",,"Grampians","0","0",NULL,NULL
+"7980","63","Северное побережье","North Coast","0","0",NULL,NULL
+"7983","67",,"Drakensberg","0","0",NULL,NULL
+"7986","22","Округ Кицбюэль","Kitzbuhel","0","0",NULL,NULL
+"7989","61",,"Orini Nafpaktia","0","0",NULL,NULL
+"7992","40","Регион Порту","Porto Region","0","0",NULL,NULL
+"7995","24",,"Western Lake District","0","0",NULL,NULL
+"7998","22",,"Pillerseetal","0","0",NULL,NULL
+"8001","255","Ми","Mie","0","0",NULL,NULL
+"8004","11",,"Haute Loire","0","0",NULL,NULL
+"8007","255","Айти","Aichi","0","0",NULL,NULL
+"8010","23","Мурджия","Murgia","0","0",NULL,NULL
+"8013","61","Пиерия","Pieria","0","0",NULL,NULL
+"8016","175",,"Hardanger","0","0",NULL,NULL
+"8019","10",,"Lac de Joux","0","0",NULL,NULL
+"8022","22",,"Murtal","0","0",NULL,NULL
+"8025","23",,"Valle d'Itria","0","0",NULL,NULL
+"8028","61",,"Fthiotida","0","0",NULL,NULL
+"8031","27",,"Ripolles","0","0",NULL,NULL
+"8034","61",,"Trikala Korinthias","0","0",NULL,NULL
+"8037","175",,"Gudbrands valley","0","0",NULL,NULL
+"8040","22",,"Kaiserwinkl","0","0",NULL,NULL
+"8043","61",,"Fokida","0","0",NULL,NULL
+"8046","61",,"Aitoloakarnania","0","0",NULL,NULL
+"8049","61",,"Evrytania","0","0",NULL,NULL
+"8052","61",,"Voiotia","0","0",NULL,NULL
+"8055","61","Ахея","Achaia","0","0",NULL,NULL
+"8058","61",,"Ilia","0","0",NULL,NULL
+"8061","10",,"Lugano - Malcantone","0","0",NULL,NULL
+"8064","61","Ираклион","Heraklio","0","0",NULL,NULL
+"8067","61","Ласитион","Lasithi","0","0",NULL,NULL
+"8070","53","Золотое побережье","Gold Coast Hinterland","0","0",NULL,NULL
+"8073","22","Серфаус-Фисс-Ладис","Serfaus Fiss Ladis","0","0",NULL,NULL
+"8076","33","Остров Чеджудо","Jeju Island","0","0",NULL,NULL
+"8079","24",,"Glasgow & The Clyde Valley","0","0",NULL,NULL
+"8082","175",,"Northern Norway","0","0",NULL,NULL
+"8085","11","Ла-Плань","La Plagne","0","0",NULL,NULL
+"8088","10",,"Simmental","0","0",NULL,NULL
+"8091","173",,"Fiordland National Park","0","0",NULL,NULL
+"8094","36","Кханьхоа","Khanh Hoa","0","0",NULL,NULL
+"8097","53",,"Tamar Valley","0","0",NULL,NULL
+"8100","38",,"Langeland","0","0",NULL,NULL
+"8103","89",,"Marajó island","0","0",NULL,NULL
+"8106","89",,"Ilhabela","0","0",NULL,NULL
+"8109","22",,"St. Anton","0","0",NULL,NULL
+"8112","52","Южный Дублин","Dublin South Suburb","0","0",NULL,NULL
+"8115","52","Западный пригород Дублина","Dublin West Suburb","0","0",NULL,NULL
+"8118","52","Северный пригород Дублина","Dublin North Suburb","0","0",NULL,NULL
+"8121","23",,"Sardinia North","0","0",NULL,NULL
+"8124","23","Южная Сардиния","Sardinia South","0","0",NULL,NULL
+"8127","22",,"Mürztal","0","0",NULL,NULL
+"8130","22",,"Südburgenland","0","0",NULL,NULL
+"8133","22",,"Mittelburgenland","0","0",NULL,NULL
+"8136","22",,"Lech - Zürs","0","0",NULL,NULL
+"8139","33","Канвондо","Gangwon-Do","0","0",NULL,NULL
+"8142","61","Ном Кастория","Kastoria Prefecture","0","0",NULL,NULL
+"8145","27",,"Garrotxa","0","0",NULL,NULL
+"8148","61",,"Helmos","0","0",NULL,NULL
+"8151","22",,"Reutte","0","0",NULL,NULL
+"8154","43",,"Kootenay Rockies","0","0",NULL,NULL
+"8157","43",,"Vancouver, Coast and Mountains","0","0",NULL,NULL
+"8160","61","Арголида","Argolida","0","0",NULL,NULL
+"8163","61","Аркадия","Arcadia","0","0",NULL,NULL
+"8166","61",,"Lakonia","0","0",NULL,NULL
+"8169","61","Коринфия","Corinthia","0","0",NULL,NULL
+"8172","10","Лугано","Lugano","0","0",NULL,NULL
+"8175","10",,"Mendrisio","0","0",NULL,NULL
+"8178","121","острова Гили","Gili Islands","0","0",NULL,NULL
+"8181","22",,"Bucklige Welt","0","0",NULL,NULL
+"8182","3","Акмолинская область","Akmola region","0","0",NULL,NULL
+"8185","3","Актюбинская область","Aktobe region","0","0",NULL,NULL
+"8188","3","Алматинская область ","Almaty region","0","0",NULL,NULL
+"8191","3","Атырауская область","Atyrau region","0","0",NULL,NULL
+"8194","3","Восточно-Казахстанская область","The East Kazakhstan region","0","0",NULL,NULL
+"8197","3","Жамбылская область","Jambyl Region","0","0",NULL,NULL
+"8200","3","Западно-Казахстанская область","West-Kazakhstan region","0","0",NULL,NULL
+"8203","3","Карагандинская область","Karaganda region","0","0",NULL,NULL
+"8206","3","Костанайская область","Kostanay region","0","0",NULL,NULL
+"8209","3","Мангистауская область","Mangistau region","0","0",NULL,NULL
+"8212","3","Павлодарская область","Pavlodar region","0","0",NULL,NULL
+"8215","3","Северо-Казахстанская область","North-Kazakhstan region","0","0",NULL,NULL
+"8218","3","Южно – Казахстанская область ","South - Kazakhstan region","0","0",NULL,NULL
+"8221","16","Иссык-Кульская область","Issyk-Kul Region","0","0",,
+"8222","2","Львовская область","Lviv Oblast","0","0",,
+"8223","2","Винницкая область","Vinnitsa Oblast","0","0",,
+"8226","2","Черкасская область","Cherkasy Oblast","0","0",,
+"8229","1","Донецкая Народная Республика","Donetsk People's Republic","0","0",NULL,NULL
+"8232","1","Луганская Народная Республика","Luhansk People's Republic","0","0",NULL,NULL
+"8235","1","Запорожская область","Zaporozhye Region","0","0",NULL,NULL
+"8238","1","Херсонская область","Kherson Region","0","0",NULL,NULL

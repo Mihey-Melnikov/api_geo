@@ -1,8 +1,10 @@
 import requests
+from timezonefinder import TimezoneFinder
 
 class NominatimClient:
     def __init__(self):
         self.base_url = "https://nominatim.openstreetmap.org"
+        self.tz = TimezoneFinder()
 
     def search(self, query):
         endpoint = "/search"
@@ -28,18 +30,6 @@ class NominatimClient:
         }
         response = requests.get(self.base_url + endpoint, params=params)
         return response.json()
-
-# Пример использования:
-nominatim_client = NominatimClient()
-search_result = nominatim_client.search("Кольцово")
-print(search_result)
-if search_result:
-    first_place_id = search_result[0]["place_id"]
-    details_result = nominatim_client.get_details("W", 43102086, "aeroway")
-    if details_result:
-        print(f"Детали места (place_id={first_place_id}):")
-        print(details_result)
-    else:
-        print("Не удалось получить детали места.")
-else:
-    print("Не удалось найти место по запросу.")
+    
+    def get_timezone(self, coordinates):
+        return self.tz.timezone_at(lng=coordinates[0], lat=coordinates[1])

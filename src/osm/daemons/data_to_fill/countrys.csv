@@ -1,0 +1,254 @@
+"id","name","latname","url","phone_code","iso3_alpha2","iso3_alpha3","del","phone_mask"
+"1","Россия","Russia","russia","+7","RU","RUS","0","(...) ...-..-.."
+"2","Украина","Ukraine","ukraine","+380","UA","UKR","0","(..) ... .. .."
+"3","Казахстан","Kazakhstan","kazakhstan","+7","KZ","KAZ","0","(...) ...-..-.."
+"4","Узбекистан","Uzbekistan","uzbekistan","+998","UZ","UZB","0",NULL
+"5","Эстония","Estonia","estonia","+372","EE","EST","0",".... ......"
+"6","Латвия","Latvia","latvia","+371","LV","LVA","0",NULL
+"7","Литва","Lithuania","lithuania","+370","LT","LTU","0",NULL
+"8","Молдавия","Moldavia","moldavia","+373","MD","MDA","0","(..) ..-..-.."
+"9","Беларусь","Belarus","belarus","+375","BY","BLR","0","(..) ... .. .."
+"10","Швейцария","Switzerland","switzerland","+41","CH","CHE","0",".. ... .. .."
+"11","Франция","France","france","+33","FR","FRA","0",". .. .. .. .."
+"12","Финляндия","Finland","finland","+358","FI","FIN","0",".. ... .. .."
+"13","Германия","Germany","germany","+49","DE","DEU","0",".... ......|.... ......."
+"14","Китай","China","china","+86","CN","CHN","0","..-........."
+"15","Таджикистан","Tajikistan","tajikistan","+992","TJ","TJK","0",NULL
+"16","Кыргызстан","Kyrgyzstan","kyrgyzstan","+996","KG","KGZ","0",NULL
+"17","Туркменистан","Turkmenistan","turkmenistan","+993","TM","TKM","0",NULL
+"18","Грузия","Georgia","georgia","+995","GE","GEO","0",NULL
+"19","США","USA","usa","+1","US","USA","0","(...) ...-...."
+"20","Азербайджан","Azerbayjan","azerbayjan","+994","AZ","AZE","0",NULL
+"21","Армения","Armenia","armenia","+374","AM","ARM","0",NULL
+"22","Австрия","Austria","austria","+43","AT","AUT","0",NULL
+"23","Италия","Italy","italy","+39","IT","ITA","0","... ......."
+"24","Великобритания","United Kingdom","united-kingdom","+44","GB","GBR","0",".... ......"
+"25","Польша","Poland","poland","+48","PL","POL","0","...-...-..."
+"26","Филиппины","Philippines","philippines","+63","PH","PHL","0",".... ......"
+"27","Испания","Spain","spain","+34","ES","ESP","0","... ... ..."
+"28","Нидерланды","Netherlands","netherlands","+31","NL","NLD","0",".. ........"
+"29","Монголия","Mongolia","mongolia","+976","MN","MNG","0",NULL
+"30","ОАЭ","United Arab Emirates","united-arab-emirates","+971","AE","ARE","0",NULL
+"31","Чехия","Czech Republic","czech-republic","+420","CZ","CZE","0",NULL
+"32","Абхазия","Abkhaziya","abkhazia",,"AB","ABH","0",NULL
+"33","Южная Корея","South Korea","south-korea","+82","KR","KOR","0","... .... ...."
+"34","Румыния","Romania","romania","+40","RO","ROU","0",NULL
+"35","Турция","Turkey","turkey","+90","TR","TUR","0","... ... .. .."
+"36","Вьетнам","Vietnam","vietnam","+84","VN","VNM","0",NULL
+"37","Бельгия","Belgium","belgium","+32","BE","BEL","0","... .. .. .."
+"38","Дания","Denmark","denmark","+45","DK","DNK","0",".. .. .. .."
+"40","Португалия","Portugal","portugal","+351","PT","PRT","0",NULL
+"41","Куба","Cuba","cuba","+53","CU","CUB","0",NULL
+"42","Швеция","Sweden","sweden","+46","SE","SWE","0","(...) ...-..."
+"43","Канада","Canada","canada","+1","CA","CAN","0","(...) ...-...."
+"46","Малайзия","Malaysia","malaysia","+60","MY","MYS","0","..-....-...."
+"47","Шри-Ланка","Sri Lanka","sri-lanka","+94","LK","LKA","0",NULL
+"49","Индия","India","india","+91","IN","IND","0",".....-....."
+"50","Бруней Даруссалам","Brunei Darussalam","brunei","+673","BN","BRN","0",NULL
+"51","Лаос","Laos","laos","+856","LA","LAO","0",NULL
+"52","Ирландия","Ireland","ireland","+353","IE","IRL","0",".. ......."
+"53","Австралия","Australia","australia","+61","AU","AUS","0","(..) .... ...."
+"54","Алжир","Algeria","algeria","+213","DZ","DZA","0",NULL
+"55","Хорватия","Croatia","croatia","+385","HR","HRV","0",NULL
+"56","Таиланд","Thailand","thailand","+66","TH","THA","0",NULL
+"57","Тунис","Tunis","tunis","+216","TN","TUN","0",NULL
+"58","Болгария","Bulgaria","bulgaria","+359","BG","BGR","0",NULL
+"59","Венгрия","Hungary","hungary","+36","HU","HUN","0",NULL
+"60","Ирак","Iraq","iraq","+964","IQ","IRQ","0",NULL
+"61","Греция","Greece","greece","+30","GR","GRC","0",NULL
+"62","Кения","Kenya","kenya","+254","KE","KEN","0",NULL
+"63","Египет","Egypt","egypt","+20","EG","EGY","0",NULL
+"64","Мексика","Mexico","mexico","+52","MX","MEX","0","... ... ...."
+"65","Бахрейн","Bahrain","bahrain","+973","BH","BHR","0",NULL
+"66","Словения","Slovenija","slovenija","+386","SI","SVN","0",NULL
+"67","ЮАР","Republic of South Africa","republic-of-south-africa","+27","ZA","ZAF","0",NULL
+"68","Израиль","Israel","israel","+972","IL","ISR","0","... ... ...."
+"69","Албания","Albania","albania","+355","AL","ALB","0",NULL
+"70","Американское Самоа","American Samoa","american-samoa",,"AS","ASM","0",NULL
+"71","Ангилья","Anguilla","anguilla",,"AI","AIA","0",NULL
+"72","Ангола","Angola","angola","+244","AO","AGO","0",NULL
+"73","Андорра","Andorra","andorra","+376","AD","AND","0",NULL
+"74","Антарктида","Antarctica","antarctica",,"AQ","ATA","0",NULL
+"75","Антигуа и Барбуда","Antigua and Barbuda","antigua-and-barbuda","+1268","AG","ATG","0",NULL
+"76","Аргентина","Argentina","argentina","+54","AR","ARG","0","(..) ........"
+"77","Аруба","Aruba","aruba","+297","AW","ABW","0",NULL
+"78","Афганистан","Afghanistan","afghanistan","+93","AF","AFG","0",NULL
+"79","Багамы","Bahamas","bahamas","+1242","BS","BHS","0",NULL
+"80","Бангладеш","Bangladesh","bangladesh","+880","BD","BGD","0",NULL
+"81","Барбадос","Barbados","barbados","+1246","BB","BRB","0",NULL
+"82","Белиз","Belize","belize","+501","BZ","BLZ","0",NULL
+"83","Бенин","Benin","benin","+229","BJ","BEN","0",NULL
+"84","Бермуды","Bermuda","bermuda",,"BM","BMU","0",NULL
+"85","Боливия","Bolivia","bolivia","+591","BO","BOL","0",NULL
+"86","Бонайре, Саба и Синт-Эстатиус","Bonaire, Sint Eustatius and Saba","bonaire","+599","BQ","BES","0",NULL
+"87","Босния и Герцеговина","Bosnia and Herzegovina","bosnia-and-herzegovina","+387","BA","BIH","0",NULL
+"88","Ботсвана","Botswana","botswana","+267","BW","BWA","0",NULL
+"89","Бразилия","Brazil","brazil","+55","BR","BRA","0","(..) ........."
+"90","Британская территория в Индийском океане","British Indian Ocean Territory","british-indian-ocean-territory","+246","IO","IOT","0",NULL
+"91","Буркина-Фасо","Burkina Faso","burkina-faso","+226","BF","BFA","0",NULL
+"92","Бурунди","Burundi","burundi","+257","BI","BDI","0",NULL
+"93","Бутан","Bhutan","bhutan","+975","BT","BTN","0",NULL
+"94","Вануату","Vanuatu","vanuatu","+678","VU","VUT","0",NULL
+"95","Венесуэла","Venezuela","venezuela","+58","VE","VEN","0",NULL
+"96","Виргинские острова, Британские","Virgin Islands, British","british-virgin-islands",,"VG","VGB","0",NULL
+"97","Виргинские острова, США","Virgin Islands, U.S.","virgin-islands",,"VI","VIR","0",NULL
+"98","Габон","Gabon","gabon","+241","GA","GAB","0",NULL
+"99","Гаити","Haiti","haiti","+509","HT","HTI","0","....-...."
+"100","Гайана","Guyana","guyana","+592","GY","GUY","0",NULL
+"101","Гамбия","Gambia","gambia","+220","GM","GMB","0",NULL
+"102","Гана","Ghana","ghana","+233","GH","GHA","0",NULL
+"103","Гваделупа","Guadeloupe","guadeloupe","+590","GP","GLP","0",NULL
+"104","Гватемала","Guatemala","guatemala","+502","GT","GTM","0","....-...."
+"105","Гвинея","Guinea","guinea","+224","GN","GIN","0",NULL
+"106","Гвинея-Бисау","Guinea-Bissau","guinea-bissau","+245","GW","GNB","0",NULL
+"107","Гернси","Guernsey","guernsey",,"GG","GGY","0",NULL
+"108","Гибралтар","Gibraltar","gibraltar",,"GI","GIB","0",NULL
+"109","Гондурас","Honduras","honduras","+504","HN","HND","0",NULL
+"110","Гонконг","Hong Kong","hong-kong","+852","HK","HKG","0",".... ...."
+"111","Гренада","Grenada","grenada","+1473","GD","GRD","0",NULL
+"112","Гренландия","Greenland","greenland",,"GL","GRL","0",NULL
+"113","Гуам","Guam","guam","+1671","GU","GUM","0",NULL
+"114","Джерси","Jersey","jersey",,"JE","JEY","0",NULL
+"115","Джибути","Djibouti","djibouti","+253","DJ","DJI","0",NULL
+"116","Доминика","Dominica","dominica","+1767","DM","DMA","0",NULL
+"117","Доминиканская Республика","Dominican Republic","dominican-republic","+1","DO","DOM","0",NULL
+"118","Замбия","Zambia","zambia","+260","ZM","ZMB","0",NULL
+"119","Западная Сахара","Western Sahara","western-sahara",,"EH","ESH","0",NULL
+"120","Зимбабве","Zimbabwe","zimbabwe","+263","ZW","ZWE","0",NULL
+"121","Индонезия","Indonesia","indonesia","+62","ID","IDN","0",NULL
+"122","Иордания","Jordan","jordan","+962","JO","JOR","0",NULL
+"123","Иран","Iran","iran","+98","IR","IRN","0",NULL
+"124","Исландия","Iceland","iceland","+354","IS","ISL","0","... ...."
+"125","Йемен","Yemen","yemen","+967","YE","YEM","0",NULL
+"126","Кабо-Верде","Cape Verde","cape-verde","+238","CV","CPV","0",NULL
+"127","Камбоджа","Cambodia","cambodia","+855","KH","KHM","0",NULL
+"128","Камерун","Cameroon","cameroon","+237","CM","CMR","0",NULL
+"129","Катар","Qatar","qatar","+974","QA","QAT","0",NULL
+"130","Кипр","Cyprus","cyprus","+357","CY","CYP","0",".. ......"
+"131","Кирибати","Kiribati","kiribati","+686","KI","KIR","0",NULL
+"132","Кокосовые (Килинг) острова","Cocos (Keeling) Islands","cocos-keeling-islands",,"CC","CCK","0",NULL
+"133","Колумбия","Colombia","colombia","+57","CO","COL","0",NULL
+"134","Коморы","Comoros","comoros","+269","KM","COM","0",NULL
+"135","Конго","Congo","congo","+242","CG","COG","0",NULL
+"136","Конго, Демократическая Республика","Congo, Democratic Republic","congo-republic","+243","CD","COD","0",NULL
+"137","Северная Корея","North Korea","north-korea","+850","KP","PRK","0",NULL
+"138","Коста-Рика","Costa Rica","costa-rica","+506","CR","CRI","0","....-...."
+"139","Кот д'Ивуар","Cote d'Ivoire","cote-d-ivoire","+225","CI","CIV","0",NULL
+"140","Кувейт","Kuwait","kuwait","+965","KW","KWT","0",NULL
+"141","Кюрасао","Curacao","curacao","+599","CW","CUW","0",NULL
+"142","Лесото","Lesotho","lesotho","+266","LS","LSO","0",NULL
+"143","Ливан","Lebanon","lebanon","+961","LB","LBN","0",NULL
+"144","Ливия","Libya","libya","+218","LY","LBY","0",NULL
+"145","Либерия","Liberia","liberia","+231","LR","LBR","0",NULL
+"146","Лихтенштейн","Liechtenstein","liechtenstein","+423","LI","LIE","0",NULL
+"147","Люксембург","Luxembourg","luxembourg","+352","LU","LUX","0",NULL
+"148","Маврикий","Mauritius","mauritius","+230","MU","MUS","0",NULL
+"149","Мавритания","Mauritania","mauritania","+222","MR","MRT","0",NULL
+"150","Мадагаскар","Madagascar","madagascar","+261","MG","MDG","0",NULL
+"151","Майотта","Mayotte","mayotte",,"YT","MYT","0",NULL
+"152","Макао","Macao","macao","+853","MO","MAC","0",NULL
+"153","Малави","Malawi","malawi","+265","MW","MWI","0",NULL
+"154","Мали","Mali","mali","+223","ML","MLI","0",NULL
+"155","Малые Тихоокеанские отдаленные острова Соединенных Штатов","United States Minor Outlying Islands","united-states-minor-outlying-islands",,"UM","UMI","0",NULL
+"156","Мальдивы","Maldives","maldives","+960","MV","MDV","0",NULL
+"157","Мальта","Malta","malta","+356","MT","MLT","0",NULL
+"158","Марокко","Morocco","morocco","+212","MA","MAR","0",NULL
+"159","Мартиника","Martinique","martinique","+596","MQ","MTQ","0",NULL
+"160","Маршалловы острова","Marshall Islands","marshall-islands","+692","MH","MHL","0",NULL
+"161","Микронезия, Федеративные Штаты","Micronesia, Federated States of","micronesia","+691","FM","FSM","0",NULL
+"162","Мозамбик","Mozambique","mozambique","+258","MZ","MOZ","0",NULL
+"163","Монако","Monaco","monaco","+377","MC","MCO","0",NULL
+"164","Монтсеррат","Montserrat","montserrat",,"MS","MSR","0",NULL
+"165","Мьянма","Myanmar","myanmar","+95","MM","MMR","0",NULL
+"166","Намибия","Namibia","namibia","+264","NA","NAM","0",NULL
+"167","Науру","Nauru","nauru","+674","NR","NRU","0",NULL
+"168","Непал","Nepal","nepal","+977","NP","NPL","0",NULL
+"169","Нигер","Niger","niger","+227","NE","NER","0",NULL
+"170","Нигерия","Nigeria","nigeria","+234","NG","NGA","0",NULL
+"171","Никарагуа","Nicaragua","nicaragua","+505","NI","NIC","0",NULL
+"172","Ниуэ","Niue","niue",,"NU","NIU","0",NULL
+"173","Новая Зеландия","New Zealand","new-zealand","+64","NZ","NZL","0","...-...-...."
+"174","Новая Каледония","New Caledonia","new-caledonia","+687","NC","NCL","0",NULL
+"175","Норвегия","Norway","norway","+47","NO","NOR","0","... .. ..."
+"176","Оман","Oman","oman","+968","OM","OMN","0",NULL
+"177","Остров Буве","Bouvet Island","bouvet-island",,"BV","BVT","0",NULL
+"178","Остров Мэн","Isle of Man","isle-of-man",,"IM","IMN","0",NULL
+"179","Остров Норфолк","Norfolk Island","norfolk-island",,"NF","NFK","0",NULL
+"180","Остров Рождества","Christmas Island","christmas-island",,"CX","CXR","0",NULL
+"181","Остров Херд и острова Макдональд","Heard Island and McDonald Islands","heard-island-and-mcdonald-islands",,"HM","HMD","0",NULL
+"182","Острова Кайман","Cayman Islands","cayman-islands",,"KY","CYM","0",NULL
+"183","Острова Кука","Cook Islands","cook-islands",,"CK","COK","0",NULL
+"184","Острова Теркс и Кайкос","Turks and Caicos Islands","turks-and-caicos-islands",,"TC","TCA","0",NULL
+"185","Пакистан","Pakistan","pakistan","+92","PK","PAK","0","...-......."
+"186","Палау","Palau","palau","+680","PW","PLW","0",NULL
+"187","Палестинская территория","Palestinian Territory","palestinian-territory","+970","PS","PSE","0",NULL
+"188","Панама","Panama","panama","+507","PA","PAN","0",NULL
+"189","Ватикан","Vatican City","vatican-city","+39","VA","VAT","0",".. .... ...."
+"190","Папуа-Новая Гвинея","Papua New Guinea","papua-new-guinea","+675","PG","PNG","0",NULL
+"191","Парагвай","Paraguay","paraguay","+595","PY","PRY","0",NULL
+"192","Перу","Peru","peru","+51","PE","PER","0",NULL
+"193","Питкерн","Pitcairn","pitcairn",,"PN","PCN","0",NULL
+"194","Пуэрто-Рико","Puerto Rico","puerto-rico","+1","PR","PRI","0",NULL
+"195","Македония","Macedonia","macedonia","+389","MK","MKD","0",NULL
+"196","Реюньон","Reunion","reunion","+262","RE","REU","0",NULL
+"197","Руанда","Rwanda","rwanda","+250","RW","RWA","0",NULL
+"198","Самоа","Samoa","samoa","+685","WS","WSM","0",NULL
+"199","Сан-Марино","San Marino","san-marino","+378","SM","SMR","0",NULL
+"200","Сан-Томе и Принсипи","Sao Tome and Principe","sao-tome-and-principe","+239","ST","STP","0",NULL
+"201","Саудовская Аравия","Saudi Arabia","saudi-arabia","+966","SA","SAU","0",NULL
+"202","Свазиленд","Swaziland","swaziland","+268","SZ","SWZ","0",NULL
+"203","Святая Елена, Остров вознесения, Тристан-да-Кунья","Saint Helena, Ascension And Tristan Da Cunha","saint-helena",,"SH","SHN","0",NULL
+"204","Северные Марианские острова","Northern Mariana Islands","northern-mariana-islands",,"MP","MNP","0",NULL
+"205","Сен-Бартельми","Saint Barthelemy","saint-barthelemy",,"BL","BLM","0",NULL
+"206","Сен-Мартен","Saint Martin (French Part)","saint-martin-french-part",,"MF","MAF","0",NULL
+"207","Сенегал","Senegal","senegal","+221","SN","SEN","0",NULL
+"208","Сент-Винсент и Гренадины","Saint Vincent and the Grenadines","saint-vincent-and-the-grenadines","+1784","VC","VCT","0",NULL
+"209","Сент-Люсия","Saint Lucia","saint-lucia","+1758","LC","LCA","0",NULL
+"210","Сент-Китс и Невис","Saint Kitts and Nevis","saint-kitts-and-nevis","+1869","KN","KNA","0",NULL
+"211","Сент-Пьер и Микелон","Saint Pierre and Miquelon","saint-pierre-and-miquelon",,"PM","SPM","0",NULL
+"212","Сербия","Serbia","serbia","+381","RS","SRB","0",NULL
+"213","Сейшелы","Seychelles","seychelles","+248","SC","SYC","0",NULL
+"214","Сингапур","Singapore","singapore","+65","SG","SGP","0","....-...."
+"215","Синт-Мартен","Sint Maarten","sint-maarten",,"SX","SXM","0",NULL
+"216","Сирия","Syria","syria","+963","SY","SYR","0",NULL
+"217","Словакия","Slovakia","slovakia","+421","SK","SVK","0",NULL
+"218","Соломоновы острова","Solomon Islands","solomon-islands","+677","SB","SLB","0",NULL
+"219","Сомали","Somalia","somalia","+252","SO","SOM","0",NULL
+"220","Судан","Sudan","sudan","+249","SD","SDN","0",NULL
+"221","Суринам","Suriname","suriname","+597","SR","SUR","0",NULL
+"222","Сьерра-Леоне","Sierra Leone","sierra-leone","+232","SL","SLE","0",NULL
+"223","Тайвань","Taiwan","taiwan","+886","TW","TWN","0",NULL
+"224","Танзания","Tanzania","tanzania","+255","TZ","TZA","0",NULL
+"225","Тимор-Лесте","Timor-Leste","timor-leste","+670","TL","TLS","0",NULL
+"226","Того","Togo","togo","+228","TG","TGO","0",NULL
+"227","Токелау","Tokelau","tokelau",,"TK","TKL","0",NULL
+"228","Тонга","Tonga","tonga","+676","TO","TON","0",NULL
+"229","Тринидад и Тобаго","Trinidad and Tobago","trinidad-and-tobago","+1868","TT","TTO","0",NULL
+"230","Тувалу","Tuvalu","tuvalu","+688","TV","TUV","0",NULL
+"231","Уганда","Uganda","uganda","+256","UG","UGA","0",NULL
+"232","Уоллис и Футуна","Wallis and Futuna","wallis-and-futuna",,"WF","WLF","0",NULL
+"233","Уругвай","Uruguay","uruguay","+598","UY","URY","0",NULL
+"234","Фарерские острова","Faroe Islands","faroe-islands",,"FO","FRO","0",NULL
+"235","Фиджи","Fiji","fiji","+679","FJ","FJI","0",NULL
+"236","Фолклендские острова (Мальвинские)","Falkland Islands (Malvinas)","falkland-islands-malvinas",,"FK","FLK","0",NULL
+"237","Французская Гвиана","French Guiana","french-guiana","+594","GF","GUF","0",NULL
+"238","Французская Полинезия","French Polynesia","french-polynesia","+689","PF","PYF","0",NULL
+"239","Французские Южные территории","French Southern Territories","french-southern-territories",,"TF","ATF","0",NULL
+"240","Центрально-Африканская Республика","Central African Republic","central-african-republic","+236","CF","CAF","0",NULL
+"241","Чад","Chad","chad","+235","TD","TCD","0",NULL
+"242","Черногория","Montenegro","montenegro","+382","ME","MNE","0",NULL
+"243","Чили","Chile","chile","+56","CL","CHL","0",NULL
+"244","Шпицберген и Ян Майен","Svalbard and Jan Mayen","svalbard-and-jan-mayen",,"SJ","SJM","0",NULL
+"245","Эквадор","Ecuador","ecuador","+593","EC","ECU","0",NULL
+"246","Экваториальная Гвинея","Equatorial Guinea","equatorial-guinea","+240","GQ","GNQ","0",NULL
+"247","Эландские острова","Aland Islands","aland-islands",,"AX","ALA","0",NULL
+"248","Сальвадор","El Salvador","el-salvador","+503","SV","SLV","0","....-...."
+"249","Эритрея","Eritrea","eritrea","+291","ER","ERI","0",NULL
+"250","Эфиопия","Ethiopia","ethiopia","+251","ET","ETH","0",NULL
+"251","Южная Джорджия и Южные Сандвичевы острова","South Georgia and the South Sandwich Islands","south-georgia-and-the-south-sandwich-islands",,"GS","SGS","0",NULL
+"252","Южная Осетия","South Ossetia","south-ossetia",,"OS","OST","0",NULL
+"253","Южный Судан","South Sudan","south-sudan","+211","SS","SSD","0",NULL
+"254","Ямайка","Jamaica","jamaica","+1876","JM","JAM","0",NULL
+"255","Япония","Japan","japan","+81","JP","JPN","0",".. .... ...."
+"256","Косово","Kosovo","kosovo","+383","XK","XKX","0",NULL
+"261","Нидерландские Антильские острова","Netherland Antilles","netherland-antilles",,"AN","ANT","0",NULL

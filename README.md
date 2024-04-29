@@ -25,11 +25,15 @@ pip install -r requirements.txt
 alembic upgrade head
 ```
 
-4. Запустите тесты (вместе с ними подтянуться тестовые данные)
+4. Запустите скрипты наполнения базы
 
 ```python
-pytest -v -s --disable-warnings  tests/
+python ./src/osm/daemons/fill_country.py  
+python ./src/osm/daemons/fill_region.py
+python ./src/osm/daemons/fill_translation.py
 ```
+
+Скрипты нужно запускать поочередно
 
 5. Запустите проект
 
@@ -77,3 +81,17 @@ user: User = Depends(current_user)
 pytest -v -s --disable-warnings  tests/ 
 ```
 
+Дроп базы:  
+```sql
+drop table
+	public.airport,
+	public.railway_station,
+	public.metro,
+	public.city,
+	public.region,
+	public.country,
+	public.alembic_version,
+	public.translation,
+	public.translation_language,
+	public.user
+```
