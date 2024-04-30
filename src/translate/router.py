@@ -4,8 +4,8 @@ from sqlalchemy import update, select, insert, delete
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from src.database import get_async_session
-from src.translate.models import translation as translate
-from src.translate.schemas import TranslateCreate, TranslateRead, TranslateUpdate
+from src.translate.models import translation as translate, translation_language as language
+from src.translate.schemas import Language, TranslateCreate, TranslateRead, TranslateUpdate
 
 router = APIRouter(
     prefix="/api/translate",
@@ -58,3 +58,36 @@ async def update_translate(entity: str, entity_id: int, language: str, updated_r
     result = await session.execute(query)
     await session.commit()
     return result.one_or_none()
+
+@router.get("/language", response_model=List[Language])
+async def get_languages(session: AsyncSession = Depends(get_async_session)):
+    """
+    Get all languages to translate.
+    """
+    query = select(language)
+    result = await session.execute(query)
+    return result.mappings().all()
+
+@router.post("/language", response_model=Language)
+async def add_languages(new_language: Language, session: AsyncSession = Depends(get_async_session)):
+    """
+    Add a new language.
+    """
+    query = insert(language) \
+            .values(new_language.model_dump()) \
+            .returning(language)
+    result = await session.execute(query)
+    await session.commit()
+    return result.one()
+
+@router.delete("/language", response_model=Language)
+async def delete_languages(language_iso639: str, session: AsyncSession = Depends(get_async_session)):
+    """
+    Delete all translations about entity by entity name and ID.
+    """
+    query = delete(language) \
+            .where(language.c.language_iso639 == language_iso639) \
+            .returning(language)
+    result = await session.execute(query)
+    await session.commit()
+    return result.one()

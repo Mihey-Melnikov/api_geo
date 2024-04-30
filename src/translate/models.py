@@ -3,7 +3,7 @@ from sqlalchemy import Table, Column, Integer, String, TIMESTAMP, MetaData
 from src.database import metadata
 
 translation_language = Table("translation_language", metadata,
-    Column("language_iso639", String, primary_key=True, index=True),
+    Column("language_iso639", String(2), primary_key=True, index=True),
     Column("description", String, nullable=False),
 )
 

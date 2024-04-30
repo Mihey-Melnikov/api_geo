@@ -16,3 +16,7 @@ class TranslateCreate(BaseModel):
 
 class TranslateUpdate(BaseModel):
     translate: str
+
+class Language(BaseModel):
+    language_iso639: str
+    description: str
