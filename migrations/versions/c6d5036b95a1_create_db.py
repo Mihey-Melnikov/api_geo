@@ -1,8 +1,8 @@
 """Create db
 
-Revision ID: 0b027ace5414
+Revision ID: c6d5036b95a1
 Revises: 
-Create Date: 2024-04-30 01:27:28.935612
+Create Date: 2024-05-01 21:41:18.549609
 
 """
 from typing import Sequence, Union
@@ -12,7 +12,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision: str = '0b027ace5414'
+revision: str = 'c6d5036b95a1'
 down_revision: Union[str, None] = None
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
@@ -34,7 +34,8 @@ def upgrade() -> None:
     sa.Column('last_updated_at', sa.TIMESTAMP(), nullable=False),
     sa.Column('deleted_at', sa.TIMESTAMP(), nullable=True),
     sa.Column('need_automatic_update', sa.Boolean(), nullable=False),
-    sa.PrimaryKeyConstraint('id')
+    sa.PrimaryKeyConstraint('id'),
+    sa.UniqueConstraint('osm_id')
     )
     op.create_index(op.f('ix_country_id'), 'country', ['id'], unique=False)
     op.create_table('translation',
@@ -49,7 +50,7 @@ def upgrade() -> None:
     op.create_index(op.f('ix_translation_language'), 'translation', ['language'], unique=False)
     op.create_index(op.f('ix_translation_translate'), 'translation', ['translate'], unique=False)
     op.create_table('translation_language',
-    sa.Column('language_iso639', sa.String(), nullable=False),
+    sa.Column('language_iso639', sa.String(length=2), nullable=False),
     sa.Column('description', sa.String(), nullable=False),
     sa.PrimaryKeyConstraint('language_iso639')
     )
@@ -77,7 +78,8 @@ def upgrade() -> None:
     sa.Column('deleted_at', sa.TIMESTAMP(), nullable=True),
     sa.Column('need_automatic_update', sa.Boolean(), nullable=True),
     sa.ForeignKeyConstraint(['country_id'], ['country.id'], ),
-    sa.PrimaryKeyConstraint('id')
+    sa.PrimaryKeyConstraint('id'),
+    sa.UniqueConstraint('osm_id')
     )
     op.create_index(op.f('ix_region_id'), 'region', ['id'], unique=False)
     op.create_table('city',
@@ -96,7 +98,8 @@ def upgrade() -> None:
     sa.Column('need_automatic_update', sa.Boolean(), nullable=True),
     sa.ForeignKeyConstraint(['country_id'], ['country.id'], ),
     sa.ForeignKeyConstraint(['region_id'], ['region.id'], ),
-    sa.PrimaryKeyConstraint('id')
+    sa.PrimaryKeyConstraint('id'),
+    sa.UniqueConstraint('osm_id')
     )
     op.create_index(op.f('ix_city_iata'), 'city', ['iata'], unique=False)
     op.create_index(op.f('ix_city_id'), 'city', ['id'], unique=False)
@@ -115,7 +118,8 @@ def upgrade() -> None:
     sa.Column('deleted_at', sa.TIMESTAMP(), nullable=True),
     sa.Column('need_automatic_update', sa.Boolean(), nullable=True),
     sa.ForeignKeyConstraint(['city_id'], ['city.id'], ),
-    sa.PrimaryKeyConstraint('id')
+    sa.PrimaryKeyConstraint('id'),
+    sa.UniqueConstraint('osm_id')
     )
     op.create_index(op.f('ix_airport_iata_en'), 'airport', ['iata_en'], unique=False)
     op.create_index(op.f('ix_airport_iata_ru'), 'airport', ['iata_ru'], unique=False)
@@ -133,7 +137,8 @@ def upgrade() -> None:
     sa.Column('deleted_at', sa.TIMESTAMP(), nullable=True),
     sa.Column('need_automatic_update', sa.Boolean(), nullable=True),
     sa.ForeignKeyConstraint(['city_id'], ['city.id'], ),
-    sa.PrimaryKeyConstraint('id')
+    sa.PrimaryKeyConstraint('id'),
+    sa.UniqueConstraint('osm_id')
     )
     op.create_index(op.f('ix_metro_id'), 'metro', ['id'], unique=False)
     op.create_table('railway_station',
@@ -155,7 +160,8 @@ def upgrade() -> None:
     sa.ForeignKeyConstraint(['city_id'], ['city.id'], ),
     sa.ForeignKeyConstraint(['country_id'], ['country.id'], ),
     sa.ForeignKeyConstraint(['region_id'], ['region.id'], ),
-    sa.PrimaryKeyConstraint('id')
+    sa.PrimaryKeyConstraint('id'),
+    sa.UniqueConstraint('osm_id')
     )
     op.create_index(op.f('ix_railway_station_express3_code'), 'railway_station', ['express3_code'], unique=False)
     op.create_index(op.f('ix_railway_station_id'), 'railway_station', ['id'], unique=False)

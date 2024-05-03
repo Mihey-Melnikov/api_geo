@@ -2,28 +2,28 @@ import sys
 sys.path.insert(0, 'C:\\Users\\Пользователь\\Desktop\\api_geo')
 # todo костыль, нужно разобраться с путями
 
-from src.region.models import region
+from src.city.models import city
 import asyncio
 import csv
 from src.osm.NominatimClient import NominatimClient
-from src.osm.daemons.utils import REGION_TAGS, try_get_country_id, insert_data
+from src.osm.daemons.utils import try_get_country_id, try_get_region_id, insert_data, CITY_TAGS
 
 
 async def get_data_from_osm():
     """
-    Get data about region from OSM.
+    Get data about city from OSM.
     """
     nc = NominatimClient()
     data = []
-    with open("C:/Users/Пользователь/Desktop/api_geo/src/osm/daemons/data_to_fill/brn_city_region.csv", encoding='utf8') as r_file:
-        rkt_data = csv.DictReader(r_file, delimiter = ",")        
+    with open("C:/Users/Пользователь/Desktop/api_geo/src/osm/daemons/data_to_fill/citys.csv", encoding='utf8') as r_file:
+        rkt_data = csv.DictReader(r_file, delimiter = ",")
         for row in rkt_data:
-            region_name = row["name"] if row["name"] != "" else row["name_en"]
-            print(region_name)
-            search_results = nc.search(region_name)
+            city_name = row["name"] if row["name"] != "" else row["latname"]
+            print(city_name)
+            search_results = nc.search(city_name)
             search_result = {}
             for result in search_results:
-                if result["addresstype"] in REGION_TAGS:
+                if result["addresstype"] in CITY_TAGS:
                     search_result = result
                     break
             if search_result:
@@ -33,28 +33,31 @@ async def get_data_from_osm():
                 details_result = nc.get_details(osm_type.upper(), osm_id, obj_class)
                 country_id = await try_get_country_id(details_result["country_code"])
                 if details_result and country_id:
+                    region_id = await try_get_region_id(details_result["address"])
                     if str(details_result["osm_id"]) not in [item["osm_id"] for item in data]:
-                        new_region = {
-                            "name": details_result["names"]["name:ru"] if "name:ru" in details_result["names"] else region_name,
+                        new_city = {
+                            "name": details_result["names"]["name:ru"] if "name:ru" in details_result["names"] else city_name,
                             "country_id": int(country_id),
+                            "region_id": int(region_id) if region_id else None,
+                            "timezone": nc.get_timezone(details_result["centroid"]["coordinates"]),
                             "latitude": details_result["centroid"]["coordinates"][1],
                             "longitude": details_result["centroid"]["coordinates"][0],
                             "osm_id": str(details_result["osm_id"]),
                             "osm_type": details_result["osm_type"]
                         }
-                        data.append(new_region)
+                        data.append(new_city)
                     else:
-                        print(f"Дубликат региона: {region_name}")
+                        print(f"Дубликат города: {city_name}")
                 else:
-                    print(f"Не удалось получить детали региона: {region_name}")
+                    print(f"Не удалось получить детали города: {city_name}")
             else:
-                print(f"Не удалось найти регион по запросу: {region_name}")
+                print(f"Не удалось найти город по запросу: {city_name}")
     return data
             
 
 async def main():
     data = await get_data_from_osm()
-    await insert_data(data, region)
+    await insert_data(data, city)
 
 # todo переделать в формат скрипта с параметрами запуска
 asyncio.run(main())

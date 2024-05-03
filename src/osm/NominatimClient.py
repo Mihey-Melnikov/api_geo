@@ -14,7 +14,8 @@ class NominatimClient:
             "format": "jsonv2"
         }
         response = requests.get(self.base_url + endpoint, params=params)
-        return response.json()
+        print(response.status_code)
+        return response.json() if response.status_code != 403 else []
 
     def get_details(self, osm_type, osm_id, obj_class):
         endpoint = "/details"
@@ -29,7 +30,7 @@ class NominatimClient:
             "format": "json"
         }
         response = requests.get(self.base_url + endpoint, params=params)
-        return response.json()
+        return response.json() if response.status_code != 403 else []
     
     def get_timezone(self, coordinates):
         return self.tz.timezone_at(lng=coordinates[0], lat=coordinates[1])
