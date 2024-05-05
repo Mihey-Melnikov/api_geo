@@ -12,13 +12,13 @@ class CountryRead(BaseModel):
     name: str
     iso3116_alpha2: str
     iso3166_alpha3: str
-    phone_code: str
-    phone_mask: str
+    phone_code: str | None
+    phone_mask: str | None
     latitude: float
     longitude: float
     osm_id: str
     osm_type: str
-    need_automatic_update: bool | None = True
+    need_automatic_update: bool | None
     last_updated_at: datetime
     deleted_at: datetime | None
 
