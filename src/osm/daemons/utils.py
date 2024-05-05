@@ -1,3 +1,8 @@
+import sys
+sys.path.insert(0, 'C:\\Users\\Пользователь\\Desktop\\api_geo')
+# todo костыль, нужно разобраться с путями
+
+import csv
 from typing import List
 from sqlalchemy import Table, func, insert, select, update
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -12,6 +17,7 @@ COUNTRY_TAGS = ["country", "island"]
 REGION_TAGS = ["state", "county", "province", "district", "region"]
 CITY_TAGS = ["city", "town", "village", "hamlet", "isolated_dwelling", "quarter", "neighbourhood", "suburb"]
 AIRPORT_TAGS = ["aeroway", "railway"]
+RAILWAY_TAGS = ["railway"]
 
 
 async def insert_data(data_list: List, model: Table):
@@ -104,3 +110,17 @@ async def get_nearest_city(cities, coordinates) -> int:
             city_id = city["id"]
             min_dist = dist
     return city_id
+
+
+async def try_get_express_by_osm(osm_id: str) -> str | None:
+    """
+    Try get express3 code of railway by osm id.
+    """
+    express_code = None
+    with open("C:/Users/Пользователь/Desktop/api_geo/src/osm/daemons/data_to_fill/express.csv", encoding='utf8') as express_file, \
+        open("C:/Users/Пользователь/Desktop/api_geo/src/osm/daemons/data_to_fill/osm2esr.csv", encoding='utf8') as osm2esr_file:
+        express_data = csv.DictReader(express_file, delimiter = ";")
+        osm2esr_data = csv.DictReader(osm2esr_file, delimiter = ";")
+        esr_code = next((row["esr"] for row in osm2esr_data if row["osm_id"] == osm_id), None)
+        express_code = next((row["express"] for row in express_data if row["esr"] == esr_code), None) if esr_code else None
+    return express_code

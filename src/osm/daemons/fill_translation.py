@@ -2,7 +2,7 @@ import sys
 sys.path.insert(0, 'C:\\Users\\Пользователь\\Desktop\\api_geo')
 # todo костыль, нужно разобраться с путями
 
-from requests import HTTPError
+from requests import HTTPError, ConnectionError
 from src.translate.models import translation, translation_language
 from sqlalchemy.ext.asyncio import AsyncSession
 import asyncio
@@ -11,6 +11,8 @@ from src.osm.daemons.utils import insert_data
 from sqlalchemy import select, Table
 from src.country.models import country
 from src.region.models import region
+from src.city.models import city
+from src.airport.models import airport
 import translators as ts
 
 
@@ -38,12 +40,17 @@ async def get_translations(entity: str, entity_model: Table):
                     })
                 except HTTPError:
                     print(f"На слове {obj['name']} упала ошибка {HTTPError}")
+                except ConnectionError:
+                    print(f"На слове {obj['name']} упала ошибка {ConnectionError}")
+                except:
+                    print(f"На слове {obj['name']} упала неизвестная ошибка")
     return data
 
 
 async def main():
-    data = await get_translations("region", region)
-    await insert_data(data, translation)
+    for entity, entity_model in [("city", city), ("airport", airport)]:
+        data = await get_translations(entity, entity_model)
+        await insert_data(data, translation)
 
 
 # todo переделать в формат скрипта с параметрами запуска

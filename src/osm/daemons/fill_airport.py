@@ -72,9 +72,6 @@ async def get_data_from_osm():
     return airport_data, city_data
 
 
-async def fill_city_iata_by_airport():
-    pass
-
 async def main():
     airport_data, city_data = await get_data_from_osm()
     await insert_data(airport_data, airport)
@@ -82,18 +79,3 @@ async def main():
 
 # todo переделать в формат скрипта с параметрами запуска
 asyncio.run(main())
-
-
-
-"""
-Tags
-aeroway=aerodrome
-aeroway=heliport
-aeroway=runway
-aeroway=taxiway
-aeroway=apron
-aeroway=terminal
-aeroway=helipad
-aeroway=spaceport
-aeroway=airstrip
-"""

@@ -6,6 +6,8 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from src.database import get_async_session
 from src.airport.models import airport
+from src.region.models import region
+from src.city.models import city
 from src.airport.schemas import AirportCreate, AirportRead, AirportSearch, AirportUpdate
 from src.translate.models import translation
 
@@ -29,28 +31,40 @@ async def get_airport_by_id(
 @router.get("/", response_model=AirportSearch)
 async def search_airport(
     term: str | None = None,
+    country_id: int | None = None,
+    region_id: int | None = None,
+    city_id: int | None = None,
+    include_deleted: bool | None = False,
     page_number: int = Query(ge=1, default=1),
     page_size: int = Query(ge=1, le=100, default=100),
     session: AsyncSession = Depends(get_async_session)):
     """
     Search airports by name and IATA. Or get information about all airports.
     """
-    ids = []
-    if term is not None:
+    transl_ids = []
+    if term:
         query = select(translation.c.entity_id) \
                 .where(translation.c.entity == 'airport',
                        func.lower(translation.c.translate).like(func.lower(f"%{term}%")))
         result = await session.execute(query)
-        ids = [item["entity_id"] for item in result.mappings().all()]
+        transl_ids = [item["entity_id"] for item in result.mappings().all()]
 
     query = select(airport) \
+            .join(city, city.c.id == airport.c.city_id) \
+            .join(region, region.c.id == city.c.region_id) \
             .where(or_(
-                airport.c.iata_en.like(f"%{term}%") if term else True,
-                airport.c.iata_ru.like(f"%{term}%") if term else True,
-                airport.c.id.in_(ids) if term else True
-            )) \
+                    airport.c.iata_en.like(f"%{term}%") if term else True,
+                    airport.c.iata_ru.like(f"%{term}%") if term else True,
+                    airport.c.id.in_(transl_ids) if term else True
+                    ), 
+                airport.c.city_id == city_id if city_id else True,
+                city.c.region_id == region_id if region_id else True,
+                region.c.country_id == country_id if country_id else True,
+                airport.c.deleted_at.is_(None) if not include_deleted else True
+            ) \
             .order_by(airport.c.id)
     result = await session.execute(query)
+
     data = result.mappings().all()
     return {"data": data[(page_number - 1) * page_size:page_number * page_size], "pagination": {
             "page_number": page_number,
