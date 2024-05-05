@@ -55,4 +55,3 @@ class RailwayUpdate(BaseModel):
     osm_id: str | None = None
     osm_type: str | None = None
     need_automatic_update: bool | None = None
-    deleted_at: datetime | None = None

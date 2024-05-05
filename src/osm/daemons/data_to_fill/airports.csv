@@ -1,4 +1,5 @@
 "id","code_en","code_ru","name_en","city_code_en","country_code_ru","country_code_en","timezone","latitude","longitude","city_id","del","osm_type","osm_id"
+"10551","SPB",,"Charlotte Amalie Harbor Seaplane Base","STT",,"US","-04:00","18.33822","-64.9393638",NULL,"0","N","368381910"
 "13873","XOC",,"Madrid Atocha railway station","MAD",,"ES","+02:00","40.4069749","-3.6886008","1005","0","N","5299314576"
 "13870","ВГЖ",,"Vologda railway station","VGD","РФ","RU","+03:00","59.2069881","39.8831262","292","0","N","1878204936"
 "13867","ЯРЖ",,"Yaroslavl Main railway station","IAR","РФ","RU","+03:00","57.6256015","39.8353002","29","0","N","4016637106"
@@ -1206,7 +1207,6 @@
 "10554","SPG",,"Albert Whitted Airport","SPG",,"US","-04:00","27.76423345","-82.628875604069","13613","0","W","39977231"
 "10553","SPF",,"Clyde Ice Field","SPF",,"US","-07:00","44.48272695","-103.7843387768",NULL,"0","R","3556145"
 "10552","SPC",,"La Palma Airport","SPC",,"ES","+00:00","28.6269757","-17.755484706918",NULL,"0","W","95712335"
-"10551","SPB",,"Charlotte Amalie Harbor Seaplane Base","STT",,"US","-04:00","18.33822","-64.9393638",NULL,"0","N","368381910"
 "10550","SPA",,"Spartanburg Downtown Memorial Airport","GSP",,"US","-05:00","34.9162907","-81.956662204853","3966","0","W","689871178"
 "10549","SOY",,"Stronsay Airport","SOY",,"GB","+00:00","59.154877","-2.6418661099874",NULL,"0","W","275603823"
 "10548","SOW",,"Show Low Regional Airport","SOW",,"US","-07:00","34.2650057","-110.01041710802",NULL,"0","W","587352047"

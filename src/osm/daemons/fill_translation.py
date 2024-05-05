@@ -42,7 +42,7 @@ async def get_translations(entity: str, entity_model: Table):
 
 
 async def main():
-    data = await get_translations("country", country)
+    data = await get_translations("region", region)
     await insert_data(data, translation)
 
 
