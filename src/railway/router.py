@@ -29,6 +29,10 @@ async def get_railway_by_id(
 @router.get("/", response_model=RailwaySearch)
 async def search_railway(
     term: str | None = None,
+    country_id: int | None = None,
+    region_id: int | None = None,
+    city_id: int | None = None,
+    include_deleted: bool | None = False,
     page_number: int = Query(ge=1, default=1),
     page_size: int = Query(ge=1, le=100, default=100),
     session: AsyncSession = Depends(get_async_session)):
@@ -45,9 +49,12 @@ async def search_railway(
 
     query = select(railway) \
             .where(or_(
-                railway.c.express3_code.like(f"%{term}%") if term else True,
-                railway.c.id.in_(ids) if term else True
-            )) \
+                    railway.c.express3_code.like(f"%{term}%") if term else True,
+                    railway.c.id.in_(ids) if term else True),
+                railway.c.city_id == city_id if city_id else True,
+                railway.c.region_id == region_id if region_id else True,
+                railway.c.country_id == country_id if country_id else True,
+                railway.c.deleted_at.is_(None) if not include_deleted else True) \
             .order_by(railway.c.id)
     result = await session.execute(query)
     data = result.mappings().all()

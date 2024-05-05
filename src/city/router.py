@@ -6,6 +6,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from src.database import get_async_session
 from src.city.models import city
+from src.region.models import region
 from src.city.schemas import CityCreate, CityRead, CitySearch, CityUpdate
 from src.translate.models import translation
 
@@ -28,7 +29,10 @@ async def get_city_by_id(
 
 @router.get("/", response_model=CitySearch)
 async def search_cities(
-    term: str | None = None, 
+    term: str | None = None,
+    country_id: int | None = None,
+    region_id: int | None = None,
+    include_deleted: bool | None = False,
     page_number: int = Query(ge=1, default=1), 
     page_size: int = Query(ge=1, le=100, default=100),
     session: AsyncSession = Depends(get_async_session)):
@@ -44,10 +48,13 @@ async def search_cities(
         ids = [item["entity_id"] for item in result.mappings().all()]
 
     query = select(city) \
+            .join(region, region.c.id == city.c.region_id) \
             .where(or_(
-                city.c.iata.like(f"%{term}%") if term else True,
-                city.c.id.in_(ids) if term else True
-            )) \
+                    city.c.iata.like(f"%{term}%") if term else True,
+                    city.c.id.in_(ids) if term else True),
+                city.c.region_id == region_id if region_id else True,
+                region.c.country_id == country_id if country_id else True,
+                region.c.deleted_at.is_(None) if not include_deleted else True) \
             .order_by(city.c.id)
     result = await session.execute(query)
     data = result.mappings().all()

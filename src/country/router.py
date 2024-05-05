@@ -29,7 +29,8 @@ async def get_country_by_id(
 
 @router.get("/", response_model=CountrySearch)
 async def search_countries(
-    term: str | None = None, 
+    term: str | None = None,
+    include_deleted: bool | None = False,
     page_number: int = Query(ge=1, default=1), 
     page_size: int = Query(ge=1, le=100, default=100),
     session: AsyncSession = Depends(get_async_session)):
@@ -46,10 +47,10 @@ async def search_countries(
 
     query = select(country) \
             .where(or_(
-                country.c.iso3116_alpha2.like(f"%{term}%") if term else True,
-                country.c.iso3166_alpha3.like(f"%{term}%") if term else True,
-                country.c.id.in_(ids) if term else True
-            )) \
+                    country.c.iso3116_alpha2.like(f"%{term}%") if term else True,
+                    country.c.iso3166_alpha3.like(f"%{term}%") if term else True,
+                    country.c.id.in_(ids) if term else True,
+                country.c.deleted_at.is_(None) if not include_deleted else True)) \
             .order_by(country.c.id)
     result = await session.execute(query)
     data = result.mappings().all()
