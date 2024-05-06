@@ -20,17 +20,13 @@ async def get_data_from_osm():
             try:
                 railway_name = row["full_name_ru"] if row["full_name_ru"] != "" else row["full_name_en"]
                 print(railway_name)
-                search_results = nc.search(railway_name)
-                search_result = {}
-                for result in search_results:
-                    if result["addresstype"] in RAILWAY_TAGS and result["type"] == "station":
-                        search_result = result
-                        break
-                if search_result:
-                    osm_type = search_result["osm_type"][0]
-                    osm_id = search_result["osm_id"]
-                    obj_class = search_result["category"]
+                if row["osm_type"] and row["osm_id"]:
+                    osm_type = row["osm_type"]
+                    osm_id = row["osm_id"]
+                    obj_class = "railway"
+                    # print(osm_type, osm_id, obj_class)
                     details_result = nc.get_details(osm_type.upper(), osm_id, obj_class)
+                    # print(details_result)
                     city_id = await try_get_city_id(details_result["address"], details_result["centroid"]["coordinates"])
                     region_id = await try_get_region_id(details_result["address"])
                     country_id = await try_get_country_id(details_result["country_code"])
@@ -64,6 +60,7 @@ async def get_data_from_osm():
                 else:
                     print(f"Не удалось найти ЖД станцию по запросу: {railway_name}")
             except KeyboardInterrupt:
+                assert KeyboardInterrupt
                 break
             except:
                 print(f"Произошла ошибка")

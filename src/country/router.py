@@ -49,8 +49,8 @@ async def search_countries(
             .where(or_(
                     country.c.iso3116_alpha2.like(f"%{term}%") if term else True,
                     country.c.iso3166_alpha3.like(f"%{term}%") if term else True,
-                    country.c.id.in_(ids) if term else True,
-                country.c.deleted_at.is_(None) if not include_deleted else True)) \
+                    country.c.id.in_(ids) if term else True),
+                country.c.deleted_at.is_(None) if not include_deleted else True) \
             .order_by(country.c.id)
     result = await session.execute(query)
     data = result.mappings().all()
