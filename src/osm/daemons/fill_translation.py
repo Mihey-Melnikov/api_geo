@@ -13,6 +13,7 @@ from src.country.models import country
 from src.region.models import region
 from src.city.models import city
 from src.airport.models import airport
+from src.railway.models import railway
 import translators as ts
 
 
@@ -47,11 +48,12 @@ async def get_translations(entity: str, entity_model: Table):
     return data
 
 
-async def main():
-    for entity, entity_model in [("city", city), ("airport", airport)]:
+async def run():
+    for entity, entity_model in [
+            ("country", country), 
+            ("region", region), 
+            ("city", city), 
+            ("airport", airport), 
+            ("railway", railway)]:
         data = await get_translations(entity, entity_model)
         await insert_data(data, translation)
-
-
-# todo переделать в формат скрипта с параметрами запуска
-asyncio.run(main())

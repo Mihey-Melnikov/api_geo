@@ -10,11 +10,11 @@ from src.osm.NominatimClient import NominatimClient
 from src.osm.daemons.utils import insert_data, RAILWAY_TAGS, try_get_city_id, try_get_express_by_osm, update_data, try_get_country_id, try_get_region_id
 
 
-async def get_data_from_osm():
+async def get_data_from_osm(path: str | None = "C:/Users/Пользователь/Desktop/api_geo/src/osm/daemons/data_to_fill/rzd_railway_station.csv"):
     nc = NominatimClient()
     railway_data = []
     city_ids = []
-    with open("C:/Users/Пользователь/Desktop/api_geo/src/osm/daemons/data_to_fill/rzd_railway_station.csv", encoding='utf8') as r_file:
+    with open(path, encoding='utf8') as r_file:
         rkt_data = csv.DictReader(r_file, delimiter = ",") 
         for row in rkt_data:
             try:
@@ -67,9 +67,6 @@ async def get_data_from_osm():
     return railway_data
 
 
-async def main():
-    railway_data = await get_data_from_osm()
+async def run(path):
+    railway_data = await get_data_from_osm(path)
     await insert_data(railway_data, railway)
-
-# todo переделать в формат скрипта с параметрами запуска
-asyncio.run(main())

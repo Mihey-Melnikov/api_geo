@@ -3,16 +3,15 @@ sys.path.insert(0, 'C:\\Users\\Пользователь\\Desktop\\api_geo')
 # todo костыль, нужно разобраться с путями
 
 from src.country.models import country
-import asyncio
 import csv
 from src.osm.NominatimClient import NominatimClient
 from src.osm.daemons.utils import COUNTRY_TAGS, insert_data
 
 
-def get_data_from_osm():
+def get_data_from_osm(path: str = "C:/Users/Пользователь/Desktop/api_geo/src/osm/daemons/data_to_fill/countrys.csv"):
     nc = NominatimClient()
     data = []
-    with open("C:/Users/Пользователь/Desktop/api_geo/src/osm/daemons/data_to_fill/countrys.csv", encoding='utf8') as r_file:
+    with open(path, encoding='utf8') as r_file:
         start_data = csv.DictReader(r_file, delimiter = ",")        
         for row in start_data:
             search_results = nc.search(row["name"]) 
@@ -49,9 +48,6 @@ def get_data_from_osm():
     return data
             
 
-async def main():
-    data = get_data_from_osm()
+async def run(path):
+    data = get_data_from_osm(path)
     await insert_data(data, country)
-
-# todo переделать в формат скрипта с параметрами запуска
-asyncio.run(main())

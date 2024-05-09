@@ -11,11 +11,11 @@ from src.osm.NominatimClient import NominatimClient
 from src.osm.daemons.utils import insert_data, AIRPORT_TAGS, try_get_city_id, update_data
 
 
-async def get_data_from_osm():
+async def get_data_from_osm(path: str | None = "C:/Users/Пользователь/Desktop/api_geo/src/osm/daemons/data_to_fill/airports.csv"):
     nc = NominatimClient()
     airport_data = []
     city_data = []
-    with open("C:/Users/Пользователь/Desktop/api_geo/src/osm/daemons/data_to_fill/airports.csv", encoding='utf8') as r_file:
+    with open(path, encoding='utf8') as r_file:
         rkt_data = csv.DictReader(r_file, delimiter = ",")        
         for row in rkt_data:
             try:
@@ -72,10 +72,8 @@ async def get_data_from_osm():
     return airport_data, city_data
 
 
-async def main():
-    airport_data, city_data = await get_data_from_osm()
+async def run(path):
+    airport_data, city_data = await get_data_from_osm(path)
     await insert_data(airport_data, airport)
     await update_data(city_data, city)
 
-# todo переделать в формат скрипта с параметрами запуска
-asyncio.run(main())

@@ -42,7 +42,6 @@ async def test_add_translate_for_country(ac: AsyncClient):
     ])
     assert response1.status_code == 200
 
-"""
 async def test_get_country_by_id(ac: AsyncClient):
     response = await ac.get("/api/country/", params={
         "id": 1,
@@ -51,7 +50,6 @@ async def test_get_country_by_id(ac: AsyncClient):
     assert response.status_code == 200
     assert len(response.json()["data"]) == 1
     assert response.json()["data"][0]["name"] == "Россия"
-"""
 
 @pytest.mark.order(3)
 async def test_add_region(ac: AsyncClient):

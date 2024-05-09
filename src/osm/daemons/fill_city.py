@@ -9,13 +9,13 @@ from src.osm.NominatimClient import NominatimClient
 from src.osm.daemons.utils import try_get_country_id, try_get_region_id, insert_data, CITY_TAGS
 
 
-async def get_data_from_osm():
+async def get_data_from_osm(path: str | None = "C:/Users/Пользователь/Desktop/api_geo/src/osm/daemons/data_to_fill/citys.csv"):
     """
     Get data about city from OSM.
     """
     nc = NominatimClient()
     data = []
-    with open("C:/Users/Пользователь/Desktop/api_geo/src/osm/daemons/data_to_fill/citys.csv", encoding='utf8') as r_file:
+    with open(path, encoding='utf8') as r_file:
         rkt_data = csv.DictReader(r_file, delimiter = ",")
         for row in rkt_data:
             city_name = row["name"] if row["name"] != "" else row["latname"]
@@ -55,9 +55,6 @@ async def get_data_from_osm():
     return data
             
 
-async def main():
+async def run():
     data = await get_data_from_osm()
     await insert_data(data, city)
-
-# todo переделать в формат скрипта с параметрами запуска
-asyncio.run(main())

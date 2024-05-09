@@ -124,3 +124,23 @@ async def try_get_express_by_osm(osm_id: str) -> str | None:
         esr_code = next((row["esr"] for row in osm2esr_data if row["osm_id"] == osm_id), None)
         express_code = next((row["express"] for row in express_data if row["esr"] == esr_code), None) if esr_code else None
     return express_code
+
+
+async def table_is_empty(model: Table) -> bool:
+    """
+    Checking the table for emptiness
+    """
+    is_empty = True
+    async with AsyncSession(engine) as session:
+        async with session.begin():
+            result = await session.execute(select(model))
+            data = result.mappings().all()
+            is_empty = bool(data)
+    return is_empty
+
+
+async def update_table(model: Table) -> None:
+    """
+    Upadate all data in table.
+    """
+    pass
