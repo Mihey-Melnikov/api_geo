@@ -9,7 +9,7 @@ from src.airport.models import airport
 from src.region.models import region
 from src.city.models import city
 from src.airport.schemas import AirportCreate, AirportRead, AirportSearch, AirportUpdate
-from src.translate.models import translation
+from src.translate.models import translate
 
 router = APIRouter(
     prefix="/api/airport",
@@ -43,9 +43,9 @@ async def search_airport(
     """
     transl_ids = []
     if term:
-        query = select(translation.c.entity_id) \
-                .where(translation.c.entity == 'airport',
-                       func.lower(translation.c.translate).like(func.lower(f"%{term}%")))
+        query = select(translate.c.entity_id) \
+                .where(translate.c.entity == 'airport',
+                       func.lower(translate.c.translate).like(func.lower(f"%{term}%")))
         result = await session.execute(query)
         transl_ids = [item["entity_id"] for item in result.mappings().all()]
 

@@ -3,9 +3,7 @@ sys.path.insert(0, 'C:\\Users\\Пользователь\\Desktop\\api_geo')
 # todo костыль, нужно разобраться с путями
 
 from src.railway.models import railway
-import asyncio
 import csv
-import re
 from src.osm.NominatimClient import NominatimClient
 from src.osm.daemons.utils import insert_data, RAILWAY_TAGS, try_get_city_id, try_get_express_by_osm, update_data, try_get_country_id, try_get_region_id
 

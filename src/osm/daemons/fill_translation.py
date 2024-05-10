@@ -3,7 +3,7 @@ sys.path.insert(0, 'C:\\Users\\Пользователь\\Desktop\\api_geo')
 # todo костыль, нужно разобраться с путями
 
 from requests import HTTPError, ConnectionError
-from src.translate.models import translation, translation_language
+from src.translate.models import translate, language
 from sqlalchemy.ext.asyncio import AsyncSession
 import asyncio
 from src.database import engine
@@ -25,7 +25,7 @@ async def get_translations(entity: str, entity_model: Table):
         objs = result.mappings().all()
 
         async with session.begin():
-            result = await session.execute(select(translation_language.c.language_iso639))
+            result = await session.execute(select(language.c.language_iso639))
         langs = [item["language_iso639"] for item in result.mappings().all()]
 
         for obj in objs:
@@ -56,4 +56,4 @@ async def run():
             ("airport", airport), 
             ("railway", railway)]:
         data = await get_translations(entity, entity_model)
-        await insert_data(data, translation)
+        await insert_data(data, translate)

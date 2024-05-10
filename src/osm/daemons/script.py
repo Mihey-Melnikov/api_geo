@@ -9,7 +9,7 @@ from src.region.models import region
 from src.city.models import city
 from src.airport.models import airport
 from src.railway.models import railway
-from src.translate.models import translation
+from src.translate.models import translate
 import src.osm.daemons.fill_country as fill_country
 import src.osm.daemons.fill_region as fill_region
 import src.osm.daemons.fill_city as fill_city
@@ -25,8 +25,8 @@ MODELS = {
     "city": city,
     "airport": airport,
     "railway": railway,
-    "translation": translation,
-    "all": [country, region, city, airport, railway, translation]
+    "translation": translate,
+    "all": [country, region, city, airport, railway, translate]
 }
 
 PARSER = argparse.ArgumentParser(description="A script for filling in and updating geographical data")

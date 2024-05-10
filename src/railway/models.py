@@ -5,7 +5,7 @@ from src.region.models import region
 from src.country.models import country
 from src.database import metadata
 
-railway = Table("railway_station", metadata,
+railway = Table("railway", metadata,
     Column("id", Integer, primary_key=True, index=True),
     Column("express3_code", String, nullable=False, index=True),
     Column("is_main", Boolean, nullable=False, default=False),

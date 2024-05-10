@@ -7,7 +7,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from src.database import get_async_session
 from src.region.models import region
 from src.region.schemas import RegionRead, RegionCreate, RegionUpdate, RegionSearch
-from src.translate.models import translation
+from src.translate.models import translate
 
 router = APIRouter(
     prefix="/api/region",
@@ -39,9 +39,9 @@ async def search_regions(
     """
     ids = []
     if term is not None:
-        query = select(translation.c.entity_id) \
-                .where(translation.c.entity == 'region',
-                       func.lower(translation.c.translate).like(func.lower(f"%{term}%")))
+        query = select(translate.c.entity_id) \
+                .where(translate.c.entity == 'region',
+                       func.lower(translate.c.translate).like(func.lower(f"%{term}%")))
         result = await session.execute(query)
         ids = [item["entity_id"] for item in result.mappings().all()]
 

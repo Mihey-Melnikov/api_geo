@@ -4,7 +4,7 @@ from sqlalchemy import update, select, insert, delete
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from src.database import get_async_session
-from src.translate.models import translation as translate, translation_language as language
+from src.translate.models import translate, language
 from src.translate.schemas import Language, TranslateCreate, TranslateRead, TranslateUpdate
 
 router = APIRouter(

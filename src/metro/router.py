@@ -9,7 +9,7 @@ from src.metro.models import metro
 from src.region.models import region
 from src.city.models import city
 from src.metro.schemas import MetroCreate, MetroRead, MetroSearch, MetroUpdate
-from src.translate.models import translation
+from src.translate.models import translate
 
 router = APIRouter(
     prefix="/api/metro",
@@ -43,9 +43,9 @@ async def search_metro(
     """
     ids = []
     if term is not None:
-        query = select(translation.c.entity_id) \
-                .where(translation.c.entity == 'metro',
-                       func.lower(translation.c.translate).like(func.lower(f"%{term}%")))
+        query = select(translate.c.entity_id) \
+                .where(translate.c.entity == 'metro',
+                       func.lower(translate.c.translate).like(func.lower(f"%{term}%")))
         result = await session.execute(query)
         ids = [item["entity_id"] for item in result.mappings().all()]
         

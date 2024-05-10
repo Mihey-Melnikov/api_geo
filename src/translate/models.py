@@ -2,12 +2,12 @@ from datetime import datetime
 from sqlalchemy import Table, Column, Integer, String, TIMESTAMP, MetaData
 from src.database import metadata
 
-translation_language = Table("translation_language", metadata,
+language = Table("language", metadata,
     Column("language_iso639", String(2), primary_key=True, index=True),
     Column("description", String, nullable=False),
 )
 
-translation = Table("translation", metadata,
+translate = Table("translate", metadata,
     Column("entity", String, nullable=False, primary_key=True),
     Column("entity_id", Integer, nullable=False, primary_key=True, index=True),
     Column("language", String(2), nullable=False, primary_key=True, index=True),

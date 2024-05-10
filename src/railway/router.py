@@ -7,7 +7,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from src.database import get_async_session
 from src.railway.models import railway
 from src.railway.schemas import RailwayCreate, RailwayRead, RailwayUpdate, RailwaySearch
-from src.translate.models import translation
+from src.translate.models import translate
 
 router = APIRouter(
     prefix="/api/railway",
@@ -41,9 +41,9 @@ async def search_railway(
     """
     ids = []
     if term is not None:
-        query = select(translation.c.entity_id) \
-                .where(translation.c.entity == 'railway', 
-                       func.lower(translation.c.translate).like(func.lower(f"%{term}%")))
+        query = select(translate.c.entity_id) \
+                .where(translate.c.entity == 'railway', 
+                       func.lower(translate.c.translate).like(func.lower(f"%{term}%")))
         result = await session.execute(query)
         ids = [item["entity_id"] for item in result.mappings().all()]
 
