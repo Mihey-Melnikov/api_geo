@@ -80,9 +80,6 @@ async def main():
         if not table_is_empty(MODELS[args.entity]):
             print(f"Table {MODELS[args.entity]} is not empty. First you need to clear the table.")
             exit
-        elif not args.datapath and args.entity != "translate":
-            print(f"Select path to fill table {MODELS[args.entity]}")
-            exit
         else:
             if args.entity == "country":
                 await fill_country.run(args.datapath)

@@ -31,9 +31,9 @@ async def get_airport_by_id(
 @router.get("/", response_model=AirportSearch)
 async def search_airport(
     term: str | None = None,
-    country_id: int | None = None,
-    region_id: int | None = None,
-    city_id: int | None = None,
+    country_id: str | None = None,
+    region_id: str | None = None,
+    city_id: str | None = None,
     include_deleted: bool | None = False,
     page_number: int = Query(ge=1, default=1),
     page_size: int = Query(ge=1, le=100, default=100),
@@ -57,9 +57,9 @@ async def search_airport(
                     airport.c.iata_ru.like(f"%{term}%") if term else True,
                     airport.c.id.in_(transl_ids) if term else True
                     ), 
-                airport.c.city_id == city_id if city_id else True,
-                city.c.region_id == region_id if region_id else True,
-                region.c.country_id == country_id if country_id else True,
+                airport.c.city_id == int(city_id) if city_id else True,
+                city.c.region_id == int(region_id) if region_id else True,
+                region.c.country_id == int(country_id) if country_id else True,
                 airport.c.deleted_at.is_(None) if not include_deleted else True
             ) \
             .order_by(airport.c.id)

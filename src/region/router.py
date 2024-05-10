@@ -29,7 +29,7 @@ async def get_region_by_id(
 @router.get("/", response_model=RegionSearch)
 async def search_regions(
     term: str | None = None,
-    country_id: int | None = None,
+    country_id: str | None = None,
     include_deleted: bool | None = False,
     page_number: int = Query(ge=1, default=1),
     page_size: int = Query(ge=1, le=100, default=100),
@@ -48,7 +48,7 @@ async def search_regions(
     query = select(region) \
             .where(
                 region.c.id.in_(ids) if term else True,
-                region.c.country_id == country_id if country_id else True,
+                region.c.country_id == int(country_id) if country_id else True,
                 region.c.deleted_at.is_(None) if not include_deleted else True) \
             .order_by(region.c.id)
     result = await session.execute(query)
