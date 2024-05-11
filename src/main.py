@@ -1,14 +1,12 @@
 from fastapi import FastAPI
-
 from src.auth.base_config import auth_backend, fastapi_users
 from src.auth.schemas import UserRead, UserCreate
-
 from src.city.router import router as router_city
 from src.region.router import router as router_region
 from src.country.router import router as router_country
 from src.airport.router import router as router_airport
 from src.railway.router import router as router_railway
-from src.metro.router import router as router_metro
+# from src.metro.router import router as router_metro
 from src.translate.router import router as router_translate
 
 app = FastAPI(

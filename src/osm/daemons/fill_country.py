@@ -6,15 +6,21 @@ from src.country.models import country
 import csv
 from src.osm.NominatimClient import NominatimClient
 from src.osm.daemons.utils import COUNTRY_TAGS, insert_data
+from src.logger.logger import get_script_logger
 
+
+logger = get_script_logger("country")
 
 def get_data_from_osm(path: str = "C:/Users/Пользователь/Desktop/api_geo/src/osm/daemons/data_to_fill/countrys.csv"):
     nc = NominatimClient()
     data = []
+    logger.info("================== Start Country Fill Script ==================")
     with open(path, encoding='utf8') as r_file:
         start_data = csv.DictReader(r_file, delimiter = ",")        
         for row in start_data:
-            search_results = nc.search(row["name"]) 
+            country_name = row["name"]
+            logger.info(f"Add: {country_name}")
+            search_results = nc.search(country_name) 
             search_result = {}
             for result in search_results:
                 if result["addresstype"] in COUNTRY_TAGS:
@@ -40,14 +46,15 @@ def get_data_from_osm(path: str = "C:/Users/Пользователь/Desktop/api
                         }
                         data.append(new_country)
                     else:
-                        print(f"Дубликат страны: {row['name']}")
+                        logger.error(f"Duplicate country: {country_name}")
                 else:
-                    print(f"Не удалось получить детали страны: {row['name']}")
+                    logger.error(f"Couldn't get country details: {country_name}")
             else:
-                print(f"Не удалось найти страну по запросу: {row['name']}")
+                logger.error(f"Couldn't find the country on request: {country_name}")
     return data
             
 
 async def run(path):
     data = get_data_from_osm(path)
     await insert_data(data, country)
+    logger.info("================== End Country Fill Script ==================")

@@ -1,13 +1,14 @@
 from datetime import datetime
 import math
-from fastapi import APIRouter, Depends, Query
+from fastapi import APIRouter, Depends, Query, Request
 from sqlalchemy import func, or_, update, select, insert
 from sqlalchemy.ext.asyncio import AsyncSession
-
 from src.database import get_async_session
+from src.logger.logger import get_api_logger
 from src.railway.models import railway
 from src.railway.schemas import RailwayCreate, RailwayRead, RailwayUpdate, RailwaySearch
 from src.translate.models import translate
+
 
 router = APIRouter(
     prefix="/api/railway",
@@ -16,6 +17,7 @@ router = APIRouter(
 
 @router.get("/{id}", response_model=RailwayRead)
 async def get_railway_by_id(
+    request: Request,
     id: int,
     session: AsyncSession = Depends(get_async_session)):
     """
@@ -24,10 +26,14 @@ async def get_railway_by_id(
     query = select(railway) \
             .where(railway.c.id == id)
     result = await session.execute(query)
-    return result.one_or_none()
+    data = result.one_or_none()
+    logger = get_api_logger(str(request.url))
+    logger.info(data)
+    return data
 
 @router.get("/", response_model=RailwaySearch)
 async def search_railway(
+    request: Request,
     term: str | None = None,
     country_id: str | None = None,
     region_id: str | None = None,
@@ -58,6 +64,8 @@ async def search_railway(
             .order_by(railway.c.id)
     result = await session.execute(query)
     data = result.mappings().all()
+    logger = get_api_logger(str(request.url))
+    return data
     return {"data": data[(page_number - 1) * page_size:page_number * page_size], "pagination": {
             "page_number": page_number,
             "page_size": page_size,
@@ -66,6 +74,7 @@ async def search_railway(
 
 @router.post("/", response_model=RailwayRead)
 async def add_railway(
+    request: Request,
     new_railway: RailwayCreate,
     session: AsyncSession = Depends(get_async_session)):
     """
@@ -76,10 +85,14 @@ async def add_railway(
             .returning(railway)
     result = await session.execute(query)
     await session.commit()
-    return result.one_or_none()
+    data = result.one_or_none()
+    logger = get_api_logger(str(request.url))
+    logger.info(data)
+    return data
 
 @router.delete("/{id}", response_model=RailwayRead)
 async def delete_railway(
+    request: Request,
     id: int,
     session: AsyncSession = Depends(get_async_session)):
     """
@@ -91,10 +104,14 @@ async def delete_railway(
             .returning(railway)
     result = await session.execute(query)
     await session.commit()
-    return result.one_or_none()
+    data = result.one_or_none()
+    logger = get_api_logger(str(request.url))
+    logger.info(data)
+    return data
 
 @router.patch("/{id}", response_model=RailwayRead)
 async def update_railway(
+    request: Request,
     id: int,
     updated_rows: RailwayUpdate,
     session: AsyncSession = Depends(get_async_session)):
@@ -107,4 +124,7 @@ async def update_railway(
             .returning(railway)
     result = await session.execute(query)
     await session.commit()
-    return result.one_or_none()
+    data = result.one_or_none()
+    logger = get_api_logger(str(request.url))
+    logger.info(data)
+    return data

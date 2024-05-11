@@ -1,14 +1,14 @@
 from datetime import datetime
 import math
-from typing import List
-from fastapi import APIRouter, Depends, Query
+from fastapi import APIRouter, Depends, Query, Request
 from sqlalchemy import func, or_, update, select, insert
 from sqlalchemy.ext.asyncio import AsyncSession
-
 from src.database import get_async_session
 from src.country.models import country
 from src.country.schemas import CountryCreate, CountryRead, CountryUpdate, CountrySearch
 from src.translate.models import translate
+from src.logger.logger import get_api_logger
+
 
 router = APIRouter(
     prefix="/api/country",
@@ -17,7 +17,8 @@ router = APIRouter(
 
 @router.get("/{id}", response_model=CountryRead)
 async def get_country_by_id(
-    id: int, 
+    request: Request,
+    id: int,
     session: AsyncSession = Depends(get_async_session)):
     """
     Get full information about the country by ID.
@@ -25,10 +26,14 @@ async def get_country_by_id(
     query = select(country) \
             .where(country.c.id == id)
     result = await session.execute(query)
-    return result.one_or_none()
+    data = result.one_or_none()
+    logger = get_api_logger(str(request.url))
+    logger.info(data)
+    return data
 
 @router.get("/", response_model=CountrySearch)
 async def search_countries(
+    request: Request,
     term: str | None = None,
     include_deleted: bool | None = False,
     page_number: int = Query(ge=1, default=1), 
@@ -54,6 +59,8 @@ async def search_countries(
             .order_by(country.c.id)
     result = await session.execute(query)
     data = result.mappings().all()
+    logger = get_api_logger(str(request.url))
+    logger.info(data)
     return {"data": data[(page_number - 1) * page_size:page_number * page_size], "pagination": {
             "page_number": page_number,
             "page_size": page_size,
@@ -62,6 +69,7 @@ async def search_countries(
 
 @router.post("/", response_model=CountryRead)
 async def add_country(
+    request: Request,
     new_country: CountryCreate, 
     session: AsyncSession = Depends(get_async_session)):
     """
@@ -72,10 +80,14 @@ async def add_country(
             .returning(country)
     result = await session.execute(query)
     await session.commit()
-    return result.one_or_none()
+    data = result.one_or_none()
+    logger = get_api_logger(str(request.url))
+    logger.info(data)
+    return data
 
 @router.delete("/{id}", response_model=CountryRead)
 async def delete_country(
+    request: Request,
     id: int, 
     session: AsyncSession = Depends(get_async_session)):
     """
@@ -87,10 +99,14 @@ async def delete_country(
             .returning(country)
     result = await session.execute(query)
     await session.commit()
-    return result.one_or_none()
+    data = result.one_or_none()
+    logger = get_api_logger(str(request.url))
+    logger.info(data)
+    return data
 
 @router.patch("/{id}", response_model=CountryRead)
 async def update_country(
+    request: Request,
     id: int, 
     updated_rows: CountryUpdate, 
     session: AsyncSession = Depends(get_async_session)):
@@ -103,4 +119,7 @@ async def update_country(
             .returning(country)
     result = await session.execute(query)
     await session.commit()
-    return result.one_or_none()
+    data = result.one_or_none()
+    logger = get_api_logger(str(request.url))
+    logger.info(data)
+    return data

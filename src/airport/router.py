@@ -1,11 +1,11 @@
 import math
 from datetime import datetime
-from fastapi import APIRouter, Depends, Query
+from fastapi import APIRouter, Depends, Query, Request
 from sqlalchemy import or_, update, select, insert, func
 from sqlalchemy.ext.asyncio import AsyncSession
-
 from src.database import get_async_session
 from src.airport.models import airport
+from src.logger.logger import get_api_logger
 from src.region.models import region
 from src.city.models import city
 from src.airport.schemas import AirportCreate, AirportRead, AirportSearch, AirportUpdate
@@ -18,6 +18,7 @@ router = APIRouter(
 
 @router.get("/{id}", response_model=AirportRead)
 async def get_airport_by_id(
+    request: Request,
     id: int,
     session: AsyncSession = Depends(get_async_session)):
     """
@@ -26,10 +27,14 @@ async def get_airport_by_id(
     query = select(airport) \
             .where(airport.c.id == id)
     result = await session.execute(query)
-    return result.one_or_none()
+    data = result.one_or_none()
+    logger = get_api_logger(str(request.url))
+    logger.info(data)
+    return data
 
 @router.get("/", response_model=AirportSearch)
 async def search_airport(
+    request: Request,
     term: str | None = None,
     country_id: str | None = None,
     region_id: str | None = None,
@@ -66,6 +71,8 @@ async def search_airport(
     result = await session.execute(query)
 
     data = result.mappings().all()
+    logger = get_api_logger(str(request.url))
+    logger.info(data)
     return {"data": data[(page_number - 1) * page_size:page_number * page_size], "pagination": {
             "page_number": page_number,
             "page_size": page_size,
@@ -74,6 +81,7 @@ async def search_airport(
 
 @router.post("/", response_model=AirportRead)
 async def add_airport(
+    request: Request,
     new_airport: AirportCreate,
     session: AsyncSession = Depends(get_async_session)):
     """
@@ -84,10 +92,14 @@ async def add_airport(
             .returning(airport)
     result = await session.execute(query)
     await session.commit()
-    return result.one_or_none()
+    data = result.one_or_none()
+    logger = get_api_logger(str(request.url))
+    logger.info(data)
+    return data
 
 @router.delete("/{id}", response_model=AirportRead)
 async def delete_airport(
+    request: Request,
     id: int,
     session: AsyncSession = Depends(get_async_session)):
     """
@@ -99,10 +111,14 @@ async def delete_airport(
             .returning(airport)
     result = await session.execute(query)
     await session.commit()
-    return result.one_or_none()
+    data = result.one_or_none()
+    logger = get_api_logger(str(request.url))
+    logger.info(data)
+    return data
 
 @router.patch("/{id}", response_model=AirportRead)
 async def update_airport(
+    request: Request,
     id: int,
     updated_rows: AirportUpdate,
     session: AsyncSession = Depends(get_async_session)):
@@ -115,4 +131,7 @@ async def update_airport(
             .returning(airport)
     result = await session.execute(query)
     await session.commit()
-    return result.one_or_none()
+    data = result.one_or_none()
+    logger = get_api_logger(str(request.url))
+    logger.info(data)
+    return data

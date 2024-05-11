@@ -1,14 +1,15 @@
 from datetime import datetime
 import math
-from fastapi import APIRouter, Depends, Query
+from fastapi import APIRouter, Depends, Query, Request
 from sqlalchemy import func, or_, update, select, insert
 from sqlalchemy.ext.asyncio import AsyncSession
-
 from src.database import get_async_session
 from src.city.models import city
 from src.region.models import region
 from src.city.schemas import CityCreate, CityRead, CitySearch, CityUpdate
 from src.translate.models import translate
+from src.logger.logger import get_api_logger
+
 
 router = APIRouter(
     prefix="/api/city",
@@ -17,6 +18,7 @@ router = APIRouter(
 
 @router.get("/{id}", response_model=CityRead)
 async def get_city_by_id(
+    request: Request,
     id: int, 
     session: AsyncSession = Depends(get_async_session)):
     """
@@ -29,6 +31,7 @@ async def get_city_by_id(
 
 @router.get("/", response_model=CitySearch)
 async def search_cities(
+    request: Request,
     term: str | None = None,
     country_id: str | None = None,
     region_id: str | None = None,
@@ -58,6 +61,8 @@ async def search_cities(
             .order_by(city.c.id)
     result = await session.execute(query)
     data = result.mappings().all()
+    logger = get_api_logger(str(request.url))
+    logger.info(data)
     return {"data": data[(page_number - 1) * page_size:page_number * page_size], "pagination": {
             "page_number": page_number,
             "page_size": page_size,
@@ -66,6 +71,7 @@ async def search_cities(
 
 @router.post("/", response_model=CityRead)
 async def add_city(
+    request: Request,
     new_city: CityCreate, 
     session: AsyncSession = Depends(get_async_session)):
     """
@@ -76,10 +82,14 @@ async def add_city(
             .returning(city)
     result = await session.execute(query)
     await session.commit()
-    return result.one_or_none()
+    data = result.one_or_none()
+    logger = get_api_logger(str(request.url))
+    logger.info(data)
+    return data
 
 @router.delete("/{id}", response_model=CityRead)
 async def delete_city(
+    request: Request,
     id: int, 
     session: AsyncSession = Depends(get_async_session)):
     """
@@ -91,10 +101,14 @@ async def delete_city(
             .returning(city)
     result = await session.execute(query)
     await session.commit()
-    return result.one_or_none()
+    data = result.one_or_none()
+    logger = get_api_logger(str(request.url))
+    logger.info(data)
+    return data
 
 @router.patch("/{id}", response_model=CityRead)
 async def update_city(
+    request: Request,
     id: int, 
     updated_rows: CityUpdate, 
     session: AsyncSession = Depends(get_async_session)):
@@ -107,4 +121,7 @@ async def update_city(
             .returning(city)
     result = await session.execute(query)
     await session.commit()
-    return result.one_or_none()
+    data = result.one_or_none()
+    logger = get_api_logger(str(request.url))
+    logger.info(data)
+    return data

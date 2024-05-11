@@ -2,7 +2,8 @@ from datetime import datetime
 from sqlalchemy import Boolean, Float, ForeignKey, Table, Column, Integer, String, TIMESTAMP
 from src.city.models import city
 from src.database import metadata
-"""
+
+
 metro = Table("metro", metadata,
     Column("id", Integer, primary_key=True, index=True),
     Column("city_id", Integer, ForeignKey(city.c.id), nullable=False),
@@ -16,4 +17,3 @@ metro = Table("metro", metadata,
     Column("deleted_at", TIMESTAMP, default=None, nullable=True),
     Column("need_automatic_update", Boolean, default=True),
 )
-"""

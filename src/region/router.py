@@ -1,13 +1,14 @@
 from datetime import datetime
 import math
-from fastapi import APIRouter, Depends, Query
+from fastapi import APIRouter, Depends, Query, Request
 from sqlalchemy import func, update, select, insert
 from sqlalchemy.ext.asyncio import AsyncSession
-
 from src.database import get_async_session
 from src.region.models import region
 from src.region.schemas import RegionRead, RegionCreate, RegionUpdate, RegionSearch
 from src.translate.models import translate
+from src.logger.logger import get_api_logger
+
 
 router = APIRouter(
     prefix="/api/region",
@@ -16,6 +17,7 @@ router = APIRouter(
 
 @router.get("/{id}", response_model=RegionRead)
 async def get_region_by_id(
+    request: Request,
     id: int,
     session: AsyncSession = Depends(get_async_session)):
     """
@@ -24,10 +26,14 @@ async def get_region_by_id(
     query = select(region) \
             .where(region.c.id == id)
     result = await session.execute(query)
-    return result.one_or_none()
+    data = result.one_or_none()
+    logger = get_api_logger(str(request.url))
+    logger.info(data)
+    return data
 
 @router.get("/", response_model=RegionSearch)
 async def search_regions(
+    request: Request,
     term: str | None = None,
     country_id: str | None = None,
     include_deleted: bool | None = False,
@@ -53,6 +59,8 @@ async def search_regions(
             .order_by(region.c.id)
     result = await session.execute(query)
     data = result.mappings().all()
+    logger = get_api_logger(str(request.url))
+    logger.info(data)
     return {"data": data[(page_number - 1) * page_size:page_number * page_size], "pagination": {
             "page_number": page_number,
             "page_size": page_size,
@@ -61,6 +69,7 @@ async def search_regions(
 
 @router.post("/", response_model=RegionRead)
 async def add_region(
+    request: Request,
     new_region: RegionCreate,
     session: AsyncSession = Depends(get_async_session)):
     """
@@ -71,10 +80,14 @@ async def add_region(
             .returning(region)
     result = await session.execute(query)
     await session.commit()
-    return result.one_or_none()
+    data = result.one_or_none()
+    logger = get_api_logger(str(request.url))
+    logger.info(data)
+    return data
 
 @router.delete("/{id}", response_model=RegionRead)
 async def delete_region(
+    request: Request,
     id: int,
     session: AsyncSession = Depends(get_async_session)):
     """
@@ -86,10 +99,14 @@ async def delete_region(
             .returning(region)
     result = await session.execute(query)
     await session.commit()
-    return result.one_or_none()
+    data = result.one_or_none()
+    logger = get_api_logger(str(request.url))
+    logger.info(data)
+    return data
 
 @router.patch("/{id}", response_model=RegionRead)
 async def update_region(
+    request: Request,
     id: int,
     updated_rows: RegionUpdate,
     session: AsyncSession = Depends(get_async_session)):
@@ -102,4 +119,7 @@ async def update_region(
             .returning(region)
     result = await session.execute(query)
     await session.commit()
-    return result.one_or_none()
+    data = result.one_or_none()
+    logger = get_api_logger(str(request.url))
+    logger.info(data)
+    return data

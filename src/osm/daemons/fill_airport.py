@@ -4,23 +4,26 @@ sys.path.insert(0, 'C:\\Users\\Пользователь\\Desktop\\api_geo')
 
 from src.airport.models import airport
 from src.city.models import city
-import asyncio
 import csv
 import re
 from src.osm.NominatimClient import NominatimClient
 from src.osm.daemons.utils import insert_data, AIRPORT_TAGS, try_get_city_id, update_data
+from src.logger.logger import get_script_logger
 
+
+logger = get_script_logger("airport")
 
 async def get_data_from_osm(path: str | None = "C:/Users/Пользователь/Desktop/api_geo/src/osm/daemons/data_to_fill/airports.csv"):
     nc = NominatimClient()
     airport_data = []
     city_data = []
+    logger.info("================== Start Airport Fill Script ==================")
     with open(path, encoding='utf8') as r_file:
         rkt_data = csv.DictReader(r_file, delimiter = ",")        
         for row in rkt_data:
             try:
                 airport_name = row["name_en"]
-                print(airport_name)
+                logger.info(f"Add: {airport_name}")
                 search_results = nc.search(airport_name) + nc.search(row["code_en"])
                 search_result = {}
                 for result in search_results:
@@ -62,13 +65,13 @@ async def get_data_from_osm(path: str | None = "C:/Users/Пользовател�
                             airport_data.append(new_airport)
                             city_data.append(city_iata)
                         else:
-                            print(f"Дубликат аэропорта: {airport_name}")
+                            logger.error(f"Duplicate airport: {airport_name}")
                     else:
-                        print(f"Не удалось получить детали аэропорта: {airport_name}")
+                        logger.error(f"Couldn't get airport details: {airport_name}")
                 else:
-                    print(f"Не удалось найти аэропорт по запросу: {airport_name}")
+                    logger.error(f"Couldn't find the airport on request: {airport_name}")
             except:
-                print("Что-то упало...")
+                logger.critical("The fill script has crashed")
     return airport_data, city_data
 
 
@@ -76,4 +79,4 @@ async def run(path):
     airport_data, city_data = await get_data_from_osm(path)
     await insert_data(airport_data, airport)
     await update_data(city_data, city)
-
+    logger.info("================== End Airport Fill Script ==================")

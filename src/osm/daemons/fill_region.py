@@ -7,6 +7,10 @@ import asyncio
 import csv
 from src.osm.NominatimClient import NominatimClient
 from src.osm.daemons.utils import REGION_TAGS, try_get_country_id, insert_data
+from src.logger.logger import get_script_logger
+
+
+logger = get_script_logger("region")
 
 
 async def get_data_from_osm(path: str | None = "C:/Users/Пользователь/Desktop/api_geo/src/osm/daemons/data_to_fill/brn_city_region.csv"):
@@ -15,11 +19,12 @@ async def get_data_from_osm(path: str | None = "C:/Users/Пользовател�
     """
     nc = NominatimClient()
     data = []
+    logger.info("================== Start Region Fill Script ==================")
     with open(path, encoding='utf8') as r_file:
         rkt_data = csv.DictReader(r_file, delimiter = ",")        
         for row in rkt_data:
             region_name = row["name"] if row["name"] != "" else row["name_en"]
-            print(region_name)
+            logger.info(f"Add: {region_name}")
             search_results = nc.search(region_name)
             search_result = {}
             for result in search_results:
@@ -44,11 +49,11 @@ async def get_data_from_osm(path: str | None = "C:/Users/Пользовател�
                         }
                         data.append(new_region)
                     else:
-                        print(f"Дубликат региона: {region_name}")
+                        logger.error(f"Duplicate region: {region_name}")
                 else:
-                    print(f"Не удалось получить детали региона: {region_name}")
+                    logger.error(f"Couldn't get region details: {region_name}")
             else:
-                print(f"Не удалось найти регион по запросу: {region_name}")
+                logger.error(f"Couldn't find the region on request: {region_name}")
     return data
             
 

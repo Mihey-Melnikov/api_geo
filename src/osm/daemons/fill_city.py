@@ -3,11 +3,13 @@ sys.path.insert(0, 'C:\\Users\\Пользователь\\Desktop\\api_geo')
 # todo костыль, нужно разобраться с путями
 
 from src.city.models import city
-import asyncio
 import csv
 from src.osm.NominatimClient import NominatimClient
 from src.osm.daemons.utils import try_get_country_id, try_get_region_id, insert_data, CITY_TAGS
+from src.logger.logger import get_script_logger
 
+
+logger = get_script_logger("city")
 
 async def get_data_from_osm(path: str | None = "C:/Users/Пользователь/Desktop/api_geo/src/osm/daemons/data_to_fill/citys.csv"):
     """
@@ -15,11 +17,12 @@ async def get_data_from_osm(path: str | None = "C:/Users/Пользовател�
     """
     nc = NominatimClient()
     data = []
+    logger.info("================== Start City Fill Script ==================")
     with open(path, encoding='utf8') as r_file:
         rkt_data = csv.DictReader(r_file, delimiter = ",")
         for row in rkt_data:
             city_name = row["name"] if row["name"] != "" else row["latname"]
-            print(city_name)
+            logger.info(f"Add: {city_name}")
             search_results = nc.search(city_name)
             search_result = {}
             for result in search_results:
@@ -47,14 +50,15 @@ async def get_data_from_osm(path: str | None = "C:/Users/Пользовател�
                         }
                         data.append(new_city)
                     else:
-                        print(f"Дубликат города: {city_name}")
+                        logger.error(f"Duplicate city: {city_name}")
                 else:
-                    print(f"Не удалось получить детали города: {city_name}")
+                    logger.error(f"Couldn't get city details: {city_name}")
             else:
-                print(f"Не удалось найти город по запросу: {city_name}")
+                logger.error(f"Couldn't find the city on request: {city_name}")
     return data
             
 
 async def run():
     data = await get_data_from_osm()
     await insert_data(data, city)
+    logger.info("================== End City Fill Script ==================")

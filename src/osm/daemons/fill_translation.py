@@ -15,6 +15,10 @@ from src.city.models import city
 from src.airport.models import airport
 from src.railway.models import railway
 import translators as ts
+from src.logger.logger import get_script_logger
+
+
+logger = get_script_logger("translate")
 
 
 async def get_translations(entity: str, entity_model: Table):
@@ -29,7 +33,7 @@ async def get_translations(entity: str, entity_model: Table):
         langs = [item["language_iso639"] for item in result.mappings().all()]
 
         for obj in objs:
-            print(obj["name"])
+            logger.info(f"Add: {obj["name"]}")
             for lang in langs:
                 try:
                     transl = ts.translate_text(obj["name"], to_language=lang)
@@ -40,11 +44,11 @@ async def get_translations(entity: str, entity_model: Table):
                         "translate": transl
                     })
                 except HTTPError:
-                    print(f"На слове {obj['name']} упала ошибка {HTTPError}")
+                    logger.error(f"An error {HTTPError} dropped on the word {obj['name']}")
                 except ConnectionError:
-                    print(f"На слове {obj['name']} упала ошибка {ConnectionError}")
+                    logger.error(f"An error {ConnectionError} dropped on the word {obj['name']}")
                 except:
-                    print(f"На слове {obj['name']} упала неизвестная ошибка")
+                    logger.critical(f"The translate script has crashed")
     return data
 
 
@@ -55,5 +59,8 @@ async def run():
             ("city", city), 
             ("airport", airport), 
             ("railway", railway)]:
+        logger.info(f"================== Start Translate[{entity}] Fill Script ==================")
         data = await get_translations(entity, entity_model)
         await insert_data(data, translate)
+        logger.info(f"================== End Translate[{entity}] Fill Script ==================")
+    
