@@ -25,6 +25,12 @@ app.include_router(
     tags=["Auth"],
 )
 
+app.include_router(
+    fastapi_users.get_users_router(UserRead, UserCreate),
+    prefix="/auth",
+    tags=["Auth"],
+)
+
 app.include_router(router_country)
 app.include_router(router_region)
 app.include_router(router_city)
