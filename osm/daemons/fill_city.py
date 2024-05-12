@@ -4,14 +4,14 @@ sys.path.insert(0, 'C:\\Users\\Пользователь\\Desktop\\api_geo')
 
 from src.city.models import city
 import csv
-from src.osm.NominatimClient import NominatimClient
-from src.osm.daemons.utils import try_get_country_id, try_get_region_id, insert_data, CITY_TAGS
-from src.logger.logger import get_script_logger
+from osm.NominatimClient import NominatimClient
+from osm.daemons.utils import try_get_country_id, try_get_region_id, insert_data, CITY_TAGS
+from logger.logger import get_script_logger
 
 
 logger = get_script_logger("city")
 
-async def get_data_from_osm(path: str | None = "C:/Users/Пользователь/Desktop/api_geo/src/osm/daemons/data_to_fill/citys.csv"):
+async def get_data_from_osm(path: str | None = "C:/Users/Пользователь/Desktop/api_geo/osm/daemons/data_to_fill/citys.csv"):
     """
     Get data about city from OSM.
     """

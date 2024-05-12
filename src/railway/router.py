@@ -4,7 +4,7 @@ from fastapi import APIRouter, Depends, Query, Request
 from sqlalchemy import func, or_, update, select, insert
 from sqlalchemy.ext.asyncio import AsyncSession
 from src.database import get_async_session
-from src.logger.logger import get_api_logger
+from logger.logger import get_api_logger
 from src.railway.models import railway
 from src.railway.schemas import RailwayCreate, RailwayRead, RailwayUpdate, RailwaySearch
 from src.translate.models import translate

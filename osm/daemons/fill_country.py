@@ -4,14 +4,14 @@ sys.path.insert(0, 'C:\\Users\\Пользователь\\Desktop\\api_geo')
 
 from src.country.models import country
 import csv
-from src.osm.NominatimClient import NominatimClient
-from src.osm.daemons.utils import COUNTRY_TAGS, insert_data
-from src.logger.logger import get_script_logger
+from osm.NominatimClient import NominatimClient
+from osm.daemons.utils import COUNTRY_TAGS, insert_data
+from logger.logger import get_script_logger
 
 
 logger = get_script_logger("country")
 
-def get_data_from_osm(path: str = "C:/Users/Пользователь/Desktop/api_geo/src/osm/daemons/data_to_fill/countrys.csv"):
+def get_data_from_osm(path: str = "C:/Users/Пользователь/Desktop/api_geo/osm/daemons/data_to_fill/countrys.csv"):
     nc = NominatimClient()
     data = []
     logger.info("================== Start Country Fill Script ==================")

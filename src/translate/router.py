@@ -5,7 +5,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from src.database import get_async_session
 from src.translate.models import translate, language
 from src.translate.schemas import Language, TranslateCreate, TranslateRead, TranslateUpdate
-from src.logger.logger import get_api_logger
+from logger.logger import get_api_logger
 
 
 router = APIRouter(

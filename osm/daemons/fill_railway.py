@@ -4,15 +4,15 @@ sys.path.insert(0, 'C:\\Users\\Пользователь\\Desktop\\api_geo')
 
 from src.railway.models import railway
 import csv
-from src.osm.NominatimClient import NominatimClient
-from src.osm.daemons.utils import insert_data, RAILWAY_TAGS, try_get_city_id, try_get_express_by_osm, try_get_country_id, try_get_region_id
-from src.logger.logger import get_script_logger
+from osm.NominatimClient import NominatimClient
+from osm.daemons.utils import insert_data, RAILWAY_TAGS, try_get_city_id, try_get_express_by_osm, try_get_country_id, try_get_region_id
+from logger.logger import get_script_logger
 
 
 logger = get_script_logger("railway")
 
 
-async def get_data_from_osm(path: str | None = "C:/Users/Пользователь/Desktop/api_geo/src/osm/daemons/data_to_fill/rzd_railway_station.csv"):
+async def get_data_from_osm(path: str | None = "C:/Users/Пользователь/Desktop/api_geo/osm/daemons/data_to_fill/rzd_railway_station.csv"):
     nc = NominatimClient()
     railway_data = []
     city_ids = []

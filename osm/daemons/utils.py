@@ -117,8 +117,8 @@ async def try_get_express_by_osm(osm_id: str) -> str | None:
     Try get express3 code of railway by osm id.
     """
     express_code = None
-    with open("C:/Users/Пользователь/Desktop/api_geo/src/osm/daemons/data_to_fill/express.csv", encoding='utf8') as express_file, \
-        open("C:/Users/Пользователь/Desktop/api_geo/src/osm/daemons/data_to_fill/osm2esr.csv", encoding='utf8') as osm2esr_file:
+    with open("C:/Users/Пользователь/Desktop/api_geo/osm/daemons/data_to_fill/express.csv", encoding='utf8') as express_file, \
+        open("C:/Users/Пользователь/Desktop/api_geo/osm/daemons/data_to_fill/osm2esr.csv", encoding='utf8') as osm2esr_file:
         express_data = csv.DictReader(express_file, delimiter = ";")
         osm2esr_data = csv.DictReader(osm2esr_file, delimiter = ";")
         esr_code = next((row["esr"] for row in osm2esr_data if row["osm_id"] == osm_id), None)

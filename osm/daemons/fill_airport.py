@@ -6,14 +6,14 @@ from src.airport.models import airport
 from src.city.models import city
 import csv
 import re
-from src.osm.NominatimClient import NominatimClient
-from src.osm.daemons.utils import insert_data, AIRPORT_TAGS, try_get_city_id, update_data
-from src.logger.logger import get_script_logger
+from osm.NominatimClient import NominatimClient
+from osm.daemons.utils import insert_data, AIRPORT_TAGS, try_get_city_id, update_data
+from logger.logger import get_script_logger
 
 
 logger = get_script_logger("airport")
 
-async def get_data_from_osm(path: str | None = "C:/Users/Пользователь/Desktop/api_geo/src/osm/daemons/data_to_fill/airports.csv"):
+async def get_data_from_osm(path: str | None = "C:/Users/Пользователь/Desktop/api_geo/osm/daemons/data_to_fill/airports.csv"):
     nc = NominatimClient()
     airport_data = []
     city_data = []

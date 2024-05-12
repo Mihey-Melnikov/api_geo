@@ -8,7 +8,7 @@ from src.city.models import city
 from src.region.models import region
 from src.city.schemas import CityCreate, CityRead, CitySearch, CityUpdate
 from src.translate.models import translate
-from src.logger.logger import get_api_logger
+from logger.logger import get_api_logger
 
 
 router = APIRouter(

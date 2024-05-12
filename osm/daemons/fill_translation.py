@@ -5,9 +5,8 @@ sys.path.insert(0, 'C:\\Users\\Пользователь\\Desktop\\api_geo')
 from requests import HTTPError, ConnectionError
 from src.translate.models import translate, language
 from sqlalchemy.ext.asyncio import AsyncSession
-import asyncio
 from src.database import engine
-from src.osm.daemons.utils import insert_data
+from osm.daemons.utils import insert_data
 from sqlalchemy import select, Table
 from src.country.models import country
 from src.region.models import region
@@ -15,7 +14,7 @@ from src.city.models import city
 from src.airport.models import airport
 from src.railway.models import railway
 import translators as ts
-from src.logger.logger import get_script_logger
+from logger.logger import get_script_logger
 
 
 logger = get_script_logger("translate")
@@ -33,7 +32,7 @@ async def get_translations(entity: str, entity_model: Table):
         langs = [item["language_iso639"] for item in result.mappings().all()]
 
         for obj in objs:
-            logger.info(f"Add: {obj["name"]}")
+            logger.info(f"Add: {obj['name']}")
             for lang in langs:
                 try:
                     transl = ts.translate_text(obj["name"], to_language=lang)

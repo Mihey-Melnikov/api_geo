@@ -5,7 +5,7 @@ from sqlalchemy import or_, update, select, insert, func
 from sqlalchemy.ext.asyncio import AsyncSession
 from src.database import get_async_session
 from src.airport.models import airport
-from src.logger.logger import get_api_logger
+from logger.logger import get_api_logger
 from src.region.models import region
 from src.city.models import city
 from src.airport.schemas import AirportCreate, AirportRead, AirportSearch, AirportUpdate

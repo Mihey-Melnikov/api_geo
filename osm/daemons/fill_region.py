@@ -3,17 +3,16 @@ sys.path.insert(0, 'C:\\Users\\Пользователь\\Desktop\\api_geo')
 # todo костыль, нужно разобраться с путями
 
 from src.region.models import region
-import asyncio
 import csv
-from src.osm.NominatimClient import NominatimClient
-from src.osm.daemons.utils import REGION_TAGS, try_get_country_id, insert_data
-from src.logger.logger import get_script_logger
+from osm.NominatimClient import NominatimClient
+from osm.daemons.utils import REGION_TAGS, try_get_country_id, insert_data
+from logger.logger import get_script_logger
 
 
 logger = get_script_logger("region")
 
 
-async def get_data_from_osm(path: str | None = "C:/Users/Пользователь/Desktop/api_geo/src/osm/daemons/data_to_fill/brn_city_region.csv"):
+async def get_data_from_osm(path: str | None = "C:/Users/Пользователь/Desktop/api_geo/osm/daemons/data_to_fill/brn_city_region.csv"):
     """
     Get data about region from OSM.
     """

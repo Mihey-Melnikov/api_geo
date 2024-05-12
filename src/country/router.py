@@ -7,7 +7,9 @@ from src.database import get_async_session
 from src.country.models import country
 from src.country.schemas import CountryCreate, CountryRead, CountryUpdate, CountrySearch
 from src.translate.models import translate
-from src.logger.logger import get_api_logger
+from logger.logger import get_api_logger
+from src.auth.base_config import current_user
+from src.auth.models import User
 
 
 router = APIRouter(
@@ -70,7 +72,8 @@ async def search_countries(
 @router.post("/", response_model=CountryRead)
 async def add_country(
     request: Request,
-    new_country: CountryCreate, 
+    new_country: CountryCreate,
+    user: User = Depends(current_user),
     session: AsyncSession = Depends(get_async_session)):
     """
     Create a new country.
@@ -88,7 +91,8 @@ async def add_country(
 @router.delete("/{id}", response_model=CountryRead)
 async def delete_country(
     request: Request,
-    id: int, 
+    id: int,
+    user: User = Depends(current_user),
     session: AsyncSession = Depends(get_async_session)):
     """
     Delete a country.
@@ -108,7 +112,8 @@ async def delete_country(
 async def update_country(
     request: Request,
     id: int, 
-    updated_rows: CountryUpdate, 
+    updated_rows: CountryUpdate,
+    user: User = Depends(current_user),
     session: AsyncSession = Depends(get_async_session)):
     """
     Change the country.

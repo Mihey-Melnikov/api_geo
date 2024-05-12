@@ -7,7 +7,7 @@ from src.database import get_async_session
 from src.region.models import region
 from src.region.schemas import RegionRead, RegionCreate, RegionUpdate, RegionSearch
 from src.translate.models import translate
-from src.logger.logger import get_api_logger
+from logger.logger import get_api_logger
 
 
 router = APIRouter(

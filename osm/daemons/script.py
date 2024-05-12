@@ -10,13 +10,13 @@ from src.city.models import city
 from src.airport.models import airport
 from src.railway.models import railway
 from src.translate.models import translate
-import src.osm.daemons.fill_country as fill_country
-import src.osm.daemons.fill_region as fill_region
-import src.osm.daemons.fill_city as fill_city
-import src.osm.daemons.fill_airport as fill_airport
-import src.osm.daemons.fill_railway as fill_railway
-import src.osm.daemons.fill_translation as fill_translation
-from src.osm.daemons.utils import update_table, table_is_empty
+import osm.daemons.fill_country as fill_country
+import osm.daemons.fill_region as fill_region
+import osm.daemons.fill_city as fill_city
+import osm.daemons.fill_airport as fill_airport
+import osm.daemons.fill_railway as fill_railway
+import osm.daemons.fill_translation as fill_translation
+from osm.daemons.utils import update_table, table_is_empty
 
 
 MODELS = {

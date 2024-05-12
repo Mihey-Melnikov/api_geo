@@ -7,5 +7,6 @@
 /src/*/*/__pycache__
 /venv
 /cache
-/src/osm/cache
+/osm/cache
 /.pytest_cache
+/osm/daemons/__pycache__
