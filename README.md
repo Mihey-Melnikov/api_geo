@@ -1,17 +1,12 @@
 # API Geo
 
+## Цель
+
+Упростить и автоматизировать работу с географическими объектами в Ракете.
+
 ## Быстрый запуск
 
-0. Установите PostgreSQL и создайте сервер с кредами:
-
-```python
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=postgres
-DB_USER=postgres
-DB_PASS=postgres
-```
-
+1. Установите PostgreSQL и создайте сервер. Креды подключения к серверу укажите в .env файле
 2. Клонируйте репозиторий
 3. Установите все необходимые модули
 
@@ -25,33 +20,17 @@ pip install -r requirements.txt
 alembic upgrade head
 ```
 
-4. Запустите скрипты наполнения базы
+4. Запустите скрипты наполнения базы. База заполняется по данным Ракеты
 
 ```python
-python ./src/osm/daemons/fill_country.py  
-python ./src/osm/daemons/fill_region.py
-python ./src/osm/daemons/fill_translation.py
+python ./osm/script.py -a=fill -e=all
 ```
-
-Скрипты нужно запускать поочередно
 
 5. Запустите проект
 
 ```python
 uvicorn src.main:app --reload
 ```
-
-## Структура проекта
-
-Основная структура:
-* `migrations/` - миграции
-* `src/` - основной проект
-* `.env` - переменные окружения
-
-Вложенные файлы:
-* `*/models` - описание моделей БД для миграций
-* `*/schemas` - описание схем БД для API
-* `*/router` - роутинг и основной код API
 
 ## FAQ
 
@@ -69,29 +48,7 @@ venv\Scripts\activate.ps1
 deactivate
 ```
 
-Починить авторизацию во всех запросах: добавить строки в каждом `router.py` для каждой ручки:  
-```python
-from src.auth.base_config import current_user
-from src.auth.models import User
-user: User = Depends(current_user)
-```
-
 Запуск тестов  
 ```python
 pytest -v -s --disable-warnings  tests/ 
-```
-
-Дроп базы:  
-```sql
-drop table
-	public.airport,
-	public.railway_station,
-	public.metro,
-	public.city,
-	public.region,
-	public.country,
-	public.alembic_version,
-	public.translation,
-	public.translation_language,
-	public.user
 ```
